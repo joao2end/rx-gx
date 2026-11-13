@@ -1,0 +1,14 @@
+node_modules
+.nuxt
+.output
+dist
+.git
+.agents
+contexto-excel
+seeds
+scripts
+*.log
+.DS_Store
+Dockerfile
+docker-compose.yml
+.dockerignore
