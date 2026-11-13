@@ -1,0 +1,424 @@
+{
+  "fonte": "mock",
+  "pesquisasIniciais": {
+    "rx": [
+      "rx-competitiva-rj"
+    ],
+    "gx": [
+      "gx-manual-rj",
+      "gx-internet-rj"
+    ]
+  },
+  "clustersCustom": [
+    {
+      "id": "rxc_centro",
+      "nome": "Centro"
+    }
+  ],
+  "lojas": [
+    {
+      "id": "L01",
+      "nome": "MANEJO",
+      "codigo": "001",
+      "cnpj": "45.678.901/0001-23",
+      "endereco": "RUA DO RETIRO, 210, MADUREIRA - RIO DE JANEIRO, RJ",
+      "origem": "mock",
+      "perfis": {
+        "AUTOSSERVICO": "Baixa",
+        "MARCA": "Alta",
+        "PROPAGADO": "Moderado",
+        "SIMILAR": "Baixa",
+        "GENERICO": "Moderado"
+      }
+    },
+    {
+      "id": "L02",
+      "nome": "CENTRO",
+      "codigo": "002",
+      "cnpj": "45.678.901/0002-04",
+      "endereco": "AVENIDA RIO BRANCO, 156, CENTRO - RIO DE JANEIRO, RJ",
+      "origem": "mock",
+      "perfis": {
+        "AUTOSSERVICO": "Baixa",
+        "MARCA": "Alta",
+        "PROPAGADO": "Alta",
+        "SIMILAR": "Moderado",
+        "GENERICO": "Alta"
+      }
+    },
+    {
+      "id": "L03",
+      "nome": "TIJUCA",
+      "codigo": "003",
+      "cnpj": "45.678.901/0003-95",
+      "endereco": "RUA CONDE DE BONFIM, 430, TIJUCA - RIO DE JANEIRO, RJ",
+      "origem": "mock",
+      "perfis": {
+        "AUTOSSERVICO": "Baixa",
+        "MARCA": "Moderado",
+        "PROPAGADO": "Moderado",
+        "SIMILAR": "rxc_centro",
+        "GENERICO": "Moderado"
+      }
+    },
+    {
+      "id": "L04",
+      "nome": "BANGU",
+      "codigo": "004",
+      "cnpj": "45.678.901/0004-76",
+      "endereco": "RUA FRANCISCO REAL, 1200, BANGU - RIO DE JANEIRO, RJ",
+      "origem": "mock",
+      "perfis": {
+        "AUTOSSERVICO": "Baixa",
+        "MARCA": "Baixa",
+        "PROPAGADO": "Baixa",
+        "SIMILAR": "Baixa",
+        "GENERICO": "Baixa"
+      }
+    }
+  ],
+  "redes": [
+    {
+      "id": "RAIA",
+      "nome": "Drogasil / Raia",
+      "tipo": "ABRAF",
+      "habilitada": true
+    },
+    {
+      "id": "PACHECO",
+      "nome": "Drogarias Pacheco",
+      "tipo": "ABRAF",
+      "habilitada": true
+    },
+    {
+      "id": "MODERNA",
+      "nome": "Drogaria Moderna",
+      "tipo": "INDEP",
+      "habilitada": true
+    },
+    {
+      "id": "POVÃO",
+      "nome": "Farmácia Povão",
+      "tipo": "INDEP",
+      "habilitada": true
+    },
+    {
+      "id": "RETIRO",
+      "nome": "Drogaria Retiro",
+      "tipo": "INDEP",
+      "habilitada": true
+    }
+  ],
+  "lojasEstrategia": [
+    {
+      "id": "l01",
+      "nome": "MANEJO",
+      "cnpj": "45.678.901/0001-23",
+      "endereco": "RUA DO RETIRO, 210, MADUREIRA - RIO DE JANEIRO, RJ"
+    },
+    {
+      "id": "l02",
+      "nome": "CENTRO",
+      "cnpj": "45.678.901/0002-04",
+      "endereco": "AVENIDA RIO BRANCO, 156, CENTRO - RIO DE JANEIRO, RJ"
+    },
+    {
+      "id": "l03",
+      "nome": "TIJUCA",
+      "cnpj": "45.678.901/0003-95",
+      "endereco": "RUA CONDE DE BONFIM, 430, TIJUCA - RIO DE JANEIRO, RJ"
+    },
+    {
+      "id": "l04",
+      "nome": "BANGU",
+      "cnpj": "45.678.901/0004-76",
+      "endereco": "RUA FRANCISCO REAL, 1200, BANGU - RIO DE JANEIRO, RJ"
+    }
+  ],
+  "vinculos": [
+    {
+      "id": "l01-RAIA",
+      "lojaId": "l01",
+      "redeId": "RAIA",
+      "endereco": "RUA DO RETIRO, 210, MADUREIRA - RIO DE JANEIRO, RJ",
+      "origem": "importado",
+      "atualizadoHaDias": 3
+    },
+    {
+      "id": "l01-PACHECO",
+      "lojaId": "l01",
+      "redeId": "PACHECO",
+      "endereco": "RUA DO RETIRO, 210, MADUREIRA - RIO DE JANEIRO, RJ",
+      "origem": "importado",
+      "atualizadoHaDias": 3
+    },
+    {
+      "id": "l01-MODERNA",
+      "lojaId": "l01",
+      "redeId": "MODERNA",
+      "endereco": "RUA DO RETIRO, 210, MADUREIRA - RIO DE JANEIRO, RJ",
+      "origem": "importado",
+      "atualizadoHaDias": 3
+    },
+    {
+      "id": "l01-POVÃO",
+      "lojaId": "l01",
+      "redeId": "POVÃO",
+      "endereco": "RUA DO RETIRO, 210, MADUREIRA - RIO DE JANEIRO, RJ",
+      "origem": "importado",
+      "atualizadoHaDias": 3
+    },
+    {
+      "id": "l01-RETIRO",
+      "lojaId": "l01",
+      "redeId": "RETIRO",
+      "endereco": "RUA DO RETIRO, 210, MADUREIRA - RIO DE JANEIRO, RJ",
+      "origem": "importado",
+      "atualizadoHaDias": 3
+    },
+    {
+      "id": "l02-RAIA",
+      "lojaId": "l02",
+      "redeId": "RAIA",
+      "endereco": "AVENIDA RIO BRANCO, 156, CENTRO - RIO DE JANEIRO, RJ",
+      "origem": "importado",
+      "atualizadoHaDias": 3
+    },
+    {
+      "id": "l02-PACHECO",
+      "lojaId": "l02",
+      "redeId": "PACHECO",
+      "endereco": "AVENIDA RIO BRANCO, 156, CENTRO - RIO DE JANEIRO, RJ",
+      "origem": "importado",
+      "atualizadoHaDias": 3
+    },
+    {
+      "id": "l02-MODERNA",
+      "lojaId": "l02",
+      "redeId": "MODERNA",
+      "endereco": "AVENIDA RIO BRANCO, 156, CENTRO - RIO DE JANEIRO, RJ",
+      "origem": "importado",
+      "atualizadoHaDias": 3
+    },
+    {
+      "id": "l02-POVÃO",
+      "lojaId": "l02",
+      "redeId": "POVÃO",
+      "endereco": "AVENIDA RIO BRANCO, 156, CENTRO - RIO DE JANEIRO, RJ",
+      "origem": "importado",
+      "atualizadoHaDias": 3
+    },
+    {
+      "id": "l02-RETIRO",
+      "lojaId": "l02",
+      "redeId": "RETIRO",
+      "endereco": "AVENIDA RIO BRANCO, 156, CENTRO - RIO DE JANEIRO, RJ",
+      "origem": "importado",
+      "atualizadoHaDias": 3
+    }
+  ],
+  "pontos": [
+    {
+      "id": "l01-RAIA",
+      "lojaId": "l01",
+      "nome": "Drogasil / Raia",
+      "endereco": "RUA DO RETIRO, 210, MADUREIRA - RIO DE JANEIRO, RJ",
+      "redeId": "RAIA",
+      "distanciaKm": 0.4
+    },
+    {
+      "id": "l01-PACHECO",
+      "lojaId": "l01",
+      "nome": "Drogarias Pacheco",
+      "endereco": "RUA DO RETIRO, 210, MADUREIRA - RIO DE JANEIRO, RJ",
+      "redeId": "PACHECO",
+      "distanciaKm": 0.7
+    },
+    {
+      "id": "l01-MODERNA",
+      "lojaId": "l01",
+      "nome": "Drogaria Moderna",
+      "endereco": "RUA DO RETIRO, 210, MADUREIRA - RIO DE JANEIRO, RJ",
+      "redeId": "MODERNA",
+      "distanciaKm": 1.0
+    },
+    {
+      "id": "l01-POVÃO",
+      "lojaId": "l01",
+      "nome": "Farmácia Povão",
+      "endereco": "RUA DO RETIRO, 210, MADUREIRA - RIO DE JANEIRO, RJ",
+      "redeId": "POVÃO",
+      "distanciaKm": 1.3
+    },
+    {
+      "id": "l01-RETIRO",
+      "lojaId": "l01",
+      "nome": "Drogaria Retiro",
+      "endereco": "RUA DO RETIRO, 210, MADUREIRA - RIO DE JANEIRO, RJ",
+      "redeId": "RETIRO",
+      "distanciaKm": 1.6
+    },
+    {
+      "id": "l02-RAIA",
+      "lojaId": "l02",
+      "nome": "Drogasil / Raia",
+      "endereco": "AVENIDA RIO BRANCO, 156, CENTRO - RIO DE JANEIRO, RJ",
+      "redeId": "RAIA",
+      "distanciaKm": 0.4
+    },
+    {
+      "id": "l02-PACHECO",
+      "lojaId": "l02",
+      "nome": "Drogarias Pacheco",
+      "endereco": "AVENIDA RIO BRANCO, 156, CENTRO - RIO DE JANEIRO, RJ",
+      "redeId": "PACHECO",
+      "distanciaKm": 0.7
+    },
+    {
+      "id": "l02-MODERNA",
+      "lojaId": "l02",
+      "nome": "Drogaria Moderna",
+      "endereco": "AVENIDA RIO BRANCO, 156, CENTRO - RIO DE JANEIRO, RJ",
+      "redeId": "MODERNA",
+      "distanciaKm": 1.0
+    },
+    {
+      "id": "l02-POVÃO",
+      "lojaId": "l02",
+      "nome": "Farmácia Povão",
+      "endereco": "AVENIDA RIO BRANCO, 156, CENTRO - RIO DE JANEIRO, RJ",
+      "redeId": "POVÃO",
+      "distanciaKm": 1.3
+    },
+    {
+      "id": "l02-RETIRO",
+      "lojaId": "l02",
+      "nome": "Drogaria Retiro",
+      "endereco": "AVENIDA RIO BRANCO, 156, CENTRO - RIO DE JANEIRO, RJ",
+      "redeId": "RETIRO",
+      "distanciaKm": 1.6
+    },
+    {
+      "id": "l03-RAIA",
+      "lojaId": "l03",
+      "nome": "Drogasil / Raia",
+      "endereco": "RUA CONDE DE BONFIM, 430, TIJUCA - RIO DE JANEIRO, RJ",
+      "redeId": "RAIA",
+      "distanciaKm": 0.4
+    },
+    {
+      "id": "l03-PACHECO",
+      "lojaId": "l03",
+      "nome": "Drogarias Pacheco",
+      "endereco": "RUA CONDE DE BONFIM, 430, TIJUCA - RIO DE JANEIRO, RJ",
+      "redeId": "PACHECO",
+      "distanciaKm": 0.7
+    },
+    {
+      "id": "l03-MODERNA",
+      "lojaId": "l03",
+      "nome": "Drogaria Moderna",
+      "endereco": "RUA CONDE DE BONFIM, 430, TIJUCA - RIO DE JANEIRO, RJ",
+      "redeId": "MODERNA",
+      "distanciaKm": 1.0
+    },
+    {
+      "id": "l03-POVÃO",
+      "lojaId": "l03",
+      "nome": "Farmácia Povão",
+      "endereco": "RUA CONDE DE BONFIM, 430, TIJUCA - RIO DE JANEIRO, RJ",
+      "redeId": "POVÃO",
+      "distanciaKm": 1.3
+    },
+    {
+      "id": "l03-RETIRO",
+      "lojaId": "l03",
+      "nome": "Drogaria Retiro",
+      "endereco": "RUA CONDE DE BONFIM, 430, TIJUCA - RIO DE JANEIRO, RJ",
+      "redeId": "RETIRO",
+      "distanciaKm": 1.6
+    },
+    {
+      "id": "l04-RAIA",
+      "lojaId": "l04",
+      "nome": "Drogasil / Raia",
+      "endereco": "RUA FRANCISCO REAL, 1200, BANGU - RIO DE JANEIRO, RJ",
+      "redeId": "RAIA",
+      "distanciaKm": 0.4
+    },
+    {
+      "id": "l04-PACHECO",
+      "lojaId": "l04",
+      "nome": "Drogarias Pacheco",
+      "endereco": "RUA FRANCISCO REAL, 1200, BANGU - RIO DE JANEIRO, RJ",
+      "redeId": "PACHECO",
+      "distanciaKm": 0.7
+    },
+    {
+      "id": "l04-MODERNA",
+      "lojaId": "l04",
+      "nome": "Drogaria Moderna",
+      "endereco": "RUA FRANCISCO REAL, 1200, BANGU - RIO DE JANEIRO, RJ",
+      "redeId": "MODERNA",
+      "distanciaKm": 1.0
+    },
+    {
+      "id": "l04-POVÃO",
+      "lojaId": "l04",
+      "nome": "Farmácia Povão",
+      "endereco": "RUA FRANCISCO REAL, 1200, BANGU - RIO DE JANEIRO, RJ",
+      "redeId": "POVÃO",
+      "distanciaKm": 1.3
+    },
+    {
+      "id": "l04-RETIRO",
+      "lojaId": "l04",
+      "nome": "Drogaria Retiro",
+      "endereco": "RUA FRANCISCO REAL, 1200, BANGU - RIO DE JANEIRO, RJ",
+      "redeId": "RETIRO",
+      "distanciaKm": 1.6
+    }
+  ],
+  "linhasImportacao": [
+    {
+      "id": "imp-1",
+      "lojaId": "l01",
+      "de": "DROGASIL",
+      "endereco": "RUA DO RETIRO, 210, MADUREIRA - RIO DE JANEIRO, RJ",
+      "redeSugeridaId": "RAIA"
+    }
+  ],
+  "pesquisas": [
+    {
+      "id": "rx-competitiva-rj",
+      "dominio": "rx",
+      "nome": "Pesquisa competitiva RX",
+      "concorrentes": [
+        "RAIA",
+        "PACHECO",
+        "MODERNA",
+        "POVÃO",
+        "RETIRO"
+      ]
+    },
+    {
+      "id": "gx-manual-rj",
+      "dominio": "gx",
+      "nome": "Pesquisa manual",
+      "concorrentes": [
+        "MODERNA",
+        "POVÃO",
+        "RETIRO"
+      ]
+    },
+    {
+      "id": "gx-internet-rj",
+      "dominio": "gx",
+      "nome": "Pesquisa internet",
+      "concorrentes": [
+        "RAIA",
+        "PACHECO"
+      ]
+    }
+  ]
+}

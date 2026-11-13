@@ -1,0 +1,1329 @@
+{
+  "cockpitDefault": {
+    "politicaPesquisa": {
+      "Cluster Alta": {
+        "MARCA": "TODOS",
+        "PROPAGADO": "TODOS",
+        "SIMILAR": "TODOS"
+      },
+      "Cluster Moderado": {
+        "MARCA": "ABRAF",
+        "PROPAGADO": "TODOS",
+        "SIMILAR": "INDEP"
+      },
+      "Cluster": {
+        "MARCA": "ABRAF",
+        "PROPAGADO": "TODOS",
+        "SIMILAR": "INDEP"
+      }
+    },
+    "politicaMatriz": {
+      "Cluster Alta": {
+        "MARCA": "TODOS",
+        "PROPAGADO": "TODOS",
+        "SIMILAR": "TODOS"
+      },
+      "Cluster Moderado": {
+        "MARCA": "ABRAF",
+        "PROPAGADO": "TODOS",
+        "SIMILAR": "INDEP"
+      },
+      "Cluster": {
+        "MARCA": "ABRAF",
+        "PROPAGADO": "TODOS",
+        "SIMILAR": "INDEP"
+      }
+    },
+    "ajusteDesconto": {
+      "MARCA": {
+        "Cluster Alta": {
+          "TOP PRODUTOS": 0,
+          "Pouco Sensível": 0,
+          "Sensível": 0,
+          "Super Sensível": 0
+        },
+        "Cluster Moderado": {
+          "TOP PRODUTOS": 0.01,
+          "Pouco Sensível": -0.04,
+          "Sensível": 0,
+          "Super Sensível": 0.01
+        },
+        "Cluster": {
+          "TOP PRODUTOS": 0.02,
+          "Pouco Sensível": -0.1,
+          "Sensível": 0,
+          "Super Sensível": 0.01
+        }
+      },
+      "PROPAGADO": {
+        "Cluster Alta": {
+          "TOP PRODUTOS": 0,
+          "Pouco Sensível": 0,
+          "Sensível": 0,
+          "Super Sensível": 0
+        },
+        "Cluster Moderado": {
+          "TOP PRODUTOS": 0.01,
+          "Pouco Sensível": -0.04,
+          "Sensível": 0,
+          "Super Sensível": 0.01
+        },
+        "Cluster": {
+          "TOP PRODUTOS": 0.02,
+          "Pouco Sensível": -0.1,
+          "Sensível": 0,
+          "Super Sensível": 0.01
+        }
+      },
+      "SIMILAR": {
+        "Cluster Alta": {
+          "TOP PRODUTOS": 0,
+          "Pouco Sensível": 0,
+          "Sensível": 0,
+          "Super Sensível": 0
+        },
+        "Cluster Moderado": {
+          "TOP PRODUTOS": 0.01,
+          "Pouco Sensível": -0.04,
+          "Sensível": 0,
+          "Super Sensível": 0.01
+        },
+        "Cluster": {
+          "TOP PRODUTOS": 0.02,
+          "Pouco Sensível": -0.1,
+          "Sensível": 0,
+          "Super Sensível": 0.01
+        }
+      }
+    },
+    "descontoMinimo": {
+      "Pouco Sensível": {
+        "MARCA": 0.049,
+        "PROPAGADO": 0.049,
+        "SIMILAR": 0.049
+      },
+      "Sensível": {
+        "MARCA": 0.049,
+        "PROPAGADO": 0.049,
+        "SIMILAR": 0.049
+      },
+      "Super Sensível": {
+        "MARCA": 0.049,
+        "PROPAGADO": 0.049,
+        "SIMILAR": 0.049
+      }
+    },
+    "margemCritica": {
+      "TOP PRODUTOS": {
+        "MARCA": 0.08,
+        "PROPAGADO": 0.08,
+        "SIMILAR": 0.3
+      },
+      "Super Sensível": {
+        "MARCA": 0.1,
+        "PROPAGADO": 0.1,
+        "SIMILAR": 0.4
+      },
+      "Sensível": {
+        "MARCA": 0.12,
+        "PROPAGADO": 0.12,
+        "SIMILAR": 0.45
+      },
+      "Pouco Sensível": {
+        "MARCA": 0.2,
+        "PROPAGADO": 0.2,
+        "SIMILAR": 0.5
+      }
+    },
+    "farolVariacao": {
+      "PESQUISA": {
+        "limiar": 0.3,
+        "indiferenca": 0.0
+      },
+      "MATRIZ": {
+        "limiar": 0.3,
+        "indiferenca": 0.0
+      },
+      "DESC MÍNIMO": {
+        "limiar": 0.25,
+        "indiferenca": 0.0
+      }
+    },
+    "fatorPmc": 0.0,
+    "aliquotaImpostos": 0,
+    "margemMinimaLiquida": 0
+  },
+  "matrizDesconto": [
+    {
+      "departamento": "MARCA",
+      "conc": "TODOS",
+      "faixa": "FAIXA 1",
+      "cronicidade": "EVENTUAL",
+      "desconto": 0.12
+    },
+    {
+      "departamento": "MARCA",
+      "conc": "TODOS",
+      "faixa": "FAIXA 1",
+      "cronicidade": "FREQUENTE",
+      "desconto": 0.12
+    },
+    {
+      "departamento": "MARCA",
+      "conc": "TODOS",
+      "faixa": "FAIXA 1",
+      "cronicidade": "CRONICO",
+      "desconto": 0.12
+    },
+    {
+      "departamento": "MARCA",
+      "conc": "TODOS",
+      "faixa": "FAIXA 2",
+      "cronicidade": "EVENTUAL",
+      "desconto": 0.14
+    },
+    {
+      "departamento": "MARCA",
+      "conc": "TODOS",
+      "faixa": "FAIXA 2",
+      "cronicidade": "FREQUENTE",
+      "desconto": 0.14
+    },
+    {
+      "departamento": "MARCA",
+      "conc": "TODOS",
+      "faixa": "FAIXA 2",
+      "cronicidade": "CRONICO",
+      "desconto": 0.14
+    },
+    {
+      "departamento": "MARCA",
+      "conc": "TODOS",
+      "faixa": "FAIXA 3",
+      "cronicidade": "EVENTUAL",
+      "desconto": 0.16
+    },
+    {
+      "departamento": "MARCA",
+      "conc": "TODOS",
+      "faixa": "FAIXA 3",
+      "cronicidade": "FREQUENTE",
+      "desconto": 0.16
+    },
+    {
+      "departamento": "MARCA",
+      "conc": "TODOS",
+      "faixa": "FAIXA 3",
+      "cronicidade": "CRONICO",
+      "desconto": 0.16
+    },
+    {
+      "departamento": "MARCA",
+      "conc": "TODOS",
+      "faixa": "FAIXA 4",
+      "cronicidade": "EVENTUAL",
+      "desconto": 0.18
+    },
+    {
+      "departamento": "MARCA",
+      "conc": "TODOS",
+      "faixa": "FAIXA 4",
+      "cronicidade": "FREQUENTE",
+      "desconto": 0.18
+    },
+    {
+      "departamento": "MARCA",
+      "conc": "TODOS",
+      "faixa": "FAIXA 4",
+      "cronicidade": "CRONICO",
+      "desconto": 0.18
+    },
+    {
+      "departamento": "MARCA",
+      "conc": "TODOS",
+      "faixa": "FAIXA 5",
+      "cronicidade": "EVENTUAL",
+      "desconto": 0.2
+    },
+    {
+      "departamento": "MARCA",
+      "conc": "TODOS",
+      "faixa": "FAIXA 5",
+      "cronicidade": "FREQUENTE",
+      "desconto": 0.2
+    },
+    {
+      "departamento": "MARCA",
+      "conc": "TODOS",
+      "faixa": "FAIXA 5",
+      "cronicidade": "CRONICO",
+      "desconto": 0.2
+    },
+    {
+      "departamento": "MARCA",
+      "conc": "ABRAF",
+      "faixa": "FAIXA 1",
+      "cronicidade": "EVENTUAL",
+      "desconto": 0.12
+    },
+    {
+      "departamento": "MARCA",
+      "conc": "ABRAF",
+      "faixa": "FAIXA 1",
+      "cronicidade": "FREQUENTE",
+      "desconto": 0.12
+    },
+    {
+      "departamento": "MARCA",
+      "conc": "ABRAF",
+      "faixa": "FAIXA 1",
+      "cronicidade": "CRONICO",
+      "desconto": 0.12
+    },
+    {
+      "departamento": "MARCA",
+      "conc": "ABRAF",
+      "faixa": "FAIXA 2",
+      "cronicidade": "EVENTUAL",
+      "desconto": 0.14
+    },
+    {
+      "departamento": "MARCA",
+      "conc": "ABRAF",
+      "faixa": "FAIXA 2",
+      "cronicidade": "FREQUENTE",
+      "desconto": 0.14
+    },
+    {
+      "departamento": "MARCA",
+      "conc": "ABRAF",
+      "faixa": "FAIXA 2",
+      "cronicidade": "CRONICO",
+      "desconto": 0.14
+    },
+    {
+      "departamento": "MARCA",
+      "conc": "ABRAF",
+      "faixa": "FAIXA 3",
+      "cronicidade": "EVENTUAL",
+      "desconto": 0.16
+    },
+    {
+      "departamento": "MARCA",
+      "conc": "ABRAF",
+      "faixa": "FAIXA 3",
+      "cronicidade": "FREQUENTE",
+      "desconto": 0.16
+    },
+    {
+      "departamento": "MARCA",
+      "conc": "ABRAF",
+      "faixa": "FAIXA 3",
+      "cronicidade": "CRONICO",
+      "desconto": 0.16
+    },
+    {
+      "departamento": "MARCA",
+      "conc": "ABRAF",
+      "faixa": "FAIXA 4",
+      "cronicidade": "EVENTUAL",
+      "desconto": 0.18
+    },
+    {
+      "departamento": "MARCA",
+      "conc": "ABRAF",
+      "faixa": "FAIXA 4",
+      "cronicidade": "FREQUENTE",
+      "desconto": 0.18
+    },
+    {
+      "departamento": "MARCA",
+      "conc": "ABRAF",
+      "faixa": "FAIXA 4",
+      "cronicidade": "CRONICO",
+      "desconto": 0.18
+    },
+    {
+      "departamento": "MARCA",
+      "conc": "ABRAF",
+      "faixa": "FAIXA 5",
+      "cronicidade": "EVENTUAL",
+      "desconto": 0.2
+    },
+    {
+      "departamento": "MARCA",
+      "conc": "ABRAF",
+      "faixa": "FAIXA 5",
+      "cronicidade": "FREQUENTE",
+      "desconto": 0.2
+    },
+    {
+      "departamento": "MARCA",
+      "conc": "ABRAF",
+      "faixa": "FAIXA 5",
+      "cronicidade": "CRONICO",
+      "desconto": 0.2
+    },
+    {
+      "departamento": "MARCA",
+      "conc": "INDEP",
+      "faixa": "FAIXA 1",
+      "cronicidade": "EVENTUAL",
+      "desconto": 0.14
+    },
+    {
+      "departamento": "MARCA",
+      "conc": "INDEP",
+      "faixa": "FAIXA 1",
+      "cronicidade": "FREQUENTE",
+      "desconto": 0.14
+    },
+    {
+      "departamento": "MARCA",
+      "conc": "INDEP",
+      "faixa": "FAIXA 1",
+      "cronicidade": "CRONICO",
+      "desconto": 0.14
+    },
+    {
+      "departamento": "MARCA",
+      "conc": "INDEP",
+      "faixa": "FAIXA 2",
+      "cronicidade": "EVENTUAL",
+      "desconto": 0.16
+    },
+    {
+      "departamento": "MARCA",
+      "conc": "INDEP",
+      "faixa": "FAIXA 2",
+      "cronicidade": "FREQUENTE",
+      "desconto": 0.16
+    },
+    {
+      "departamento": "MARCA",
+      "conc": "INDEP",
+      "faixa": "FAIXA 2",
+      "cronicidade": "CRONICO",
+      "desconto": 0.16
+    },
+    {
+      "departamento": "MARCA",
+      "conc": "INDEP",
+      "faixa": "FAIXA 3",
+      "cronicidade": "EVENTUAL",
+      "desconto": 0.18
+    },
+    {
+      "departamento": "MARCA",
+      "conc": "INDEP",
+      "faixa": "FAIXA 3",
+      "cronicidade": "FREQUENTE",
+      "desconto": 0.18
+    },
+    {
+      "departamento": "MARCA",
+      "conc": "INDEP",
+      "faixa": "FAIXA 3",
+      "cronicidade": "CRONICO",
+      "desconto": 0.18
+    },
+    {
+      "departamento": "MARCA",
+      "conc": "INDEP",
+      "faixa": "FAIXA 4",
+      "cronicidade": "EVENTUAL",
+      "desconto": 0.2
+    },
+    {
+      "departamento": "MARCA",
+      "conc": "INDEP",
+      "faixa": "FAIXA 4",
+      "cronicidade": "FREQUENTE",
+      "desconto": 0.2
+    },
+    {
+      "departamento": "MARCA",
+      "conc": "INDEP",
+      "faixa": "FAIXA 4",
+      "cronicidade": "CRONICO",
+      "desconto": 0.2
+    },
+    {
+      "departamento": "MARCA",
+      "conc": "INDEP",
+      "faixa": "FAIXA 5",
+      "cronicidade": "EVENTUAL",
+      "desconto": 0.22
+    },
+    {
+      "departamento": "MARCA",
+      "conc": "INDEP",
+      "faixa": "FAIXA 5",
+      "cronicidade": "FREQUENTE",
+      "desconto": 0.22
+    },
+    {
+      "departamento": "MARCA",
+      "conc": "INDEP",
+      "faixa": "FAIXA 5",
+      "cronicidade": "CRONICO",
+      "desconto": 0.22
+    },
+    {
+      "departamento": "PROPAGADO",
+      "conc": "TODOS",
+      "faixa": "FAIXA 1",
+      "cronicidade": "EVENTUAL",
+      "desconto": 0.12
+    },
+    {
+      "departamento": "PROPAGADO",
+      "conc": "TODOS",
+      "faixa": "FAIXA 1",
+      "cronicidade": "FREQUENTE",
+      "desconto": 0.12
+    },
+    {
+      "departamento": "PROPAGADO",
+      "conc": "TODOS",
+      "faixa": "FAIXA 1",
+      "cronicidade": "CRONICO",
+      "desconto": 0.12
+    },
+    {
+      "departamento": "PROPAGADO",
+      "conc": "TODOS",
+      "faixa": "FAIXA 2",
+      "cronicidade": "EVENTUAL",
+      "desconto": 0.14
+    },
+    {
+      "departamento": "PROPAGADO",
+      "conc": "TODOS",
+      "faixa": "FAIXA 2",
+      "cronicidade": "FREQUENTE",
+      "desconto": 0.14
+    },
+    {
+      "departamento": "PROPAGADO",
+      "conc": "TODOS",
+      "faixa": "FAIXA 2",
+      "cronicidade": "CRONICO",
+      "desconto": 0.14
+    },
+    {
+      "departamento": "PROPAGADO",
+      "conc": "TODOS",
+      "faixa": "FAIXA 3",
+      "cronicidade": "EVENTUAL",
+      "desconto": 0.16
+    },
+    {
+      "departamento": "PROPAGADO",
+      "conc": "TODOS",
+      "faixa": "FAIXA 3",
+      "cronicidade": "FREQUENTE",
+      "desconto": 0.16
+    },
+    {
+      "departamento": "PROPAGADO",
+      "conc": "TODOS",
+      "faixa": "FAIXA 3",
+      "cronicidade": "CRONICO",
+      "desconto": 0.16
+    },
+    {
+      "departamento": "PROPAGADO",
+      "conc": "TODOS",
+      "faixa": "FAIXA 4",
+      "cronicidade": "EVENTUAL",
+      "desconto": 0.18
+    },
+    {
+      "departamento": "PROPAGADO",
+      "conc": "TODOS",
+      "faixa": "FAIXA 4",
+      "cronicidade": "FREQUENTE",
+      "desconto": 0.18
+    },
+    {
+      "departamento": "PROPAGADO",
+      "conc": "TODOS",
+      "faixa": "FAIXA 4",
+      "cronicidade": "CRONICO",
+      "desconto": 0.18
+    },
+    {
+      "departamento": "PROPAGADO",
+      "conc": "TODOS",
+      "faixa": "FAIXA 5",
+      "cronicidade": "EVENTUAL",
+      "desconto": 0.2
+    },
+    {
+      "departamento": "PROPAGADO",
+      "conc": "TODOS",
+      "faixa": "FAIXA 5",
+      "cronicidade": "FREQUENTE",
+      "desconto": 0.2
+    },
+    {
+      "departamento": "PROPAGADO",
+      "conc": "TODOS",
+      "faixa": "FAIXA 5",
+      "cronicidade": "CRONICO",
+      "desconto": 0.2
+    },
+    {
+      "departamento": "PROPAGADO",
+      "conc": "ABRAF",
+      "faixa": "FAIXA 1",
+      "cronicidade": "EVENTUAL",
+      "desconto": 0.12
+    },
+    {
+      "departamento": "PROPAGADO",
+      "conc": "ABRAF",
+      "faixa": "FAIXA 1",
+      "cronicidade": "FREQUENTE",
+      "desconto": 0.12
+    },
+    {
+      "departamento": "PROPAGADO",
+      "conc": "ABRAF",
+      "faixa": "FAIXA 1",
+      "cronicidade": "CRONICO",
+      "desconto": 0.12
+    },
+    {
+      "departamento": "PROPAGADO",
+      "conc": "ABRAF",
+      "faixa": "FAIXA 2",
+      "cronicidade": "EVENTUAL",
+      "desconto": 0.14
+    },
+    {
+      "departamento": "PROPAGADO",
+      "conc": "ABRAF",
+      "faixa": "FAIXA 2",
+      "cronicidade": "FREQUENTE",
+      "desconto": 0.14
+    },
+    {
+      "departamento": "PROPAGADO",
+      "conc": "ABRAF",
+      "faixa": "FAIXA 2",
+      "cronicidade": "CRONICO",
+      "desconto": 0.14
+    },
+    {
+      "departamento": "PROPAGADO",
+      "conc": "ABRAF",
+      "faixa": "FAIXA 3",
+      "cronicidade": "EVENTUAL",
+      "desconto": 0.16
+    },
+    {
+      "departamento": "PROPAGADO",
+      "conc": "ABRAF",
+      "faixa": "FAIXA 3",
+      "cronicidade": "FREQUENTE",
+      "desconto": 0.16
+    },
+    {
+      "departamento": "PROPAGADO",
+      "conc": "ABRAF",
+      "faixa": "FAIXA 3",
+      "cronicidade": "CRONICO",
+      "desconto": 0.16
+    },
+    {
+      "departamento": "PROPAGADO",
+      "conc": "ABRAF",
+      "faixa": "FAIXA 4",
+      "cronicidade": "EVENTUAL",
+      "desconto": 0.18
+    },
+    {
+      "departamento": "PROPAGADO",
+      "conc": "ABRAF",
+      "faixa": "FAIXA 4",
+      "cronicidade": "FREQUENTE",
+      "desconto": 0.18
+    },
+    {
+      "departamento": "PROPAGADO",
+      "conc": "ABRAF",
+      "faixa": "FAIXA 4",
+      "cronicidade": "CRONICO",
+      "desconto": 0.18
+    },
+    {
+      "departamento": "PROPAGADO",
+      "conc": "ABRAF",
+      "faixa": "FAIXA 5",
+      "cronicidade": "EVENTUAL",
+      "desconto": 0.2
+    },
+    {
+      "departamento": "PROPAGADO",
+      "conc": "ABRAF",
+      "faixa": "FAIXA 5",
+      "cronicidade": "FREQUENTE",
+      "desconto": 0.2
+    },
+    {
+      "departamento": "PROPAGADO",
+      "conc": "ABRAF",
+      "faixa": "FAIXA 5",
+      "cronicidade": "CRONICO",
+      "desconto": 0.2
+    },
+    {
+      "departamento": "PROPAGADO",
+      "conc": "INDEP",
+      "faixa": "FAIXA 1",
+      "cronicidade": "EVENTUAL",
+      "desconto": 0.14
+    },
+    {
+      "departamento": "PROPAGADO",
+      "conc": "INDEP",
+      "faixa": "FAIXA 1",
+      "cronicidade": "FREQUENTE",
+      "desconto": 0.14
+    },
+    {
+      "departamento": "PROPAGADO",
+      "conc": "INDEP",
+      "faixa": "FAIXA 1",
+      "cronicidade": "CRONICO",
+      "desconto": 0.14
+    },
+    {
+      "departamento": "PROPAGADO",
+      "conc": "INDEP",
+      "faixa": "FAIXA 2",
+      "cronicidade": "EVENTUAL",
+      "desconto": 0.16
+    },
+    {
+      "departamento": "PROPAGADO",
+      "conc": "INDEP",
+      "faixa": "FAIXA 2",
+      "cronicidade": "FREQUENTE",
+      "desconto": 0.16
+    },
+    {
+      "departamento": "PROPAGADO",
+      "conc": "INDEP",
+      "faixa": "FAIXA 2",
+      "cronicidade": "CRONICO",
+      "desconto": 0.16
+    },
+    {
+      "departamento": "PROPAGADO",
+      "conc": "INDEP",
+      "faixa": "FAIXA 3",
+      "cronicidade": "EVENTUAL",
+      "desconto": 0.18
+    },
+    {
+      "departamento": "PROPAGADO",
+      "conc": "INDEP",
+      "faixa": "FAIXA 3",
+      "cronicidade": "FREQUENTE",
+      "desconto": 0.18
+    },
+    {
+      "departamento": "PROPAGADO",
+      "conc": "INDEP",
+      "faixa": "FAIXA 3",
+      "cronicidade": "CRONICO",
+      "desconto": 0.18
+    },
+    {
+      "departamento": "PROPAGADO",
+      "conc": "INDEP",
+      "faixa": "FAIXA 4",
+      "cronicidade": "EVENTUAL",
+      "desconto": 0.2
+    },
+    {
+      "departamento": "PROPAGADO",
+      "conc": "INDEP",
+      "faixa": "FAIXA 4",
+      "cronicidade": "FREQUENTE",
+      "desconto": 0.2
+    },
+    {
+      "departamento": "PROPAGADO",
+      "conc": "INDEP",
+      "faixa": "FAIXA 4",
+      "cronicidade": "CRONICO",
+      "desconto": 0.2
+    },
+    {
+      "departamento": "PROPAGADO",
+      "conc": "INDEP",
+      "faixa": "FAIXA 5",
+      "cronicidade": "EVENTUAL",
+      "desconto": 0.22
+    },
+    {
+      "departamento": "PROPAGADO",
+      "conc": "INDEP",
+      "faixa": "FAIXA 5",
+      "cronicidade": "FREQUENTE",
+      "desconto": 0.22
+    },
+    {
+      "departamento": "PROPAGADO",
+      "conc": "INDEP",
+      "faixa": "FAIXA 5",
+      "cronicidade": "CRONICO",
+      "desconto": 0.22
+    },
+    {
+      "departamento": "SIMILAR",
+      "conc": "TODOS",
+      "faixa": "FAIXA 1",
+      "cronicidade": "EVENTUAL",
+      "desconto": 0.12
+    },
+    {
+      "departamento": "SIMILAR",
+      "conc": "TODOS",
+      "faixa": "FAIXA 1",
+      "cronicidade": "FREQUENTE",
+      "desconto": 0.12
+    },
+    {
+      "departamento": "SIMILAR",
+      "conc": "TODOS",
+      "faixa": "FAIXA 1",
+      "cronicidade": "CRONICO",
+      "desconto": 0.12
+    },
+    {
+      "departamento": "SIMILAR",
+      "conc": "TODOS",
+      "faixa": "FAIXA 2",
+      "cronicidade": "EVENTUAL",
+      "desconto": 0.14
+    },
+    {
+      "departamento": "SIMILAR",
+      "conc": "TODOS",
+      "faixa": "FAIXA 2",
+      "cronicidade": "FREQUENTE",
+      "desconto": 0.14
+    },
+    {
+      "departamento": "SIMILAR",
+      "conc": "TODOS",
+      "faixa": "FAIXA 2",
+      "cronicidade": "CRONICO",
+      "desconto": 0.14
+    },
+    {
+      "departamento": "SIMILAR",
+      "conc": "TODOS",
+      "faixa": "FAIXA 3",
+      "cronicidade": "EVENTUAL",
+      "desconto": 0.16
+    },
+    {
+      "departamento": "SIMILAR",
+      "conc": "TODOS",
+      "faixa": "FAIXA 3",
+      "cronicidade": "FREQUENTE",
+      "desconto": 0.16
+    },
+    {
+      "departamento": "SIMILAR",
+      "conc": "TODOS",
+      "faixa": "FAIXA 3",
+      "cronicidade": "CRONICO",
+      "desconto": 0.16
+    },
+    {
+      "departamento": "SIMILAR",
+      "conc": "TODOS",
+      "faixa": "FAIXA 4",
+      "cronicidade": "EVENTUAL",
+      "desconto": 0.18
+    },
+    {
+      "departamento": "SIMILAR",
+      "conc": "TODOS",
+      "faixa": "FAIXA 4",
+      "cronicidade": "FREQUENTE",
+      "desconto": 0.18
+    },
+    {
+      "departamento": "SIMILAR",
+      "conc": "TODOS",
+      "faixa": "FAIXA 4",
+      "cronicidade": "CRONICO",
+      "desconto": 0.18
+    },
+    {
+      "departamento": "SIMILAR",
+      "conc": "TODOS",
+      "faixa": "FAIXA 5",
+      "cronicidade": "EVENTUAL",
+      "desconto": 0.2
+    },
+    {
+      "departamento": "SIMILAR",
+      "conc": "TODOS",
+      "faixa": "FAIXA 5",
+      "cronicidade": "FREQUENTE",
+      "desconto": 0.2
+    },
+    {
+      "departamento": "SIMILAR",
+      "conc": "TODOS",
+      "faixa": "FAIXA 5",
+      "cronicidade": "CRONICO",
+      "desconto": 0.2
+    },
+    {
+      "departamento": "SIMILAR",
+      "conc": "ABRAF",
+      "faixa": "FAIXA 1",
+      "cronicidade": "EVENTUAL",
+      "desconto": 0.12
+    },
+    {
+      "departamento": "SIMILAR",
+      "conc": "ABRAF",
+      "faixa": "FAIXA 1",
+      "cronicidade": "FREQUENTE",
+      "desconto": 0.12
+    },
+    {
+      "departamento": "SIMILAR",
+      "conc": "ABRAF",
+      "faixa": "FAIXA 1",
+      "cronicidade": "CRONICO",
+      "desconto": 0.12
+    },
+    {
+      "departamento": "SIMILAR",
+      "conc": "ABRAF",
+      "faixa": "FAIXA 2",
+      "cronicidade": "EVENTUAL",
+      "desconto": 0.14
+    },
+    {
+      "departamento": "SIMILAR",
+      "conc": "ABRAF",
+      "faixa": "FAIXA 2",
+      "cronicidade": "FREQUENTE",
+      "desconto": 0.14
+    },
+    {
+      "departamento": "SIMILAR",
+      "conc": "ABRAF",
+      "faixa": "FAIXA 2",
+      "cronicidade": "CRONICO",
+      "desconto": 0.14
+    },
+    {
+      "departamento": "SIMILAR",
+      "conc": "ABRAF",
+      "faixa": "FAIXA 3",
+      "cronicidade": "EVENTUAL",
+      "desconto": 0.16
+    },
+    {
+      "departamento": "SIMILAR",
+      "conc": "ABRAF",
+      "faixa": "FAIXA 3",
+      "cronicidade": "FREQUENTE",
+      "desconto": 0.16
+    },
+    {
+      "departamento": "SIMILAR",
+      "conc": "ABRAF",
+      "faixa": "FAIXA 3",
+      "cronicidade": "CRONICO",
+      "desconto": 0.16
+    },
+    {
+      "departamento": "SIMILAR",
+      "conc": "ABRAF",
+      "faixa": "FAIXA 4",
+      "cronicidade": "EVENTUAL",
+      "desconto": 0.18
+    },
+    {
+      "departamento": "SIMILAR",
+      "conc": "ABRAF",
+      "faixa": "FAIXA 4",
+      "cronicidade": "FREQUENTE",
+      "desconto": 0.18
+    },
+    {
+      "departamento": "SIMILAR",
+      "conc": "ABRAF",
+      "faixa": "FAIXA 4",
+      "cronicidade": "CRONICO",
+      "desconto": 0.18
+    },
+    {
+      "departamento": "SIMILAR",
+      "conc": "ABRAF",
+      "faixa": "FAIXA 5",
+      "cronicidade": "EVENTUAL",
+      "desconto": 0.2
+    },
+    {
+      "departamento": "SIMILAR",
+      "conc": "ABRAF",
+      "faixa": "FAIXA 5",
+      "cronicidade": "FREQUENTE",
+      "desconto": 0.2
+    },
+    {
+      "departamento": "SIMILAR",
+      "conc": "ABRAF",
+      "faixa": "FAIXA 5",
+      "cronicidade": "CRONICO",
+      "desconto": 0.2
+    },
+    {
+      "departamento": "SIMILAR",
+      "conc": "INDEP",
+      "faixa": "FAIXA 1",
+      "cronicidade": "EVENTUAL",
+      "desconto": 0.14
+    },
+    {
+      "departamento": "SIMILAR",
+      "conc": "INDEP",
+      "faixa": "FAIXA 1",
+      "cronicidade": "FREQUENTE",
+      "desconto": 0.14
+    },
+    {
+      "departamento": "SIMILAR",
+      "conc": "INDEP",
+      "faixa": "FAIXA 1",
+      "cronicidade": "CRONICO",
+      "desconto": 0.14
+    },
+    {
+      "departamento": "SIMILAR",
+      "conc": "INDEP",
+      "faixa": "FAIXA 2",
+      "cronicidade": "EVENTUAL",
+      "desconto": 0.16
+    },
+    {
+      "departamento": "SIMILAR",
+      "conc": "INDEP",
+      "faixa": "FAIXA 2",
+      "cronicidade": "FREQUENTE",
+      "desconto": 0.16
+    },
+    {
+      "departamento": "SIMILAR",
+      "conc": "INDEP",
+      "faixa": "FAIXA 2",
+      "cronicidade": "CRONICO",
+      "desconto": 0.16
+    },
+    {
+      "departamento": "SIMILAR",
+      "conc": "INDEP",
+      "faixa": "FAIXA 3",
+      "cronicidade": "EVENTUAL",
+      "desconto": 0.18
+    },
+    {
+      "departamento": "SIMILAR",
+      "conc": "INDEP",
+      "faixa": "FAIXA 3",
+      "cronicidade": "FREQUENTE",
+      "desconto": 0.18
+    },
+    {
+      "departamento": "SIMILAR",
+      "conc": "INDEP",
+      "faixa": "FAIXA 3",
+      "cronicidade": "CRONICO",
+      "desconto": 0.18
+    },
+    {
+      "departamento": "SIMILAR",
+      "conc": "INDEP",
+      "faixa": "FAIXA 4",
+      "cronicidade": "EVENTUAL",
+      "desconto": 0.2
+    },
+    {
+      "departamento": "SIMILAR",
+      "conc": "INDEP",
+      "faixa": "FAIXA 4",
+      "cronicidade": "FREQUENTE",
+      "desconto": 0.2
+    },
+    {
+      "departamento": "SIMILAR",
+      "conc": "INDEP",
+      "faixa": "FAIXA 4",
+      "cronicidade": "CRONICO",
+      "desconto": 0.2
+    },
+    {
+      "departamento": "SIMILAR",
+      "conc": "INDEP",
+      "faixa": "FAIXA 5",
+      "cronicidade": "EVENTUAL",
+      "desconto": 0.22
+    },
+    {
+      "departamento": "SIMILAR",
+      "conc": "INDEP",
+      "faixa": "FAIXA 5",
+      "cronicidade": "FREQUENTE",
+      "desconto": 0.22
+    },
+    {
+      "departamento": "SIMILAR",
+      "conc": "INDEP",
+      "faixa": "FAIXA 5",
+      "cronicidade": "CRONICO",
+      "desconto": 0.22
+    }
+  ],
+  "topPesquisa": {
+    "100100": {
+      "produto": "LOSARTANA 50MG 30CP",
+      "TODOS": 0.2,
+      "INDEP": 0.24,
+      "ABRAF": 0.16
+    },
+    "100200": {
+      "produto": "OMEPRAZOL 20MG 28CP",
+      "TODOS": 0.2,
+      "INDEP": 0.24,
+      "ABRAF": 0.16
+    },
+    "100300": {
+      "produto": "(PBM)FOSTAIR 200+6MCG",
+      "TODOS": 0.2,
+      "INDEP": 0.24,
+      "ABRAF": 0.16
+    },
+    "100400": {
+      "produto": "SERTRALINA 50MG 30CP",
+      "TODOS": 0.2,
+      "INDEP": 0.24,
+      "ABRAF": 0.16
+    },
+    "100500": {
+      "produto": "IBUPROFENO 600MG 20CP",
+      "TODOS": 0.2,
+      "INDEP": 0.24,
+      "ABRAF": 0.16
+    },
+    "100600": {
+      "produto": "ROSUVASTATINA 10MG 30CP",
+      "TODOS": 0.2,
+      "INDEP": 0.24,
+      "ABRAF": 0.16
+    }
+  },
+  "skus": [
+    {
+      "cluster": "Cluster",
+      "produtoId": "100100",
+      "descricao": "LOSARTANA 50MG 30CP",
+      "divisao": "RX",
+      "departamento": "MARCA",
+      "categoria": "CARDIOVASCULAR",
+      "faixa": "FAIXA 2",
+      "cronicidade": "CRONICO",
+      "laboratorio": "EMS",
+      "qtd1m": 210,
+      "receita1m": 8200,
+      "custo1m": 3864.0,
+      "tributos": 0,
+      "precoTabelado": null,
+      "marcaPropria": false,
+      "pbm": false,
+      "farmaciaPopular": false,
+      "sensibilidade": "Sensível",
+      "custo": 18.4,
+      "custoComComissao": 18.4,
+      "pmc": 48.9,
+      "precoAtual": 39.9,
+      "tipoPrecificacao": "PESQUISA",
+      "descTodosExcel": 0.18,
+      "descAbrafExcel": 0.16,
+      "descIndepExcel": 0.22,
+      "ajusteManual": null,
+      "seguir": true,
+      "precoFinalExcel": 40.1
+    },
+    {
+      "cluster": "Cluster",
+      "produtoId": "100200",
+      "descricao": "OMEPRAZOL 20MG 28CP",
+      "divisao": "RX",
+      "departamento": "PROPAGADO",
+      "categoria": "GASTRO",
+      "faixa": "FAIXA 1",
+      "cronicidade": "FREQUENTE",
+      "laboratorio": "MEDLEY",
+      "qtd1m": 320,
+      "receita1m": 5400,
+      "custo1m": 2304.0,
+      "tributos": 0,
+      "precoTabelado": null,
+      "marcaPropria": false,
+      "pbm": false,
+      "farmaciaPopular": false,
+      "sensibilidade": "Pouco Sensível",
+      "custo": 7.2,
+      "custoComComissao": 7.2,
+      "pmc": 22.5,
+      "precoAtual": 16.9,
+      "tipoPrecificacao": "MATRIZ",
+      "descTodosExcel": 0.18,
+      "descAbrafExcel": 0.16,
+      "descIndepExcel": 0.22,
+      "ajusteManual": null,
+      "seguir": true,
+      "precoFinalExcel": 18.45
+    },
+    {
+      "cluster": "Cluster",
+      "produtoId": "100300",
+      "descricao": "(PBM)FOSTAIR 200+6MCG",
+      "divisao": "RX",
+      "departamento": "MARCA",
+      "categoria": "RESPIRATORIO",
+      "faixa": "FAIXA 5",
+      "cronicidade": "EVENTUAL",
+      "laboratorio": "CHIESI",
+      "qtd1m": 48,
+      "receita1m": 12600,
+      "custo1m": 6720.0,
+      "tributos": 0,
+      "precoTabelado": null,
+      "marcaPropria": false,
+      "pbm": true,
+      "farmaciaPopular": false,
+      "sensibilidade": "Super Sensível",
+      "custo": 140.0,
+      "custoComComissao": 140.0,
+      "pmc": 272.96,
+      "precoAtual": 189.9,
+      "tipoPrecificacao": "PESQUISA",
+      "descTodosExcel": 0.18,
+      "descAbrafExcel": 0.16,
+      "descIndepExcel": 0.22,
+      "ajusteManual": null,
+      "seguir": true,
+      "precoFinalExcel": 223.83
+    },
+    {
+      "cluster": "Cluster",
+      "produtoId": "100400",
+      "descricao": "SERTRALINA 50MG 30CP",
+      "divisao": "RX",
+      "departamento": "SIMILAR",
+      "categoria": "NEUROLOGICOS",
+      "faixa": "FAIXA 3",
+      "cronicidade": "CRONICO",
+      "laboratorio": "EUROFARMA",
+      "qtd1m": 90,
+      "receita1m": 4100,
+      "custo1m": 1890.0,
+      "tributos": 0,
+      "precoTabelado": null,
+      "marcaPropria": false,
+      "pbm": false,
+      "farmaciaPopular": false,
+      "sensibilidade": "Sensível",
+      "custo": 21.0,
+      "custoComComissao": 21.0,
+      "pmc": 64.2,
+      "precoAtual": 49.9,
+      "tipoPrecificacao": "MATRIZ",
+      "descTodosExcel": 0.18,
+      "descAbrafExcel": 0.16,
+      "descIndepExcel": 0.22,
+      "ajusteManual": null,
+      "seguir": true,
+      "precoFinalExcel": 52.64
+    },
+    {
+      "cluster": "Cluster",
+      "produtoId": "100500",
+      "descricao": "IBUPROFENO 600MG 20CP",
+      "divisao": "RX",
+      "departamento": "PROPAGADO",
+      "categoria": "DOR",
+      "faixa": "FAIXA 1",
+      "cronicidade": "EVENTUAL",
+      "laboratorio": "NEO QUIMICA",
+      "qtd1m": 180,
+      "receita1m": 2800,
+      "custo1m": 918.0,
+      "tributos": 0,
+      "precoTabelado": null,
+      "marcaPropria": false,
+      "pbm": false,
+      "farmaciaPopular": false,
+      "sensibilidade": "Pouco Sensível",
+      "custo": 5.1,
+      "custoComComissao": 5.1,
+      "pmc": 18.4,
+      "precoAtual": 12.99,
+      "tipoPrecificacao": "DESC MÍNIMO",
+      "descTodosExcel": 0.18,
+      "descAbrafExcel": 0.16,
+      "descIndepExcel": 0.22,
+      "ajusteManual": null,
+      "seguir": true,
+      "precoFinalExcel": 15.09
+    },
+    {
+      "cluster": "Cluster",
+      "produtoId": "100600",
+      "descricao": "ROSUVASTATINA 10MG 30CP",
+      "divisao": "RX",
+      "departamento": "MARCA",
+      "categoria": "CARDIOVASCULAR",
+      "faixa": "FAIXA 3",
+      "cronicidade": "CRONICO",
+      "laboratorio": "SANOFI",
+      "qtd1m": 130,
+      "receita1m": 9700,
+      "custo1m": 4056.0,
+      "tributos": 0,
+      "precoTabelado": null,
+      "marcaPropria": false,
+      "pbm": false,
+      "farmaciaPopular": false,
+      "sensibilidade": "Super Sensível",
+      "custo": 31.2,
+      "custoComComissao": 31.2,
+      "pmc": 96.7,
+      "precoAtual": 74.5,
+      "tipoPrecificacao": "PESQUISA",
+      "descTodosExcel": 0.18,
+      "descAbrafExcel": 0.16,
+      "descIndepExcel": 0.22,
+      "ajusteManual": null,
+      "seguir": true,
+      "precoFinalExcel": 79.29
+    }
+  ]
+}

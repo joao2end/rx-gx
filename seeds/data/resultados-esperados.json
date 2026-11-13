@@ -1,0 +1,28 @@
+{
+  "nota": "Totais de entrada da base falsa. A tela de Resultados recalcula receita simulada, lucro, margem, desconto e IC a partir destes SKUs.",
+  "rx": {
+    "skus": 6,
+    "receitaAtual1m": 42800,
+    "lucroBrutoAtual1m": 23048.0,
+    "margemAtual": 0.5385,
+    "impactoAnualReceitaReferencia": 513600,
+    "porDepartamento": {
+      "MARCA": 30500,
+      "PROPAGADO": 8200,
+      "SIMILAR": 4100
+    }
+  },
+  "gx": {
+    "skus": 6,
+    "chaves": 2,
+    "receitaAtual1m": 16500,
+    "lucroBrutoAtual1m": 9229.8,
+    "margemAtual": 0.5594,
+    "impactoAnualReceitaReferencia": 198000,
+    "porDegrau": {
+      "P1": 10900,
+      "P2": 4000,
+      "P3": 1600
+    }
+  }
+}

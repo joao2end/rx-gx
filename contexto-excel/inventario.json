@@ -1,0 +1,5129 @@
+[
+  {
+    "arquivo": "Gx_P1.xlsx",
+    "bytes": 318828,
+    "abas": [
+      {
+        "aba": "Base",
+        "linhas": 2051,
+        "colunas": 36,
+        "cabecalho": [
+          {
+            "linha": 1,
+            "celulas": {
+              "0": "produtoid",
+              "1": "produto",
+              "2": "chave_generico",
+              "3": "fabricante",
+              "4": "fabricante_plug",
+              "5": "pmc",
+              "6": "preco_atual",
+              "7": "custo_atual",
+              "8": "comissao",
+              "9": "estoque_atual",
+              "10": "cobertura_lojas",
+              "11": "receita_3m",
+              "12": "custo_3m",
+              "13": "quantidade_3m",
+              "14": "receita_12m",
+              "15": "custo_12m",
+              "16": "quantidade_12m",
+              "17": "score_qtd",
+              "18": "score_custo",
+              "19": "score_final"
+            }
+          },
+          {
+            "linha": 2,
+            "celulas": {
+              "1": "ACEBROFILINA 25MG PED 120ML(EUR)",
+              "2": "ACEBROFILINA XAROPE 25 MG/5 ML x 120 ML",
+              "3": "EUROFARMA GENÉRICO",
+              "4": "EUROFARMA"
+            }
+          },
+          {
+            "linha": 3,
+            "celulas": {
+              "1": "ACEBROFILINA 25MG PED 120ML(BIO)",
+              "2": "ACEBROFILINA XAROPE 25 MG/5 ML x 120 ML",
+              "3": "BIOSINTETICA",
+              "4": "ACHE"
+            }
+          },
+          {
+            "linha": 4,
+            "celulas": {
+              "1": "ACEBROFILINA 25MG PED 120ML(CIM)",
+              "2": "ACEBROFILINA XAROPE 25 MG/5 ML x 120 ML",
+              "3": "CIMED",
+              "4": "CIMED"
+            }
+          },
+          {
+            "linha": 5,
+            "celulas": {
+              "1": "ACEBROFILINA 50MG AD 120ML(BIO)",
+              "2": "ACEBROFILINA XAROPE 50 MG/5 ML x 120 ML",
+              "3": "BIOSINTETICA",
+              "4": "ACHE"
+            }
+          },
+          {
+            "linha": 6,
+            "celulas": {
+              "1": "ACEBROFILINA 50MG AD 120ML(TEU)",
+              "2": "ACEBROFILINA XAROPE 50 MG/5 ML x 120 ML",
+              "3": "TEUTO",
+              "4": "TEUTO"
+            }
+          },
+          {
+            "linha": 7,
+            "celulas": {
+              "1": "ACEBROFILINA 50MG AD 120ML(EUR)",
+              "2": "ACEBROFILINA XAROPE 50 MG/5 ML x 120 ML",
+              "3": "EUROFARMA GENÉRICO",
+              "4": "EUROFARMA"
+            }
+          }
+        ],
+        "colunasLojaClusterUf": [
+          {
+            "linhaCabecalho": 1,
+            "coluna": 10,
+            "rotulo": "cobertura_lojas",
+            "qtdDistintos": 11,
+            "valores": {
+              "1": 352,
+              "0.9090909090909092": 149,
+              "0.09090909090909093": 143,
+              "0.8181818181818182": 104,
+              "0.4545454545454545": 83,
+              "0.1818181818181818": 83,
+              "0.2727272727272727": 73,
+              "0.7272727272727273": 71,
+              "0.5454545454545454": 68,
+              "0.3636363636363636": 63,
+              "0.6363636363636364": 62
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "arquivo": "Gx_Seleção P1.xlsx",
+    "bytes": 192107,
+    "abas": [
+      {
+        "aba": "Base Seleção",
+        "linhas": 1048174,
+        "colunas": 16,
+        "cabecalho": [
+          {
+            "linha": 1,
+            "celulas": {
+              "0": "produtoid",
+              "1": "index",
+              "2": "chave_generico",
+              "3": "fabricante",
+              "4": "fabricante_plug",
+              "5": "cobertura_lojas",
+              "6": "receita_3m",
+              "7": "qtd_vnd_3m",
+              "8": "custo_atual",
+              "9": "estoque_atual",
+              "10": "sugestao",
+              "11": "valor",
+              "12": "P?",
+              "13": "p_fim",
+              "15": "Máximo P"
+            }
+          },
+          {
+            "linha": 2,
+            "celulas": {
+              "2": "DAPAGLIFLOZINA COMPRIMIDO 10 MG x 30",
+              "3": "EMS GENERICO",
+              "4": "EMS",
+              "10": "P1"
+            }
+          },
+          {
+            "linha": 3,
+            "celulas": {
+              "2": "DAPAGLIFLOZINA COMPRIMIDO 10 MG x 30",
+              "3": "EUROFARMA GENÉRICO",
+              "4": "EUROFARMA",
+              "10": "P2"
+            }
+          },
+          {
+            "linha": 4,
+            "celulas": {
+              "2": "DAPAGLIFLOZINA COMPRIMIDO 10 MG x 30",
+              "3": "BIOSINTETICA",
+              "4": "ACHE",
+              "10": "P3"
+            }
+          },
+          {
+            "linha": 5,
+            "celulas": {
+              "2": "ROSUVASTATINA CALCICA COMPRIMIDO 20 MG x 30",
+              "3": "SANDOZ",
+              "4": "SANDOZ",
+              "10": "P1"
+            }
+          },
+          {
+            "linha": 6,
+            "celulas": {
+              "2": "ROSUVASTATINA CALCICA COMPRIMIDO 20 MG x 30",
+              "3": "TEUTO",
+              "4": "TEUTO",
+              "10": "P2"
+            }
+          },
+          {
+            "linha": 7,
+            "celulas": {
+              "2": "ROSUVASTATINA CALCICA COMPRIMIDO 20 MG x 30",
+              "3": "EMS GENERICO",
+              "4": "EMS",
+              "10": "P3"
+            }
+          }
+        ],
+        "colunasLojaClusterUf": [
+          {
+            "linhaCabecalho": 1,
+            "coluna": 5,
+            "rotulo": "cobertura_lojas",
+            "qtdDistintos": 11,
+            "valores": {
+              "1": 352,
+              "0.9090909090909092": 149,
+              "0.09090909090909093": 143,
+              "0.8181818181818182": 104,
+              "0.1818181818181818": 83,
+              "0.4545454545454545": 83,
+              "0.2727272727272727": 73,
+              "0.7272727272727274": 71,
+              "0.5454545454545454": 68,
+              "0.3636363636363636": 63,
+              "0.6363636363636364": 62
+            }
+          }
+        ]
+      },
+      {
+        "aba": "Validação de Dados",
+        "linhas": 1,
+        "colunas": 1,
+        "cabecalho": [
+          {
+            "linha": 1,
+            "celulas": {
+              "0": "SIM"
+            }
+          }
+        ],
+        "colunasLojaClusterUf": []
+      }
+    ]
+  },
+  {
+    "arquivo": "Gx_Simulador 260928 v4 - final.xlsx",
+    "bytes": 3989526,
+    "abas": [
+      {
+        "aba": "COCKPIT",
+        "linhas": 45,
+        "colunas": 67,
+        "cabecalho": [
+          {
+            "linha": 1,
+            "celulas": {
+              "1": "PARÂMETROS AUTOSSERVIÇO",
+              "7": "RESULTADOS SIMULAÇÃO",
+              "41": "DASHBOARD"
+            }
+          },
+          {
+            "linha": 3,
+            "celulas": {
+              "7": "TODOS OS PRODUTOS"
+            }
+          },
+          {
+            "linha": 4,
+            "celulas": {
+              "2": "FAROL VARIAÇÃO",
+              "7": "TIPO PRECIFICAÇÃO",
+              "8": "(All)"
+            }
+          },
+          {
+            "linha": 5,
+            "celulas": {
+              "2": "Limiar",
+              "3": "Indiferença",
+              "7": "ORDEM PREÇO",
+              "8": "(All)",
+              "14": "IC apenas para P1 de Pesq Manual ou Internet"
+            }
+          },
+          {
+            "linha": 6,
+            "celulas": {
+              "1": "PESQ MANUAL",
+              "8": "RECEITA",
+              "10": "LUCRO",
+              "12": "MARGEM",
+              "14": "IC",
+              "16": "CLUSTER"
+            }
+          },
+          {
+            "linha": 7,
+            "celulas": {
+              "1": "PESQ INTERNET",
+              "8": "ATUAL",
+              "9": "SIMULADO",
+              "10": "ATUAL",
+              "11": "SIMULADO",
+              "12": "ATUAL",
+              "13": "SIMULADO",
+              "14": "ATUAL",
+              "15": "SIMULADO",
+              "16": "AUMENTO",
+              "17": "REDUÇÃO",
+              "18": "MANTER"
+            }
+          }
+        ],
+        "colunasLojaClusterUf": [
+          {
+            "linhaCabecalho": 6,
+            "coluna": 16,
+            "rotulo": "CLUSTER",
+            "qtdDistintos": 6,
+            "valores": {
+              "AUMENTO": 1,
+              "282": 1,
+              "246": 1,
+              "342": 1,
+              "1": 1,
+              "871": 1
+            }
+          }
+        ]
+      },
+      {
+        "aba": "IC",
+        "linhas": 46,
+        "colunas": 19,
+        "cabecalho": [
+          {
+            "linha": 1,
+            "celulas": {
+              "0": "ÍNDICE DE COMPETITIVIDADE",
+              "3": "Esses valores serão aplicados aos produtos precificados manualmente ou contra dados de provedores (ex: internet, infoprice)"
+            }
+          },
+          {
+            "linha": 3,
+            "celulas": {
+              "0": "PESQ MANUAL"
+            }
+          },
+          {
+            "linha": 4,
+            "celulas": {
+              "1": "CONCORRÊNCIA (TODOS, ABRAF ou INDEP)",
+              "6": "BALIZADOR (MIN, MED ou MAX)",
+              "11": "IC ATUAL (comparação com preço atual) (ponderado p/ receita P1)",
+              "16": "POLÍTICA DE PREÇO (IC)"
+            }
+          },
+          {
+            "linha": 5,
+            "celulas": {
+              "1": "EVENTUAL",
+              "2": "FREQUENTE",
+              "3": "CRONICO",
+              "6": "EVENTUAL",
+              "7": "FREQUENTE",
+              "8": "CRONICO",
+              "11": "EVENTUAL",
+              "12": "FREQUENTE",
+              "13": "CRONICO",
+              "16": "EVENTUAL",
+              "17": "FREQUENTE",
+              "18": "CRONICO"
+            }
+          },
+          {
+            "linha": 6,
+            "celulas": {
+              "0": "FAIXA 5",
+              "1": "INDEP",
+              "2": "INDEP",
+              "3": "INDEP",
+              "5": "FAIXA 5",
+              "6": "MED",
+              "7": "MED",
+              "8": "MED",
+              "10": "FAIXA 5",
+              "15": "FAIXA 5"
+            }
+          },
+          {
+            "linha": 7,
+            "celulas": {
+              "0": "FAIXA 4",
+              "1": "INDEP",
+              "2": "INDEP",
+              "3": "INDEP",
+              "5": "FAIXA 4",
+              "6": "MED",
+              "7": "MED",
+              "8": "MED",
+              "10": "FAIXA 4",
+              "15": "FAIXA 4"
+            }
+          }
+        ],
+        "colunasLojaClusterUf": []
+      },
+      {
+        "aba": "MARGEM",
+        "linhas": 61,
+        "colunas": 29,
+        "cabecalho": [
+          {
+            "linha": 1,
+            "celulas": {
+              "0": "MRG OBJETIVO",
+              "6": "SEM PMC",
+              "10": "MRG CRÍTICA"
+            }
+          },
+          {
+            "linha": 2,
+            "celulas": {
+              "0": "Valores aplicados aos itens precificados com \"Mrg Objetivo\"",
+              "6": "MRG ATUAL",
+              "10": "PESQ MANUAL",
+              "15": "PESQ INTERNET",
+              "20": "MRG OBJETIVO"
+            }
+          },
+          {
+            "linha": 3,
+            "celulas": {
+              "1": "EVENTUAL",
+              "2": "FREQUENTE",
+              "3": "CRONICO",
+              "6": "EVENTUAL"
+            }
+          },
+          {
+            "linha": 4,
+            "celulas": {
+              "0": "FAIXA 5",
+              "6": "FREQUENTE",
+              "11": "EVENTUAL",
+              "12": "FREQUENTE",
+              "13": "CRONICO",
+              "16": "EVENTUAL",
+              "17": "FREQUENTE",
+              "18": "CRONICO",
+              "21": "EVENTUAL",
+              "22": "FREQUENTE",
+              "23": "CRONICO"
+            }
+          },
+          {
+            "linha": 5,
+            "celulas": {
+              "0": "FAIXA 4",
+              "6": "CRONICO",
+              "10": "FAIXA 5",
+              "15": "FAIXA 5",
+              "20": "FAIXA 5"
+            }
+          },
+          {
+            "linha": 6,
+            "celulas": {
+              "0": "FAIXA 3",
+              "6": "MRG OBJETIVO",
+              "10": "FAIXA 4",
+              "15": "FAIXA 4",
+              "20": "FAIXA 4"
+            }
+          },
+          {
+            "linha": 7,
+            "celulas": {
+              "0": "FAIXA 2",
+              "6": "EVENTUAL",
+              "10": "FAIXA 3",
+              "15": "FAIXA 3",
+              "20": "FAIXA 3"
+            }
+          }
+        ],
+        "colunasLojaClusterUf": []
+      },
+      {
+        "aba": "RESUMO",
+        "linhas": 90,
+        "colunas": 29,
+        "cabecalho": [
+          {
+            "linha": 1,
+            "celulas": {
+              "0": "IC SIMULADO"
+            }
+          },
+          {
+            "linha": 2,
+            "celulas": {
+              "1": "P1"
+            }
+          },
+          {
+            "linha": 3,
+            "celulas": {
+              "0": "PESQ MANUAL"
+            }
+          },
+          {
+            "linha": 4,
+            "celulas": {
+              "1": "QTD PROD",
+              "2": "QTD PROD",
+              "3": "QTD PROD",
+              "6": "IC ATUAL",
+              "11": "IC FINAL"
+            }
+          },
+          {
+            "linha": 5,
+            "celulas": {
+              "1": "EVENTUAL",
+              "2": "FREQUENTE",
+              "3": "CRONICO",
+              "6": "EVENTUAL",
+              "7": "FREQUENTE",
+              "8": "CRONICO",
+              "11": "EVENTUAL",
+              "12": "FREQUENTE",
+              "13": "CRONICO"
+            }
+          },
+          {
+            "linha": 6,
+            "celulas": {
+              "0": "FAIXA 5",
+              "5": "FAIXA 5",
+              "10": "FAIXA 5"
+            }
+          },
+          {
+            "linha": 7,
+            "celulas": {
+              "0": "FAIXA 4",
+              "5": "FAIXA 4",
+              "10": "FAIXA 4"
+            }
+          }
+        ],
+        "colunasLojaClusterUf": []
+      },
+      {
+        "aba": "P1",
+        "linhas": 682,
+        "colunas": 47,
+        "cabecalho": [
+          {
+            "linha": 1,
+            "celulas": {
+              "2": "ANÁLISE DE PREÇOS SUGERIDOS RX - GENÉRICO - P1"
+            }
+          },
+          {
+            "linha": 5,
+            "celulas": {
+              "2": "x",
+              "4": "x",
+              "5": "x",
+              "6": "x",
+              "7": "x",
+              "8": "x",
+              "9": "x",
+              "10": "x",
+              "11": "x",
+              "12": "x",
+              "13": "x",
+              "14": "x",
+              "15": "x",
+              "16": "x",
+              "17": "x",
+              "18": "x",
+              "19": "x",
+              "20": "x",
+              "21": "x",
+              "22": "x",
+              "23": "x",
+              "24": "x",
+              "25": "x",
+              "26": "x"
+            }
+          },
+          {
+            "linha": 6,
+            "celulas": {
+              "0": "CHAVE",
+              "1": "UF",
+              "2": "Cluster",
+              "3": "OK",
+              "4": "Chave",
+              "5": "ProdutoID",
+              "6": "DescReduzida",
+              "7": "DIVISÃO",
+              "8": "DEPARTAMENTO",
+              "9": "CATEGORIA",
+              "10": "FAIXA DE PREÇO",
+              "11": "CRONICIDADE",
+              "12": "LABORATÓRIO",
+              "13": "QTD VENDIDA 1M",
+              "14": "RECEITA VENDA 1M",
+              "15": "CUSTO VENDA 1M",
+              "16": "Comissão",
+              "17": "Tributos S/ Vd",
+              "18": "PreçoTabelado",
+              "19": "MarcaPropria",
+              "20": "PBM",
+              "21": "Farmácia Popular",
+              "22": "SENSIBILIDADE",
+              "23": "Custo",
+              "24": "Custo + Comissão",
+              "25": "PMC",
+              "26": "PREÇO ATUAL",
+              "27": "TIPO PRECIFICAÇÃO",
+              "28": "POLÍTICA DE PREÇO",
+              "29": "BALIZADOR",
+              "30": "AJUSTE IC%",
+              "31": "TODOS",
+              "32": "ABRAF",
+              "33": "INDEP",
+              "34": "MARGEM OBJETIVO",
+              "35": "PREÇO PARTIDA",
+              "36": "CONFERE % VARIAÇÃO DE PREÇO",
+              "37": "Farol variação preço",
+              "38": "PREÇO PARTIDA AJUSTADO",
+              "39": "MRG PREÇO ATUAL",
+              "40": "MRG PARTIDA (-Parâmetro)",
+              "41": "MARGEM CRÍTICA",
+              "42": "Farol 1 PARTIDA",
+              "43": "PREÇO PARTIDA SIMULADO",
+              "44": "AJUSTE MANUAL",
+              "45": "PREÇO FIM P1",
+              "46": "VAR PREÇO SIMULADO VS PREÇO ATUAL"
+            }
+          },
+          {
+            "linha": 7,
+            "celulas": {
+              "0": "OMEPRAZOL CAPSULA 20 MG x 56Cluster",
+              "1": "RJ",
+              "2": "Cluster",
+              "4": "OMEPRAZOL CAPSULA 20 MG x 56",
+              "6": "OMEPRAZOL 20MG 56CP(GLO)",
+              "7": "RX",
+              "8": "GENERICO",
+              "9": "SISTEMA DIGESTIVO",
+              "10": "FAIXA 1",
+              "11": "FREQUENTE",
+              "12": "GLOBO",
+              "22": "Pouco Sensível",
+              "27": "PESQ MANUAL",
+              "28": "INDEP",
+              "29": "MED",
+              "37": "OK",
+              "42": "OK"
+            }
+          }
+        ],
+        "colunasLojaClusterUf": [
+          {
+            "linhaCabecalho": 6,
+            "coluna": 1,
+            "rotulo": "UF",
+            "qtdDistintos": 1,
+            "valores": {
+              "RJ": 675
+            }
+          },
+          {
+            "linhaCabecalho": 6,
+            "coluna": 2,
+            "rotulo": "Cluster",
+            "qtdDistintos": 1,
+            "valores": {
+              "Cluster": 675
+            }
+          },
+          {
+            "linhaCabecalho": 7,
+            "coluna": 0,
+            "rotulo": "OMEPRAZOL CAPSULA 20 MG x 56Cluster",
+            "qtdDistintos": 674,
+            "valores": {
+              "PREGABALINA CAPSULA 75 MG x 30Cluster": 1,
+              "TADALAFILA COMPRIMIDO 20 MG x 4Cluster": 1,
+              "NIMESULIDA COMPRIMIDO 100 MG x 12Cluster": 1,
+              "CLORIDRATO DE FLUOXETINA CAPSULA 20 MG x 30Cluster": 1,
+              "TADALAFILA COMPRIMIDO 20 MG x 2Cluster": 1,
+              "GLIMEPIRIDA COMPRIMIDO 2 MG x 30Cluster": 1,
+              "ACETATO DE CIPROTERONA + ETINILESTRADIOL COMPRIMIDO 2 MG + 0,035 MG x 21Cluster": 1,
+              "NIMESULIDA SOLUCAO ORAL 50 MG/ML x 15 MLCluster": 1,
+              "CLORIDRATO DE HIDROXIZINA SOLUCAO ORAL 2 MG/ML x 100 MLCluster": 1,
+              "CLORIDRATO DE PAROXETINA COMPRIMIDO 20 MG x 30Cluster": 1,
+              "HEMITARTARATO DE ZOLPIDEM COMPRIMIDO 5 MG x 30Cluster": 1,
+              "ACEBROFILINA XAROPE 50 MG/5 ML x 120 MLCluster": 1,
+              "SECNIDAZOL COMPRIMIDO 1000 MG x 4Cluster": 1,
+              "NISTATINA SUSPENSAO ORAL 100000 UI/ML x 50 MLCluster": 1,
+              "ATENOLOL COMPRIMIDO 100 MG x 30Cluster": 1,
+              "TENOXICAM COMPRIMIDO 20 MG x 10Cluster": 1,
+              "ACECLOFENACO COMPRIMIDO 100 MG x 12Cluster": 1,
+              "LAMOTRIGINA COMPRIMIDO 100 MG x 30Cluster": 1,
+              "INDAPAMIDA COMPRIMIDO 1,5 MG x 60Cluster": 1,
+              "BISSULFATO DE CLOPIDOGREL COMPRIMIDO 75 MG x 30Cluster": 1,
+              "CLORIDRATO DE NORTRIPTILINA CAPSULA 25 MG x 30Cluster": 1,
+              "MONTELUCASTE DE SODIO COMPRIMIDO 4 MG x 30Cluster": 1,
+              "HEMIFUMARATO DE BISOPROLOL COMPRIMIDO 10 MG x 30Cluster": 1,
+              "AMOXICILINA + CLAVULANATO DE POTASSIO COMPRIMIDO 875 MG + 125 MG x 12Cluster": 1,
+              "CLORIDRATO DE FLUOXETINA CAPSULA 20 MG x 60Cluster": 1,
+              "CLORIDRATO DE TRAMADOL + PARACETAMOL COMPRIMIDO 37,5 MG + 325 MG x 30Cluster": 1,
+              "MIRTAZAPINA COMPRIMIDO 30 MG x 30Cluster": 1,
+              "CETOCONAZOL COMPRIMIDO 200 MG x 30Cluster": 1,
+              "RIVAROXABANA COMPRIMIDO 10 MG x 30Cluster": 1,
+              "BIMATOPROSTA SOLUCAO OFTALMICA 0,3 MG/ML x 3 MLCluster": 1,
+              "CLORIDRATO DE DONEPEZILA COMPRIMIDO 5 MG x 30Cluster": 1,
+              "DROSPIRENONA + ETINILESTRADIOL COMPRIMIDO 3 MG + 0,02 MG x 72Cluster": 1,
+              "CLORIDRATO DE SIBUTRAMINA CAPSULA 15 MG x 60Cluster": 1,
+              "DICLORIDRATO DE PRAMIPEXOL COMPRIMIDO 1 MG x 30Cluster": 1,
+              "MALEATO DE TRIMEBUTINA CAPSULA 200 MG x 60Cluster": 1,
+              "HEMIFUMARATO DE QUETIAPINA COMPRIMIDO 200 MG x 30Cluster": 1,
+              "FOSFATO DE SITAGLIPTINA COMPRIMIDO 100 MG x 30Cluster": 1,
+              "CLORIDRATO DE FLUOXETINA COMPRIMIDO 20 MG x 30Cluster": 1,
+              "BROMAZEPAM COMPRIMIDO 3 MG x 30Cluster": 1,
+              "CIMETIDINA COMPRIMIDO 200 MG x 20Cluster": 1,
+              "CLORIDRATO DE TRAMADOL + PARACETAMOL COMPRIMIDO 37,5 MG + 325 MG x 10Cluster": 1,
+              "CLORIDRATO DE PIOGLITAZONA COMPRIMIDO 30 MG x 15Cluster": 1,
+              "DIAZEPAM COMPRIMIDO 5 MG x 30Cluster": 1,
+              "BETAMETASONA + MALEATO DE DEXCLORFENIRAMINA XAROPE 0,25 MG/5 ML + 2 MG/5 ML x 120 MLCluster": 1,
+              "CLORIDRATO DE TRAMADOL SOLUCAO ORAL 100 MG/ML x 10 MLCluster": 1,
+              "CLORIDRATO DE PROPRANOLOL COMPRIMIDO 40 MG x 30Cluster": 1,
+              "CLORIDRATO DE SOTALOL COMPRIMIDO 160 MG x 20Cluster": 1,
+              "DICLOFENACO POTASSICO COMPRIMIDO 50 MG x 20Cluster": 1,
+              "SUCCINATO DE DESVENLAFAXINA COMPRIMIDO 100 MG x 28Cluster": 1,
+              "ALBENDAZOL COMPRIMIDO 400 MG x 5Cluster": 1
+            }
+          },
+          {
+            "linhaCabecalho": 7,
+            "coluna": 2,
+            "rotulo": "Cluster",
+            "qtdDistintos": 1,
+            "valores": {
+              "Cluster": 674
+            }
+          }
+        ]
+      },
+      {
+        "aba": "Preço Chave P1",
+        "linhas": 6382,
+        "colunas": 22,
+        "cabecalho": [
+          {
+            "linha": 1,
+            "celulas": {
+              "0": "ID",
+              "1": "Cluster",
+              "2": "Chave",
+              "3": "Qtd P1's",
+              "4": "Preço Chave P1",
+              "5": "AJUSTE MANUAL",
+              "6": "PREÇO CHAVE P1 SIMULADO FINAL",
+              "17": "x",
+              "19": "x"
+            }
+          },
+          {
+            "linha": 2,
+            "celulas": {
+              "0": "OMEPRAZOL CAPSULA 20 MG x 56Cluster",
+              "1": "Cluster",
+              "2": "OMEPRAZOL CAPSULA 20 MG x 56",
+              "17": "Cluster",
+              "18": "OK",
+              "19": "Chave",
+              "20": "Preço Chave P1 Final",
+              "21": "ID"
+            }
+          },
+          {
+            "linha": 3,
+            "celulas": {
+              "0": "PREGABALINA CAPSULA 75 MG x 30Cluster",
+              "1": "Cluster",
+              "2": "PREGABALINA CAPSULA 75 MG x 30",
+              "17": "Cluster",
+              "19": "OMEPRAZOL CAPSULA 20 MG x 56",
+              "21": "OMEPRAZOL CAPSULA 20 MG x 56Cluster"
+            }
+          },
+          {
+            "linha": 4,
+            "celulas": {
+              "0": "TADALAFILA COMPRIMIDO 20 MG x 4Cluster",
+              "1": "Cluster",
+              "2": "TADALAFILA COMPRIMIDO 20 MG x 4",
+              "17": "Cluster",
+              "19": "PREGABALINA CAPSULA 75 MG x 30",
+              "21": "PREGABALINA CAPSULA 75 MG x 30Cluster"
+            }
+          },
+          {
+            "linha": 5,
+            "celulas": {
+              "0": "NIMESULIDA COMPRIMIDO 100 MG x 12Cluster",
+              "1": "Cluster",
+              "2": "NIMESULIDA COMPRIMIDO 100 MG x 12",
+              "17": "Cluster",
+              "19": "TADALAFILA COMPRIMIDO 20 MG x 4",
+              "21": "TADALAFILA COMPRIMIDO 20 MG x 4Cluster"
+            }
+          },
+          {
+            "linha": 6,
+            "celulas": {
+              "0": "CLORIDRATO DE FLUOXETINA CAPSULA 20 MG x 30Cluster",
+              "1": "Cluster",
+              "2": "CLORIDRATO DE FLUOXETINA CAPSULA 20 MG x 30",
+              "17": "Cluster",
+              "19": "NIMESULIDA COMPRIMIDO 100 MG x 12",
+              "21": "NIMESULIDA COMPRIMIDO 100 MG x 12Cluster"
+            }
+          },
+          {
+            "linha": 7,
+            "celulas": {
+              "0": "TADALAFILA COMPRIMIDO 20 MG x 2Cluster",
+              "1": "Cluster",
+              "2": "TADALAFILA COMPRIMIDO 20 MG x 2",
+              "17": "Cluster",
+              "19": "CLORIDRATO DE FLUOXETINA CAPSULA 20 MG x 30",
+              "21": "CLORIDRATO DE FLUOXETINA CAPSULA 20 MG x 30Cluster"
+            }
+          }
+        ],
+        "colunasLojaClusterUf": [
+          {
+            "linhaCabecalho": 1,
+            "coluna": 1,
+            "rotulo": "Cluster",
+            "qtdDistintos": 1,
+            "valores": {
+              "Cluster": 675
+            }
+          },
+          {
+            "linhaCabecalho": 2,
+            "coluna": 0,
+            "rotulo": "OMEPRAZOL CAPSULA 20 MG x 56Cluster",
+            "qtdDistintos": 674,
+            "valores": {
+              "PREGABALINA CAPSULA 75 MG x 30Cluster": 1,
+              "TADALAFILA COMPRIMIDO 20 MG x 4Cluster": 1,
+              "NIMESULIDA COMPRIMIDO 100 MG x 12Cluster": 1,
+              "CLORIDRATO DE FLUOXETINA CAPSULA 20 MG x 30Cluster": 1,
+              "TADALAFILA COMPRIMIDO 20 MG x 2Cluster": 1,
+              "GLIMEPIRIDA COMPRIMIDO 2 MG x 30Cluster": 1,
+              "ACETATO DE CIPROTERONA + ETINILESTRADIOL COMPRIMIDO 2 MG + 0,035 MG x 21Cluster": 1,
+              "NIMESULIDA SOLUCAO ORAL 50 MG/ML x 15 MLCluster": 1,
+              "CLORIDRATO DE HIDROXIZINA SOLUCAO ORAL 2 MG/ML x 100 MLCluster": 1,
+              "CLORIDRATO DE PAROXETINA COMPRIMIDO 20 MG x 30Cluster": 1,
+              "HEMITARTARATO DE ZOLPIDEM COMPRIMIDO 5 MG x 30Cluster": 1,
+              "ACEBROFILINA XAROPE 50 MG/5 ML x 120 MLCluster": 1,
+              "SECNIDAZOL COMPRIMIDO 1000 MG x 4Cluster": 1,
+              "NISTATINA SUSPENSAO ORAL 100000 UI/ML x 50 MLCluster": 1,
+              "ATENOLOL COMPRIMIDO 100 MG x 30Cluster": 1,
+              "TENOXICAM COMPRIMIDO 20 MG x 10Cluster": 1,
+              "ACECLOFENACO COMPRIMIDO 100 MG x 12Cluster": 1,
+              "LAMOTRIGINA COMPRIMIDO 100 MG x 30Cluster": 1,
+              "INDAPAMIDA COMPRIMIDO 1,5 MG x 60Cluster": 1,
+              "BISSULFATO DE CLOPIDOGREL COMPRIMIDO 75 MG x 30Cluster": 1,
+              "CLORIDRATO DE NORTRIPTILINA CAPSULA 25 MG x 30Cluster": 1,
+              "MONTELUCASTE DE SODIO COMPRIMIDO 4 MG x 30Cluster": 1,
+              "HEMIFUMARATO DE BISOPROLOL COMPRIMIDO 10 MG x 30Cluster": 1,
+              "AMOXICILINA + CLAVULANATO DE POTASSIO COMPRIMIDO 875 MG + 125 MG x 12Cluster": 1,
+              "CLORIDRATO DE FLUOXETINA CAPSULA 20 MG x 60Cluster": 1,
+              "CLORIDRATO DE TRAMADOL + PARACETAMOL COMPRIMIDO 37,5 MG + 325 MG x 30Cluster": 1,
+              "MIRTAZAPINA COMPRIMIDO 30 MG x 30Cluster": 1,
+              "CETOCONAZOL COMPRIMIDO 200 MG x 30Cluster": 1,
+              "RIVAROXABANA COMPRIMIDO 10 MG x 30Cluster": 1,
+              "BIMATOPROSTA SOLUCAO OFTALMICA 0,3 MG/ML x 3 MLCluster": 1,
+              "CLORIDRATO DE DONEPEZILA COMPRIMIDO 5 MG x 30Cluster": 1,
+              "DROSPIRENONA + ETINILESTRADIOL COMPRIMIDO 3 MG + 0,02 MG x 72Cluster": 1,
+              "CLORIDRATO DE SIBUTRAMINA CAPSULA 15 MG x 60Cluster": 1,
+              "DICLORIDRATO DE PRAMIPEXOL COMPRIMIDO 1 MG x 30Cluster": 1,
+              "MALEATO DE TRIMEBUTINA CAPSULA 200 MG x 60Cluster": 1,
+              "HEMIFUMARATO DE QUETIAPINA COMPRIMIDO 200 MG x 30Cluster": 1,
+              "FOSFATO DE SITAGLIPTINA COMPRIMIDO 100 MG x 30Cluster": 1,
+              "CLORIDRATO DE FLUOXETINA COMPRIMIDO 20 MG x 30Cluster": 1,
+              "BROMAZEPAM COMPRIMIDO 3 MG x 30Cluster": 1,
+              "CIMETIDINA COMPRIMIDO 200 MG x 20Cluster": 1,
+              "CLORIDRATO DE TRAMADOL + PARACETAMOL COMPRIMIDO 37,5 MG + 325 MG x 10Cluster": 1,
+              "CLORIDRATO DE PIOGLITAZONA COMPRIMIDO 30 MG x 15Cluster": 1,
+              "DIAZEPAM COMPRIMIDO 5 MG x 30Cluster": 1,
+              "BETAMETASONA + MALEATO DE DEXCLORFENIRAMINA XAROPE 0,25 MG/5 ML + 2 MG/5 ML x 120 MLCluster": 1,
+              "CLORIDRATO DE TRAMADOL SOLUCAO ORAL 100 MG/ML x 10 MLCluster": 1,
+              "CLORIDRATO DE PROPRANOLOL COMPRIMIDO 40 MG x 30Cluster": 1,
+              "CLORIDRATO DE SOTALOL COMPRIMIDO 160 MG x 20Cluster": 1,
+              "DICLOFENACO POTASSICO COMPRIMIDO 50 MG x 20Cluster": 1,
+              "SUCCINATO DE DESVENLAFAXINA COMPRIMIDO 100 MG x 28Cluster": 1,
+              "ALBENDAZOL COMPRIMIDO 400 MG x 5Cluster": 1
+            }
+          },
+          {
+            "linhaCabecalho": 2,
+            "coluna": 1,
+            "rotulo": "Cluster",
+            "qtdDistintos": 1,
+            "valores": {
+              "Cluster": 674
+            }
+          },
+          {
+            "linhaCabecalho": 2,
+            "coluna": 17,
+            "rotulo": "Cluster",
+            "qtdDistintos": 1,
+            "valores": {
+              "Cluster": 675
+            }
+          },
+          {
+            "linhaCabecalho": 3,
+            "coluna": 0,
+            "rotulo": "PREGABALINA CAPSULA 75 MG x 30Cluster",
+            "qtdDistintos": 673,
+            "valores": {
+              "TADALAFILA COMPRIMIDO 20 MG x 4Cluster": 1,
+              "NIMESULIDA COMPRIMIDO 100 MG x 12Cluster": 1,
+              "CLORIDRATO DE FLUOXETINA CAPSULA 20 MG x 30Cluster": 1,
+              "TADALAFILA COMPRIMIDO 20 MG x 2Cluster": 1,
+              "GLIMEPIRIDA COMPRIMIDO 2 MG x 30Cluster": 1,
+              "ACETATO DE CIPROTERONA + ETINILESTRADIOL COMPRIMIDO 2 MG + 0,035 MG x 21Cluster": 1,
+              "NIMESULIDA SOLUCAO ORAL 50 MG/ML x 15 MLCluster": 1,
+              "CLORIDRATO DE HIDROXIZINA SOLUCAO ORAL 2 MG/ML x 100 MLCluster": 1,
+              "CLORIDRATO DE PAROXETINA COMPRIMIDO 20 MG x 30Cluster": 1,
+              "HEMITARTARATO DE ZOLPIDEM COMPRIMIDO 5 MG x 30Cluster": 1,
+              "ACEBROFILINA XAROPE 50 MG/5 ML x 120 MLCluster": 1,
+              "SECNIDAZOL COMPRIMIDO 1000 MG x 4Cluster": 1,
+              "NISTATINA SUSPENSAO ORAL 100000 UI/ML x 50 MLCluster": 1,
+              "ATENOLOL COMPRIMIDO 100 MG x 30Cluster": 1,
+              "TENOXICAM COMPRIMIDO 20 MG x 10Cluster": 1,
+              "ACECLOFENACO COMPRIMIDO 100 MG x 12Cluster": 1,
+              "LAMOTRIGINA COMPRIMIDO 100 MG x 30Cluster": 1,
+              "INDAPAMIDA COMPRIMIDO 1,5 MG x 60Cluster": 1,
+              "BISSULFATO DE CLOPIDOGREL COMPRIMIDO 75 MG x 30Cluster": 1,
+              "CLORIDRATO DE NORTRIPTILINA CAPSULA 25 MG x 30Cluster": 1,
+              "MONTELUCASTE DE SODIO COMPRIMIDO 4 MG x 30Cluster": 1,
+              "HEMIFUMARATO DE BISOPROLOL COMPRIMIDO 10 MG x 30Cluster": 1,
+              "AMOXICILINA + CLAVULANATO DE POTASSIO COMPRIMIDO 875 MG + 125 MG x 12Cluster": 1,
+              "CLORIDRATO DE FLUOXETINA CAPSULA 20 MG x 60Cluster": 1,
+              "CLORIDRATO DE TRAMADOL + PARACETAMOL COMPRIMIDO 37,5 MG + 325 MG x 30Cluster": 1,
+              "MIRTAZAPINA COMPRIMIDO 30 MG x 30Cluster": 1,
+              "CETOCONAZOL COMPRIMIDO 200 MG x 30Cluster": 1,
+              "RIVAROXABANA COMPRIMIDO 10 MG x 30Cluster": 1,
+              "BIMATOPROSTA SOLUCAO OFTALMICA 0,3 MG/ML x 3 MLCluster": 1,
+              "CLORIDRATO DE DONEPEZILA COMPRIMIDO 5 MG x 30Cluster": 1,
+              "DROSPIRENONA + ETINILESTRADIOL COMPRIMIDO 3 MG + 0,02 MG x 72Cluster": 1,
+              "CLORIDRATO DE SIBUTRAMINA CAPSULA 15 MG x 60Cluster": 1,
+              "DICLORIDRATO DE PRAMIPEXOL COMPRIMIDO 1 MG x 30Cluster": 1,
+              "MALEATO DE TRIMEBUTINA CAPSULA 200 MG x 60Cluster": 1,
+              "HEMIFUMARATO DE QUETIAPINA COMPRIMIDO 200 MG x 30Cluster": 1,
+              "FOSFATO DE SITAGLIPTINA COMPRIMIDO 100 MG x 30Cluster": 1,
+              "CLORIDRATO DE FLUOXETINA COMPRIMIDO 20 MG x 30Cluster": 1,
+              "BROMAZEPAM COMPRIMIDO 3 MG x 30Cluster": 1,
+              "CIMETIDINA COMPRIMIDO 200 MG x 20Cluster": 1,
+              "CLORIDRATO DE TRAMADOL + PARACETAMOL COMPRIMIDO 37,5 MG + 325 MG x 10Cluster": 1,
+              "CLORIDRATO DE PIOGLITAZONA COMPRIMIDO 30 MG x 15Cluster": 1,
+              "DIAZEPAM COMPRIMIDO 5 MG x 30Cluster": 1,
+              "BETAMETASONA + MALEATO DE DEXCLORFENIRAMINA XAROPE 0,25 MG/5 ML + 2 MG/5 ML x 120 MLCluster": 1,
+              "CLORIDRATO DE TRAMADOL SOLUCAO ORAL 100 MG/ML x 10 MLCluster": 1,
+              "CLORIDRATO DE PROPRANOLOL COMPRIMIDO 40 MG x 30Cluster": 1,
+              "CLORIDRATO DE SOTALOL COMPRIMIDO 160 MG x 20Cluster": 1,
+              "DICLOFENACO POTASSICO COMPRIMIDO 50 MG x 20Cluster": 1,
+              "SUCCINATO DE DESVENLAFAXINA COMPRIMIDO 100 MG x 28Cluster": 1,
+              "ALBENDAZOL COMPRIMIDO 400 MG x 5Cluster": 1,
+              "ACICLOVIR CREME 50 MG/G x 10 GCluster": 1
+            }
+          },
+          {
+            "linhaCabecalho": 3,
+            "coluna": 1,
+            "rotulo": "Cluster",
+            "qtdDistintos": 1,
+            "valores": {
+              "Cluster": 673
+            }
+          },
+          {
+            "linhaCabecalho": 3,
+            "coluna": 17,
+            "rotulo": "Cluster",
+            "qtdDistintos": 1,
+            "valores": {
+              "Cluster": 674
+            }
+          },
+          {
+            "linhaCabecalho": 3,
+            "coluna": 21,
+            "rotulo": "OMEPRAZOL CAPSULA 20 MG x 56Cluster",
+            "qtdDistintos": 674,
+            "valores": {
+              "PREGABALINA CAPSULA 75 MG x 30Cluster": 1,
+              "TADALAFILA COMPRIMIDO 20 MG x 4Cluster": 1,
+              "NIMESULIDA COMPRIMIDO 100 MG x 12Cluster": 1,
+              "CLORIDRATO DE FLUOXETINA CAPSULA 20 MG x 30Cluster": 1,
+              "TADALAFILA COMPRIMIDO 20 MG x 2Cluster": 1,
+              "GLIMEPIRIDA COMPRIMIDO 2 MG x 30Cluster": 1,
+              "ACETATO DE CIPROTERONA + ETINILESTRADIOL COMPRIMIDO 2 MG + 0,035 MG x 21Cluster": 1,
+              "NIMESULIDA SOLUCAO ORAL 50 MG/ML x 15 MLCluster": 1,
+              "CLORIDRATO DE HIDROXIZINA SOLUCAO ORAL 2 MG/ML x 100 MLCluster": 1,
+              "CLORIDRATO DE PAROXETINA COMPRIMIDO 20 MG x 30Cluster": 1,
+              "HEMITARTARATO DE ZOLPIDEM COMPRIMIDO 5 MG x 30Cluster": 1,
+              "ACEBROFILINA XAROPE 50 MG/5 ML x 120 MLCluster": 1,
+              "SECNIDAZOL COMPRIMIDO 1000 MG x 4Cluster": 1,
+              "NISTATINA SUSPENSAO ORAL 100000 UI/ML x 50 MLCluster": 1,
+              "ATENOLOL COMPRIMIDO 100 MG x 30Cluster": 1,
+              "TENOXICAM COMPRIMIDO 20 MG x 10Cluster": 1,
+              "ACECLOFENACO COMPRIMIDO 100 MG x 12Cluster": 1,
+              "LAMOTRIGINA COMPRIMIDO 100 MG x 30Cluster": 1,
+              "INDAPAMIDA COMPRIMIDO 1,5 MG x 60Cluster": 1,
+              "BISSULFATO DE CLOPIDOGREL COMPRIMIDO 75 MG x 30Cluster": 1,
+              "CLORIDRATO DE NORTRIPTILINA CAPSULA 25 MG x 30Cluster": 1,
+              "MONTELUCASTE DE SODIO COMPRIMIDO 4 MG x 30Cluster": 1,
+              "HEMIFUMARATO DE BISOPROLOL COMPRIMIDO 10 MG x 30Cluster": 1,
+              "AMOXICILINA + CLAVULANATO DE POTASSIO COMPRIMIDO 875 MG + 125 MG x 12Cluster": 1,
+              "CLORIDRATO DE FLUOXETINA CAPSULA 20 MG x 60Cluster": 1,
+              "CLORIDRATO DE TRAMADOL + PARACETAMOL COMPRIMIDO 37,5 MG + 325 MG x 30Cluster": 1,
+              "MIRTAZAPINA COMPRIMIDO 30 MG x 30Cluster": 1,
+              "CETOCONAZOL COMPRIMIDO 200 MG x 30Cluster": 1,
+              "RIVAROXABANA COMPRIMIDO 10 MG x 30Cluster": 1,
+              "BIMATOPROSTA SOLUCAO OFTALMICA 0,3 MG/ML x 3 MLCluster": 1,
+              "CLORIDRATO DE DONEPEZILA COMPRIMIDO 5 MG x 30Cluster": 1,
+              "DROSPIRENONA + ETINILESTRADIOL COMPRIMIDO 3 MG + 0,02 MG x 72Cluster": 1,
+              "CLORIDRATO DE SIBUTRAMINA CAPSULA 15 MG x 60Cluster": 1,
+              "DICLORIDRATO DE PRAMIPEXOL COMPRIMIDO 1 MG x 30Cluster": 1,
+              "MALEATO DE TRIMEBUTINA CAPSULA 200 MG x 60Cluster": 1,
+              "HEMIFUMARATO DE QUETIAPINA COMPRIMIDO 200 MG x 30Cluster": 1,
+              "FOSFATO DE SITAGLIPTINA COMPRIMIDO 100 MG x 30Cluster": 1,
+              "CLORIDRATO DE FLUOXETINA COMPRIMIDO 20 MG x 30Cluster": 1,
+              "BROMAZEPAM COMPRIMIDO 3 MG x 30Cluster": 1,
+              "CIMETIDINA COMPRIMIDO 200 MG x 20Cluster": 1,
+              "CLORIDRATO DE TRAMADOL + PARACETAMOL COMPRIMIDO 37,5 MG + 325 MG x 10Cluster": 1,
+              "CLORIDRATO DE PIOGLITAZONA COMPRIMIDO 30 MG x 15Cluster": 1,
+              "DIAZEPAM COMPRIMIDO 5 MG x 30Cluster": 1,
+              "BETAMETASONA + MALEATO DE DEXCLORFENIRAMINA XAROPE 0,25 MG/5 ML + 2 MG/5 ML x 120 MLCluster": 1,
+              "CLORIDRATO DE TRAMADOL SOLUCAO ORAL 100 MG/ML x 10 MLCluster": 1,
+              "CLORIDRATO DE PROPRANOLOL COMPRIMIDO 40 MG x 30Cluster": 1,
+              "CLORIDRATO DE SOTALOL COMPRIMIDO 160 MG x 20Cluster": 1,
+              "DICLOFENACO POTASSICO COMPRIMIDO 50 MG x 20Cluster": 1,
+              "SUCCINATO DE DESVENLAFAXINA COMPRIMIDO 100 MG x 28Cluster": 1,
+              "ALBENDAZOL COMPRIMIDO 400 MG x 5Cluster": 1
+            }
+          },
+          {
+            "linhaCabecalho": 4,
+            "coluna": 0,
+            "rotulo": "TADALAFILA COMPRIMIDO 20 MG x 4Cluster",
+            "qtdDistintos": 672,
+            "valores": {
+              "NIMESULIDA COMPRIMIDO 100 MG x 12Cluster": 1,
+              "CLORIDRATO DE FLUOXETINA CAPSULA 20 MG x 30Cluster": 1,
+              "TADALAFILA COMPRIMIDO 20 MG x 2Cluster": 1,
+              "GLIMEPIRIDA COMPRIMIDO 2 MG x 30Cluster": 1,
+              "ACETATO DE CIPROTERONA + ETINILESTRADIOL COMPRIMIDO 2 MG + 0,035 MG x 21Cluster": 1,
+              "NIMESULIDA SOLUCAO ORAL 50 MG/ML x 15 MLCluster": 1,
+              "CLORIDRATO DE HIDROXIZINA SOLUCAO ORAL 2 MG/ML x 100 MLCluster": 1,
+              "CLORIDRATO DE PAROXETINA COMPRIMIDO 20 MG x 30Cluster": 1,
+              "HEMITARTARATO DE ZOLPIDEM COMPRIMIDO 5 MG x 30Cluster": 1,
+              "ACEBROFILINA XAROPE 50 MG/5 ML x 120 MLCluster": 1,
+              "SECNIDAZOL COMPRIMIDO 1000 MG x 4Cluster": 1,
+              "NISTATINA SUSPENSAO ORAL 100000 UI/ML x 50 MLCluster": 1,
+              "ATENOLOL COMPRIMIDO 100 MG x 30Cluster": 1,
+              "TENOXICAM COMPRIMIDO 20 MG x 10Cluster": 1,
+              "ACECLOFENACO COMPRIMIDO 100 MG x 12Cluster": 1,
+              "LAMOTRIGINA COMPRIMIDO 100 MG x 30Cluster": 1,
+              "INDAPAMIDA COMPRIMIDO 1,5 MG x 60Cluster": 1,
+              "BISSULFATO DE CLOPIDOGREL COMPRIMIDO 75 MG x 30Cluster": 1,
+              "CLORIDRATO DE NORTRIPTILINA CAPSULA 25 MG x 30Cluster": 1,
+              "MONTELUCASTE DE SODIO COMPRIMIDO 4 MG x 30Cluster": 1,
+              "HEMIFUMARATO DE BISOPROLOL COMPRIMIDO 10 MG x 30Cluster": 1,
+              "AMOXICILINA + CLAVULANATO DE POTASSIO COMPRIMIDO 875 MG + 125 MG x 12Cluster": 1,
+              "CLORIDRATO DE FLUOXETINA CAPSULA 20 MG x 60Cluster": 1,
+              "CLORIDRATO DE TRAMADOL + PARACETAMOL COMPRIMIDO 37,5 MG + 325 MG x 30Cluster": 1,
+              "MIRTAZAPINA COMPRIMIDO 30 MG x 30Cluster": 1,
+              "CETOCONAZOL COMPRIMIDO 200 MG x 30Cluster": 1,
+              "RIVAROXABANA COMPRIMIDO 10 MG x 30Cluster": 1,
+              "BIMATOPROSTA SOLUCAO OFTALMICA 0,3 MG/ML x 3 MLCluster": 1,
+              "CLORIDRATO DE DONEPEZILA COMPRIMIDO 5 MG x 30Cluster": 1,
+              "DROSPIRENONA + ETINILESTRADIOL COMPRIMIDO 3 MG + 0,02 MG x 72Cluster": 1,
+              "CLORIDRATO DE SIBUTRAMINA CAPSULA 15 MG x 60Cluster": 1,
+              "DICLORIDRATO DE PRAMIPEXOL COMPRIMIDO 1 MG x 30Cluster": 1,
+              "MALEATO DE TRIMEBUTINA CAPSULA 200 MG x 60Cluster": 1,
+              "HEMIFUMARATO DE QUETIAPINA COMPRIMIDO 200 MG x 30Cluster": 1,
+              "FOSFATO DE SITAGLIPTINA COMPRIMIDO 100 MG x 30Cluster": 1,
+              "CLORIDRATO DE FLUOXETINA COMPRIMIDO 20 MG x 30Cluster": 1,
+              "BROMAZEPAM COMPRIMIDO 3 MG x 30Cluster": 1,
+              "CIMETIDINA COMPRIMIDO 200 MG x 20Cluster": 1,
+              "CLORIDRATO DE TRAMADOL + PARACETAMOL COMPRIMIDO 37,5 MG + 325 MG x 10Cluster": 1,
+              "CLORIDRATO DE PIOGLITAZONA COMPRIMIDO 30 MG x 15Cluster": 1,
+              "DIAZEPAM COMPRIMIDO 5 MG x 30Cluster": 1,
+              "BETAMETASONA + MALEATO DE DEXCLORFENIRAMINA XAROPE 0,25 MG/5 ML + 2 MG/5 ML x 120 MLCluster": 1,
+              "CLORIDRATO DE TRAMADOL SOLUCAO ORAL 100 MG/ML x 10 MLCluster": 1,
+              "CLORIDRATO DE PROPRANOLOL COMPRIMIDO 40 MG x 30Cluster": 1,
+              "CLORIDRATO DE SOTALOL COMPRIMIDO 160 MG x 20Cluster": 1,
+              "DICLOFENACO POTASSICO COMPRIMIDO 50 MG x 20Cluster": 1,
+              "SUCCINATO DE DESVENLAFAXINA COMPRIMIDO 100 MG x 28Cluster": 1,
+              "ALBENDAZOL COMPRIMIDO 400 MG x 5Cluster": 1,
+              "ACICLOVIR CREME 50 MG/G x 10 GCluster": 1,
+              "CLORIDRATO DE TRAZODONA COMPRIMIDO 100 MG x 30Cluster": 1
+            }
+          },
+          {
+            "linhaCabecalho": 4,
+            "coluna": 1,
+            "rotulo": "Cluster",
+            "qtdDistintos": 1,
+            "valores": {
+              "Cluster": 672
+            }
+          },
+          {
+            "linhaCabecalho": 4,
+            "coluna": 17,
+            "rotulo": "Cluster",
+            "qtdDistintos": 1,
+            "valores": {
+              "Cluster": 673
+            }
+          },
+          {
+            "linhaCabecalho": 4,
+            "coluna": 21,
+            "rotulo": "PREGABALINA CAPSULA 75 MG x 30Cluster",
+            "qtdDistintos": 673,
+            "valores": {
+              "TADALAFILA COMPRIMIDO 20 MG x 4Cluster": 1,
+              "NIMESULIDA COMPRIMIDO 100 MG x 12Cluster": 1,
+              "CLORIDRATO DE FLUOXETINA CAPSULA 20 MG x 30Cluster": 1,
+              "TADALAFILA COMPRIMIDO 20 MG x 2Cluster": 1,
+              "GLIMEPIRIDA COMPRIMIDO 2 MG x 30Cluster": 1,
+              "ACETATO DE CIPROTERONA + ETINILESTRADIOL COMPRIMIDO 2 MG + 0,035 MG x 21Cluster": 1,
+              "NIMESULIDA SOLUCAO ORAL 50 MG/ML x 15 MLCluster": 1,
+              "CLORIDRATO DE HIDROXIZINA SOLUCAO ORAL 2 MG/ML x 100 MLCluster": 1,
+              "CLORIDRATO DE PAROXETINA COMPRIMIDO 20 MG x 30Cluster": 1,
+              "HEMITARTARATO DE ZOLPIDEM COMPRIMIDO 5 MG x 30Cluster": 1,
+              "ACEBROFILINA XAROPE 50 MG/5 ML x 120 MLCluster": 1,
+              "SECNIDAZOL COMPRIMIDO 1000 MG x 4Cluster": 1,
+              "NISTATINA SUSPENSAO ORAL 100000 UI/ML x 50 MLCluster": 1,
+              "ATENOLOL COMPRIMIDO 100 MG x 30Cluster": 1,
+              "TENOXICAM COMPRIMIDO 20 MG x 10Cluster": 1,
+              "ACECLOFENACO COMPRIMIDO 100 MG x 12Cluster": 1,
+              "LAMOTRIGINA COMPRIMIDO 100 MG x 30Cluster": 1,
+              "INDAPAMIDA COMPRIMIDO 1,5 MG x 60Cluster": 1,
+              "BISSULFATO DE CLOPIDOGREL COMPRIMIDO 75 MG x 30Cluster": 1,
+              "CLORIDRATO DE NORTRIPTILINA CAPSULA 25 MG x 30Cluster": 1,
+              "MONTELUCASTE DE SODIO COMPRIMIDO 4 MG x 30Cluster": 1,
+              "HEMIFUMARATO DE BISOPROLOL COMPRIMIDO 10 MG x 30Cluster": 1,
+              "AMOXICILINA + CLAVULANATO DE POTASSIO COMPRIMIDO 875 MG + 125 MG x 12Cluster": 1,
+              "CLORIDRATO DE FLUOXETINA CAPSULA 20 MG x 60Cluster": 1,
+              "CLORIDRATO DE TRAMADOL + PARACETAMOL COMPRIMIDO 37,5 MG + 325 MG x 30Cluster": 1,
+              "MIRTAZAPINA COMPRIMIDO 30 MG x 30Cluster": 1,
+              "CETOCONAZOL COMPRIMIDO 200 MG x 30Cluster": 1,
+              "RIVAROXABANA COMPRIMIDO 10 MG x 30Cluster": 1,
+              "BIMATOPROSTA SOLUCAO OFTALMICA 0,3 MG/ML x 3 MLCluster": 1,
+              "CLORIDRATO DE DONEPEZILA COMPRIMIDO 5 MG x 30Cluster": 1,
+              "DROSPIRENONA + ETINILESTRADIOL COMPRIMIDO 3 MG + 0,02 MG x 72Cluster": 1,
+              "CLORIDRATO DE SIBUTRAMINA CAPSULA 15 MG x 60Cluster": 1,
+              "DICLORIDRATO DE PRAMIPEXOL COMPRIMIDO 1 MG x 30Cluster": 1,
+              "MALEATO DE TRIMEBUTINA CAPSULA 200 MG x 60Cluster": 1,
+              "HEMIFUMARATO DE QUETIAPINA COMPRIMIDO 200 MG x 30Cluster": 1,
+              "FOSFATO DE SITAGLIPTINA COMPRIMIDO 100 MG x 30Cluster": 1,
+              "CLORIDRATO DE FLUOXETINA COMPRIMIDO 20 MG x 30Cluster": 1,
+              "BROMAZEPAM COMPRIMIDO 3 MG x 30Cluster": 1,
+              "CIMETIDINA COMPRIMIDO 200 MG x 20Cluster": 1,
+              "CLORIDRATO DE TRAMADOL + PARACETAMOL COMPRIMIDO 37,5 MG + 325 MG x 10Cluster": 1,
+              "CLORIDRATO DE PIOGLITAZONA COMPRIMIDO 30 MG x 15Cluster": 1,
+              "DIAZEPAM COMPRIMIDO 5 MG x 30Cluster": 1,
+              "BETAMETASONA + MALEATO DE DEXCLORFENIRAMINA XAROPE 0,25 MG/5 ML + 2 MG/5 ML x 120 MLCluster": 1,
+              "CLORIDRATO DE TRAMADOL SOLUCAO ORAL 100 MG/ML x 10 MLCluster": 1,
+              "CLORIDRATO DE PROPRANOLOL COMPRIMIDO 40 MG x 30Cluster": 1,
+              "CLORIDRATO DE SOTALOL COMPRIMIDO 160 MG x 20Cluster": 1,
+              "DICLOFENACO POTASSICO COMPRIMIDO 50 MG x 20Cluster": 1,
+              "SUCCINATO DE DESVENLAFAXINA COMPRIMIDO 100 MG x 28Cluster": 1,
+              "ALBENDAZOL COMPRIMIDO 400 MG x 5Cluster": 1,
+              "ACICLOVIR CREME 50 MG/G x 10 GCluster": 1
+            }
+          },
+          {
+            "linhaCabecalho": 5,
+            "coluna": 0,
+            "rotulo": "NIMESULIDA COMPRIMIDO 100 MG x 12Cluster",
+            "qtdDistintos": 671,
+            "valores": {
+              "CLORIDRATO DE FLUOXETINA CAPSULA 20 MG x 30Cluster": 1,
+              "TADALAFILA COMPRIMIDO 20 MG x 2Cluster": 1,
+              "GLIMEPIRIDA COMPRIMIDO 2 MG x 30Cluster": 1,
+              "ACETATO DE CIPROTERONA + ETINILESTRADIOL COMPRIMIDO 2 MG + 0,035 MG x 21Cluster": 1,
+              "NIMESULIDA SOLUCAO ORAL 50 MG/ML x 15 MLCluster": 1,
+              "CLORIDRATO DE HIDROXIZINA SOLUCAO ORAL 2 MG/ML x 100 MLCluster": 1,
+              "CLORIDRATO DE PAROXETINA COMPRIMIDO 20 MG x 30Cluster": 1,
+              "HEMITARTARATO DE ZOLPIDEM COMPRIMIDO 5 MG x 30Cluster": 1,
+              "ACEBROFILINA XAROPE 50 MG/5 ML x 120 MLCluster": 1,
+              "SECNIDAZOL COMPRIMIDO 1000 MG x 4Cluster": 1,
+              "NISTATINA SUSPENSAO ORAL 100000 UI/ML x 50 MLCluster": 1,
+              "ATENOLOL COMPRIMIDO 100 MG x 30Cluster": 1,
+              "TENOXICAM COMPRIMIDO 20 MG x 10Cluster": 1,
+              "ACECLOFENACO COMPRIMIDO 100 MG x 12Cluster": 1,
+              "LAMOTRIGINA COMPRIMIDO 100 MG x 30Cluster": 1,
+              "INDAPAMIDA COMPRIMIDO 1,5 MG x 60Cluster": 1,
+              "BISSULFATO DE CLOPIDOGREL COMPRIMIDO 75 MG x 30Cluster": 1,
+              "CLORIDRATO DE NORTRIPTILINA CAPSULA 25 MG x 30Cluster": 1,
+              "MONTELUCASTE DE SODIO COMPRIMIDO 4 MG x 30Cluster": 1,
+              "HEMIFUMARATO DE BISOPROLOL COMPRIMIDO 10 MG x 30Cluster": 1,
+              "AMOXICILINA + CLAVULANATO DE POTASSIO COMPRIMIDO 875 MG + 125 MG x 12Cluster": 1,
+              "CLORIDRATO DE FLUOXETINA CAPSULA 20 MG x 60Cluster": 1,
+              "CLORIDRATO DE TRAMADOL + PARACETAMOL COMPRIMIDO 37,5 MG + 325 MG x 30Cluster": 1,
+              "MIRTAZAPINA COMPRIMIDO 30 MG x 30Cluster": 1,
+              "CETOCONAZOL COMPRIMIDO 200 MG x 30Cluster": 1,
+              "RIVAROXABANA COMPRIMIDO 10 MG x 30Cluster": 1,
+              "BIMATOPROSTA SOLUCAO OFTALMICA 0,3 MG/ML x 3 MLCluster": 1,
+              "CLORIDRATO DE DONEPEZILA COMPRIMIDO 5 MG x 30Cluster": 1,
+              "DROSPIRENONA + ETINILESTRADIOL COMPRIMIDO 3 MG + 0,02 MG x 72Cluster": 1,
+              "CLORIDRATO DE SIBUTRAMINA CAPSULA 15 MG x 60Cluster": 1,
+              "DICLORIDRATO DE PRAMIPEXOL COMPRIMIDO 1 MG x 30Cluster": 1,
+              "MALEATO DE TRIMEBUTINA CAPSULA 200 MG x 60Cluster": 1,
+              "HEMIFUMARATO DE QUETIAPINA COMPRIMIDO 200 MG x 30Cluster": 1,
+              "FOSFATO DE SITAGLIPTINA COMPRIMIDO 100 MG x 30Cluster": 1,
+              "CLORIDRATO DE FLUOXETINA COMPRIMIDO 20 MG x 30Cluster": 1,
+              "BROMAZEPAM COMPRIMIDO 3 MG x 30Cluster": 1,
+              "CIMETIDINA COMPRIMIDO 200 MG x 20Cluster": 1,
+              "CLORIDRATO DE TRAMADOL + PARACETAMOL COMPRIMIDO 37,5 MG + 325 MG x 10Cluster": 1,
+              "CLORIDRATO DE PIOGLITAZONA COMPRIMIDO 30 MG x 15Cluster": 1,
+              "DIAZEPAM COMPRIMIDO 5 MG x 30Cluster": 1,
+              "BETAMETASONA + MALEATO DE DEXCLORFENIRAMINA XAROPE 0,25 MG/5 ML + 2 MG/5 ML x 120 MLCluster": 1,
+              "CLORIDRATO DE TRAMADOL SOLUCAO ORAL 100 MG/ML x 10 MLCluster": 1,
+              "CLORIDRATO DE PROPRANOLOL COMPRIMIDO 40 MG x 30Cluster": 1,
+              "CLORIDRATO DE SOTALOL COMPRIMIDO 160 MG x 20Cluster": 1,
+              "DICLOFENACO POTASSICO COMPRIMIDO 50 MG x 20Cluster": 1,
+              "SUCCINATO DE DESVENLAFAXINA COMPRIMIDO 100 MG x 28Cluster": 1,
+              "ALBENDAZOL COMPRIMIDO 400 MG x 5Cluster": 1,
+              "ACICLOVIR CREME 50 MG/G x 10 GCluster": 1,
+              "CLORIDRATO DE TRAZODONA COMPRIMIDO 100 MG x 30Cluster": 1,
+              "CLORIDRATO DE TANSULOSINA COMPRIMIDO 0,4 MG x 60Cluster": 1
+            }
+          },
+          {
+            "linhaCabecalho": 5,
+            "coluna": 1,
+            "rotulo": "Cluster",
+            "qtdDistintos": 1,
+            "valores": {
+              "Cluster": 671
+            }
+          },
+          {
+            "linhaCabecalho": 5,
+            "coluna": 17,
+            "rotulo": "Cluster",
+            "qtdDistintos": 1,
+            "valores": {
+              "Cluster": 672
+            }
+          },
+          {
+            "linhaCabecalho": 5,
+            "coluna": 21,
+            "rotulo": "TADALAFILA COMPRIMIDO 20 MG x 4Cluster",
+            "qtdDistintos": 672,
+            "valores": {
+              "NIMESULIDA COMPRIMIDO 100 MG x 12Cluster": 1,
+              "CLORIDRATO DE FLUOXETINA CAPSULA 20 MG x 30Cluster": 1,
+              "TADALAFILA COMPRIMIDO 20 MG x 2Cluster": 1,
+              "GLIMEPIRIDA COMPRIMIDO 2 MG x 30Cluster": 1,
+              "ACETATO DE CIPROTERONA + ETINILESTRADIOL COMPRIMIDO 2 MG + 0,035 MG x 21Cluster": 1,
+              "NIMESULIDA SOLUCAO ORAL 50 MG/ML x 15 MLCluster": 1,
+              "CLORIDRATO DE HIDROXIZINA SOLUCAO ORAL 2 MG/ML x 100 MLCluster": 1,
+              "CLORIDRATO DE PAROXETINA COMPRIMIDO 20 MG x 30Cluster": 1,
+              "HEMITARTARATO DE ZOLPIDEM COMPRIMIDO 5 MG x 30Cluster": 1,
+              "ACEBROFILINA XAROPE 50 MG/5 ML x 120 MLCluster": 1,
+              "SECNIDAZOL COMPRIMIDO 1000 MG x 4Cluster": 1,
+              "NISTATINA SUSPENSAO ORAL 100000 UI/ML x 50 MLCluster": 1,
+              "ATENOLOL COMPRIMIDO 100 MG x 30Cluster": 1,
+              "TENOXICAM COMPRIMIDO 20 MG x 10Cluster": 1,
+              "ACECLOFENACO COMPRIMIDO 100 MG x 12Cluster": 1,
+              "LAMOTRIGINA COMPRIMIDO 100 MG x 30Cluster": 1,
+              "INDAPAMIDA COMPRIMIDO 1,5 MG x 60Cluster": 1,
+              "BISSULFATO DE CLOPIDOGREL COMPRIMIDO 75 MG x 30Cluster": 1,
+              "CLORIDRATO DE NORTRIPTILINA CAPSULA 25 MG x 30Cluster": 1,
+              "MONTELUCASTE DE SODIO COMPRIMIDO 4 MG x 30Cluster": 1,
+              "HEMIFUMARATO DE BISOPROLOL COMPRIMIDO 10 MG x 30Cluster": 1,
+              "AMOXICILINA + CLAVULANATO DE POTASSIO COMPRIMIDO 875 MG + 125 MG x 12Cluster": 1,
+              "CLORIDRATO DE FLUOXETINA CAPSULA 20 MG x 60Cluster": 1,
+              "CLORIDRATO DE TRAMADOL + PARACETAMOL COMPRIMIDO 37,5 MG + 325 MG x 30Cluster": 1,
+              "MIRTAZAPINA COMPRIMIDO 30 MG x 30Cluster": 1,
+              "CETOCONAZOL COMPRIMIDO 200 MG x 30Cluster": 1,
+              "RIVAROXABANA COMPRIMIDO 10 MG x 30Cluster": 1,
+              "BIMATOPROSTA SOLUCAO OFTALMICA 0,3 MG/ML x 3 MLCluster": 1,
+              "CLORIDRATO DE DONEPEZILA COMPRIMIDO 5 MG x 30Cluster": 1,
+              "DROSPIRENONA + ETINILESTRADIOL COMPRIMIDO 3 MG + 0,02 MG x 72Cluster": 1,
+              "CLORIDRATO DE SIBUTRAMINA CAPSULA 15 MG x 60Cluster": 1,
+              "DICLORIDRATO DE PRAMIPEXOL COMPRIMIDO 1 MG x 30Cluster": 1,
+              "MALEATO DE TRIMEBUTINA CAPSULA 200 MG x 60Cluster": 1,
+              "HEMIFUMARATO DE QUETIAPINA COMPRIMIDO 200 MG x 30Cluster": 1,
+              "FOSFATO DE SITAGLIPTINA COMPRIMIDO 100 MG x 30Cluster": 1,
+              "CLORIDRATO DE FLUOXETINA COMPRIMIDO 20 MG x 30Cluster": 1,
+              "BROMAZEPAM COMPRIMIDO 3 MG x 30Cluster": 1,
+              "CIMETIDINA COMPRIMIDO 200 MG x 20Cluster": 1,
+              "CLORIDRATO DE TRAMADOL + PARACETAMOL COMPRIMIDO 37,5 MG + 325 MG x 10Cluster": 1,
+              "CLORIDRATO DE PIOGLITAZONA COMPRIMIDO 30 MG x 15Cluster": 1,
+              "DIAZEPAM COMPRIMIDO 5 MG x 30Cluster": 1,
+              "BETAMETASONA + MALEATO DE DEXCLORFENIRAMINA XAROPE 0,25 MG/5 ML + 2 MG/5 ML x 120 MLCluster": 1,
+              "CLORIDRATO DE TRAMADOL SOLUCAO ORAL 100 MG/ML x 10 MLCluster": 1,
+              "CLORIDRATO DE PROPRANOLOL COMPRIMIDO 40 MG x 30Cluster": 1,
+              "CLORIDRATO DE SOTALOL COMPRIMIDO 160 MG x 20Cluster": 1,
+              "DICLOFENACO POTASSICO COMPRIMIDO 50 MG x 20Cluster": 1,
+              "SUCCINATO DE DESVENLAFAXINA COMPRIMIDO 100 MG x 28Cluster": 1,
+              "ALBENDAZOL COMPRIMIDO 400 MG x 5Cluster": 1,
+              "ACICLOVIR CREME 50 MG/G x 10 GCluster": 1,
+              "CLORIDRATO DE TRAZODONA COMPRIMIDO 100 MG x 30Cluster": 1
+            }
+          },
+          {
+            "linhaCabecalho": 6,
+            "coluna": 0,
+            "rotulo": "CLORIDRATO DE FLUOXETINA CAPSULA 20 MG x 30Cluster",
+            "qtdDistintos": 670,
+            "valores": {
+              "TADALAFILA COMPRIMIDO 20 MG x 2Cluster": 1,
+              "GLIMEPIRIDA COMPRIMIDO 2 MG x 30Cluster": 1,
+              "ACETATO DE CIPROTERONA + ETINILESTRADIOL COMPRIMIDO 2 MG + 0,035 MG x 21Cluster": 1,
+              "NIMESULIDA SOLUCAO ORAL 50 MG/ML x 15 MLCluster": 1,
+              "CLORIDRATO DE HIDROXIZINA SOLUCAO ORAL 2 MG/ML x 100 MLCluster": 1,
+              "CLORIDRATO DE PAROXETINA COMPRIMIDO 20 MG x 30Cluster": 1,
+              "HEMITARTARATO DE ZOLPIDEM COMPRIMIDO 5 MG x 30Cluster": 1,
+              "ACEBROFILINA XAROPE 50 MG/5 ML x 120 MLCluster": 1,
+              "SECNIDAZOL COMPRIMIDO 1000 MG x 4Cluster": 1,
+              "NISTATINA SUSPENSAO ORAL 100000 UI/ML x 50 MLCluster": 1,
+              "ATENOLOL COMPRIMIDO 100 MG x 30Cluster": 1,
+              "TENOXICAM COMPRIMIDO 20 MG x 10Cluster": 1,
+              "ACECLOFENACO COMPRIMIDO 100 MG x 12Cluster": 1,
+              "LAMOTRIGINA COMPRIMIDO 100 MG x 30Cluster": 1,
+              "INDAPAMIDA COMPRIMIDO 1,5 MG x 60Cluster": 1,
+              "BISSULFATO DE CLOPIDOGREL COMPRIMIDO 75 MG x 30Cluster": 1,
+              "CLORIDRATO DE NORTRIPTILINA CAPSULA 25 MG x 30Cluster": 1,
+              "MONTELUCASTE DE SODIO COMPRIMIDO 4 MG x 30Cluster": 1,
+              "HEMIFUMARATO DE BISOPROLOL COMPRIMIDO 10 MG x 30Cluster": 1,
+              "AMOXICILINA + CLAVULANATO DE POTASSIO COMPRIMIDO 875 MG + 125 MG x 12Cluster": 1,
+              "CLORIDRATO DE FLUOXETINA CAPSULA 20 MG x 60Cluster": 1,
+              "CLORIDRATO DE TRAMADOL + PARACETAMOL COMPRIMIDO 37,5 MG + 325 MG x 30Cluster": 1,
+              "MIRTAZAPINA COMPRIMIDO 30 MG x 30Cluster": 1,
+              "CETOCONAZOL COMPRIMIDO 200 MG x 30Cluster": 1,
+              "RIVAROXABANA COMPRIMIDO 10 MG x 30Cluster": 1,
+              "BIMATOPROSTA SOLUCAO OFTALMICA 0,3 MG/ML x 3 MLCluster": 1,
+              "CLORIDRATO DE DONEPEZILA COMPRIMIDO 5 MG x 30Cluster": 1,
+              "DROSPIRENONA + ETINILESTRADIOL COMPRIMIDO 3 MG + 0,02 MG x 72Cluster": 1,
+              "CLORIDRATO DE SIBUTRAMINA CAPSULA 15 MG x 60Cluster": 1,
+              "DICLORIDRATO DE PRAMIPEXOL COMPRIMIDO 1 MG x 30Cluster": 1,
+              "MALEATO DE TRIMEBUTINA CAPSULA 200 MG x 60Cluster": 1,
+              "HEMIFUMARATO DE QUETIAPINA COMPRIMIDO 200 MG x 30Cluster": 1,
+              "FOSFATO DE SITAGLIPTINA COMPRIMIDO 100 MG x 30Cluster": 1,
+              "CLORIDRATO DE FLUOXETINA COMPRIMIDO 20 MG x 30Cluster": 1,
+              "BROMAZEPAM COMPRIMIDO 3 MG x 30Cluster": 1,
+              "CIMETIDINA COMPRIMIDO 200 MG x 20Cluster": 1,
+              "CLORIDRATO DE TRAMADOL + PARACETAMOL COMPRIMIDO 37,5 MG + 325 MG x 10Cluster": 1,
+              "CLORIDRATO DE PIOGLITAZONA COMPRIMIDO 30 MG x 15Cluster": 1,
+              "DIAZEPAM COMPRIMIDO 5 MG x 30Cluster": 1,
+              "BETAMETASONA + MALEATO DE DEXCLORFENIRAMINA XAROPE 0,25 MG/5 ML + 2 MG/5 ML x 120 MLCluster": 1,
+              "CLORIDRATO DE TRAMADOL SOLUCAO ORAL 100 MG/ML x 10 MLCluster": 1,
+              "CLORIDRATO DE PROPRANOLOL COMPRIMIDO 40 MG x 30Cluster": 1,
+              "CLORIDRATO DE SOTALOL COMPRIMIDO 160 MG x 20Cluster": 1,
+              "DICLOFENACO POTASSICO COMPRIMIDO 50 MG x 20Cluster": 1,
+              "SUCCINATO DE DESVENLAFAXINA COMPRIMIDO 100 MG x 28Cluster": 1,
+              "ALBENDAZOL COMPRIMIDO 400 MG x 5Cluster": 1,
+              "ACICLOVIR CREME 50 MG/G x 10 GCluster": 1,
+              "CLORIDRATO DE TRAZODONA COMPRIMIDO 100 MG x 30Cluster": 1,
+              "CLORIDRATO DE TANSULOSINA COMPRIMIDO 0,4 MG x 60Cluster": 1,
+              "RISEDRONATO SODICO COMPRIMIDO 35 MG x 4Cluster": 1
+            }
+          },
+          {
+            "linhaCabecalho": 6,
+            "coluna": 1,
+            "rotulo": "Cluster",
+            "qtdDistintos": 1,
+            "valores": {
+              "Cluster": 670
+            }
+          },
+          {
+            "linhaCabecalho": 6,
+            "coluna": 17,
+            "rotulo": "Cluster",
+            "qtdDistintos": 1,
+            "valores": {
+              "Cluster": 671
+            }
+          },
+          {
+            "linhaCabecalho": 6,
+            "coluna": 21,
+            "rotulo": "NIMESULIDA COMPRIMIDO 100 MG x 12Cluster",
+            "qtdDistintos": 671,
+            "valores": {
+              "CLORIDRATO DE FLUOXETINA CAPSULA 20 MG x 30Cluster": 1,
+              "TADALAFILA COMPRIMIDO 20 MG x 2Cluster": 1,
+              "GLIMEPIRIDA COMPRIMIDO 2 MG x 30Cluster": 1,
+              "ACETATO DE CIPROTERONA + ETINILESTRADIOL COMPRIMIDO 2 MG + 0,035 MG x 21Cluster": 1,
+              "NIMESULIDA SOLUCAO ORAL 50 MG/ML x 15 MLCluster": 1,
+              "CLORIDRATO DE HIDROXIZINA SOLUCAO ORAL 2 MG/ML x 100 MLCluster": 1,
+              "CLORIDRATO DE PAROXETINA COMPRIMIDO 20 MG x 30Cluster": 1,
+              "HEMITARTARATO DE ZOLPIDEM COMPRIMIDO 5 MG x 30Cluster": 1,
+              "ACEBROFILINA XAROPE 50 MG/5 ML x 120 MLCluster": 1,
+              "SECNIDAZOL COMPRIMIDO 1000 MG x 4Cluster": 1,
+              "NISTATINA SUSPENSAO ORAL 100000 UI/ML x 50 MLCluster": 1,
+              "ATENOLOL COMPRIMIDO 100 MG x 30Cluster": 1,
+              "TENOXICAM COMPRIMIDO 20 MG x 10Cluster": 1,
+              "ACECLOFENACO COMPRIMIDO 100 MG x 12Cluster": 1,
+              "LAMOTRIGINA COMPRIMIDO 100 MG x 30Cluster": 1,
+              "INDAPAMIDA COMPRIMIDO 1,5 MG x 60Cluster": 1,
+              "BISSULFATO DE CLOPIDOGREL COMPRIMIDO 75 MG x 30Cluster": 1,
+              "CLORIDRATO DE NORTRIPTILINA CAPSULA 25 MG x 30Cluster": 1,
+              "MONTELUCASTE DE SODIO COMPRIMIDO 4 MG x 30Cluster": 1,
+              "HEMIFUMARATO DE BISOPROLOL COMPRIMIDO 10 MG x 30Cluster": 1,
+              "AMOXICILINA + CLAVULANATO DE POTASSIO COMPRIMIDO 875 MG + 125 MG x 12Cluster": 1,
+              "CLORIDRATO DE FLUOXETINA CAPSULA 20 MG x 60Cluster": 1,
+              "CLORIDRATO DE TRAMADOL + PARACETAMOL COMPRIMIDO 37,5 MG + 325 MG x 30Cluster": 1,
+              "MIRTAZAPINA COMPRIMIDO 30 MG x 30Cluster": 1,
+              "CETOCONAZOL COMPRIMIDO 200 MG x 30Cluster": 1,
+              "RIVAROXABANA COMPRIMIDO 10 MG x 30Cluster": 1,
+              "BIMATOPROSTA SOLUCAO OFTALMICA 0,3 MG/ML x 3 MLCluster": 1,
+              "CLORIDRATO DE DONEPEZILA COMPRIMIDO 5 MG x 30Cluster": 1,
+              "DROSPIRENONA + ETINILESTRADIOL COMPRIMIDO 3 MG + 0,02 MG x 72Cluster": 1,
+              "CLORIDRATO DE SIBUTRAMINA CAPSULA 15 MG x 60Cluster": 1,
+              "DICLORIDRATO DE PRAMIPEXOL COMPRIMIDO 1 MG x 30Cluster": 1,
+              "MALEATO DE TRIMEBUTINA CAPSULA 200 MG x 60Cluster": 1,
+              "HEMIFUMARATO DE QUETIAPINA COMPRIMIDO 200 MG x 30Cluster": 1,
+              "FOSFATO DE SITAGLIPTINA COMPRIMIDO 100 MG x 30Cluster": 1,
+              "CLORIDRATO DE FLUOXETINA COMPRIMIDO 20 MG x 30Cluster": 1,
+              "BROMAZEPAM COMPRIMIDO 3 MG x 30Cluster": 1,
+              "CIMETIDINA COMPRIMIDO 200 MG x 20Cluster": 1,
+              "CLORIDRATO DE TRAMADOL + PARACETAMOL COMPRIMIDO 37,5 MG + 325 MG x 10Cluster": 1,
+              "CLORIDRATO DE PIOGLITAZONA COMPRIMIDO 30 MG x 15Cluster": 1,
+              "DIAZEPAM COMPRIMIDO 5 MG x 30Cluster": 1,
+              "BETAMETASONA + MALEATO DE DEXCLORFENIRAMINA XAROPE 0,25 MG/5 ML + 2 MG/5 ML x 120 MLCluster": 1,
+              "CLORIDRATO DE TRAMADOL SOLUCAO ORAL 100 MG/ML x 10 MLCluster": 1,
+              "CLORIDRATO DE PROPRANOLOL COMPRIMIDO 40 MG x 30Cluster": 1,
+              "CLORIDRATO DE SOTALOL COMPRIMIDO 160 MG x 20Cluster": 1,
+              "DICLOFENACO POTASSICO COMPRIMIDO 50 MG x 20Cluster": 1,
+              "SUCCINATO DE DESVENLAFAXINA COMPRIMIDO 100 MG x 28Cluster": 1,
+              "ALBENDAZOL COMPRIMIDO 400 MG x 5Cluster": 1,
+              "ACICLOVIR CREME 50 MG/G x 10 GCluster": 1,
+              "CLORIDRATO DE TRAZODONA COMPRIMIDO 100 MG x 30Cluster": 1,
+              "CLORIDRATO DE TANSULOSINA COMPRIMIDO 0,4 MG x 60Cluster": 1
+            }
+          },
+          {
+            "linhaCabecalho": 7,
+            "coluna": 0,
+            "rotulo": "TADALAFILA COMPRIMIDO 20 MG x 2Cluster",
+            "qtdDistintos": 669,
+            "valores": {
+              "GLIMEPIRIDA COMPRIMIDO 2 MG x 30Cluster": 1,
+              "ACETATO DE CIPROTERONA + ETINILESTRADIOL COMPRIMIDO 2 MG + 0,035 MG x 21Cluster": 1,
+              "NIMESULIDA SOLUCAO ORAL 50 MG/ML x 15 MLCluster": 1,
+              "CLORIDRATO DE HIDROXIZINA SOLUCAO ORAL 2 MG/ML x 100 MLCluster": 1,
+              "CLORIDRATO DE PAROXETINA COMPRIMIDO 20 MG x 30Cluster": 1,
+              "HEMITARTARATO DE ZOLPIDEM COMPRIMIDO 5 MG x 30Cluster": 1,
+              "ACEBROFILINA XAROPE 50 MG/5 ML x 120 MLCluster": 1,
+              "SECNIDAZOL COMPRIMIDO 1000 MG x 4Cluster": 1,
+              "NISTATINA SUSPENSAO ORAL 100000 UI/ML x 50 MLCluster": 1,
+              "ATENOLOL COMPRIMIDO 100 MG x 30Cluster": 1,
+              "TENOXICAM COMPRIMIDO 20 MG x 10Cluster": 1,
+              "ACECLOFENACO COMPRIMIDO 100 MG x 12Cluster": 1,
+              "LAMOTRIGINA COMPRIMIDO 100 MG x 30Cluster": 1,
+              "INDAPAMIDA COMPRIMIDO 1,5 MG x 60Cluster": 1,
+              "BISSULFATO DE CLOPIDOGREL COMPRIMIDO 75 MG x 30Cluster": 1,
+              "CLORIDRATO DE NORTRIPTILINA CAPSULA 25 MG x 30Cluster": 1,
+              "MONTELUCASTE DE SODIO COMPRIMIDO 4 MG x 30Cluster": 1,
+              "HEMIFUMARATO DE BISOPROLOL COMPRIMIDO 10 MG x 30Cluster": 1,
+              "AMOXICILINA + CLAVULANATO DE POTASSIO COMPRIMIDO 875 MG + 125 MG x 12Cluster": 1,
+              "CLORIDRATO DE FLUOXETINA CAPSULA 20 MG x 60Cluster": 1,
+              "CLORIDRATO DE TRAMADOL + PARACETAMOL COMPRIMIDO 37,5 MG + 325 MG x 30Cluster": 1,
+              "MIRTAZAPINA COMPRIMIDO 30 MG x 30Cluster": 1,
+              "CETOCONAZOL COMPRIMIDO 200 MG x 30Cluster": 1,
+              "RIVAROXABANA COMPRIMIDO 10 MG x 30Cluster": 1,
+              "BIMATOPROSTA SOLUCAO OFTALMICA 0,3 MG/ML x 3 MLCluster": 1,
+              "CLORIDRATO DE DONEPEZILA COMPRIMIDO 5 MG x 30Cluster": 1,
+              "DROSPIRENONA + ETINILESTRADIOL COMPRIMIDO 3 MG + 0,02 MG x 72Cluster": 1,
+              "CLORIDRATO DE SIBUTRAMINA CAPSULA 15 MG x 60Cluster": 1,
+              "DICLORIDRATO DE PRAMIPEXOL COMPRIMIDO 1 MG x 30Cluster": 1,
+              "MALEATO DE TRIMEBUTINA CAPSULA 200 MG x 60Cluster": 1,
+              "HEMIFUMARATO DE QUETIAPINA COMPRIMIDO 200 MG x 30Cluster": 1,
+              "FOSFATO DE SITAGLIPTINA COMPRIMIDO 100 MG x 30Cluster": 1,
+              "CLORIDRATO DE FLUOXETINA COMPRIMIDO 20 MG x 30Cluster": 1,
+              "BROMAZEPAM COMPRIMIDO 3 MG x 30Cluster": 1,
+              "CIMETIDINA COMPRIMIDO 200 MG x 20Cluster": 1,
+              "CLORIDRATO DE TRAMADOL + PARACETAMOL COMPRIMIDO 37,5 MG + 325 MG x 10Cluster": 1,
+              "CLORIDRATO DE PIOGLITAZONA COMPRIMIDO 30 MG x 15Cluster": 1,
+              "DIAZEPAM COMPRIMIDO 5 MG x 30Cluster": 1,
+              "BETAMETASONA + MALEATO DE DEXCLORFENIRAMINA XAROPE 0,25 MG/5 ML + 2 MG/5 ML x 120 MLCluster": 1,
+              "CLORIDRATO DE TRAMADOL SOLUCAO ORAL 100 MG/ML x 10 MLCluster": 1,
+              "CLORIDRATO DE PROPRANOLOL COMPRIMIDO 40 MG x 30Cluster": 1,
+              "CLORIDRATO DE SOTALOL COMPRIMIDO 160 MG x 20Cluster": 1,
+              "DICLOFENACO POTASSICO COMPRIMIDO 50 MG x 20Cluster": 1,
+              "SUCCINATO DE DESVENLAFAXINA COMPRIMIDO 100 MG x 28Cluster": 1,
+              "ALBENDAZOL COMPRIMIDO 400 MG x 5Cluster": 1,
+              "ACICLOVIR CREME 50 MG/G x 10 GCluster": 1,
+              "CLORIDRATO DE TRAZODONA COMPRIMIDO 100 MG x 30Cluster": 1,
+              "CLORIDRATO DE TANSULOSINA COMPRIMIDO 0,4 MG x 60Cluster": 1,
+              "RISEDRONATO SODICO COMPRIMIDO 35 MG x 4Cluster": 1,
+              "AZITROMICINA COMPRIMIDO 500 MG x 5Cluster": 1
+            }
+          },
+          {
+            "linhaCabecalho": 7,
+            "coluna": 1,
+            "rotulo": "Cluster",
+            "qtdDistintos": 1,
+            "valores": {
+              "Cluster": 669
+            }
+          },
+          {
+            "linhaCabecalho": 7,
+            "coluna": 17,
+            "rotulo": "Cluster",
+            "qtdDistintos": 1,
+            "valores": {
+              "Cluster": 670
+            }
+          },
+          {
+            "linhaCabecalho": 7,
+            "coluna": 21,
+            "rotulo": "CLORIDRATO DE FLUOXETINA CAPSULA 20 MG x 30Cluster",
+            "qtdDistintos": 670,
+            "valores": {
+              "TADALAFILA COMPRIMIDO 20 MG x 2Cluster": 1,
+              "GLIMEPIRIDA COMPRIMIDO 2 MG x 30Cluster": 1,
+              "ACETATO DE CIPROTERONA + ETINILESTRADIOL COMPRIMIDO 2 MG + 0,035 MG x 21Cluster": 1,
+              "NIMESULIDA SOLUCAO ORAL 50 MG/ML x 15 MLCluster": 1,
+              "CLORIDRATO DE HIDROXIZINA SOLUCAO ORAL 2 MG/ML x 100 MLCluster": 1,
+              "CLORIDRATO DE PAROXETINA COMPRIMIDO 20 MG x 30Cluster": 1,
+              "HEMITARTARATO DE ZOLPIDEM COMPRIMIDO 5 MG x 30Cluster": 1,
+              "ACEBROFILINA XAROPE 50 MG/5 ML x 120 MLCluster": 1,
+              "SECNIDAZOL COMPRIMIDO 1000 MG x 4Cluster": 1,
+              "NISTATINA SUSPENSAO ORAL 100000 UI/ML x 50 MLCluster": 1,
+              "ATENOLOL COMPRIMIDO 100 MG x 30Cluster": 1,
+              "TENOXICAM COMPRIMIDO 20 MG x 10Cluster": 1,
+              "ACECLOFENACO COMPRIMIDO 100 MG x 12Cluster": 1,
+              "LAMOTRIGINA COMPRIMIDO 100 MG x 30Cluster": 1,
+              "INDAPAMIDA COMPRIMIDO 1,5 MG x 60Cluster": 1,
+              "BISSULFATO DE CLOPIDOGREL COMPRIMIDO 75 MG x 30Cluster": 1,
+              "CLORIDRATO DE NORTRIPTILINA CAPSULA 25 MG x 30Cluster": 1,
+              "MONTELUCASTE DE SODIO COMPRIMIDO 4 MG x 30Cluster": 1,
+              "HEMIFUMARATO DE BISOPROLOL COMPRIMIDO 10 MG x 30Cluster": 1,
+              "AMOXICILINA + CLAVULANATO DE POTASSIO COMPRIMIDO 875 MG + 125 MG x 12Cluster": 1,
+              "CLORIDRATO DE FLUOXETINA CAPSULA 20 MG x 60Cluster": 1,
+              "CLORIDRATO DE TRAMADOL + PARACETAMOL COMPRIMIDO 37,5 MG + 325 MG x 30Cluster": 1,
+              "MIRTAZAPINA COMPRIMIDO 30 MG x 30Cluster": 1,
+              "CETOCONAZOL COMPRIMIDO 200 MG x 30Cluster": 1,
+              "RIVAROXABANA COMPRIMIDO 10 MG x 30Cluster": 1,
+              "BIMATOPROSTA SOLUCAO OFTALMICA 0,3 MG/ML x 3 MLCluster": 1,
+              "CLORIDRATO DE DONEPEZILA COMPRIMIDO 5 MG x 30Cluster": 1,
+              "DROSPIRENONA + ETINILESTRADIOL COMPRIMIDO 3 MG + 0,02 MG x 72Cluster": 1,
+              "CLORIDRATO DE SIBUTRAMINA CAPSULA 15 MG x 60Cluster": 1,
+              "DICLORIDRATO DE PRAMIPEXOL COMPRIMIDO 1 MG x 30Cluster": 1,
+              "MALEATO DE TRIMEBUTINA CAPSULA 200 MG x 60Cluster": 1,
+              "HEMIFUMARATO DE QUETIAPINA COMPRIMIDO 200 MG x 30Cluster": 1,
+              "FOSFATO DE SITAGLIPTINA COMPRIMIDO 100 MG x 30Cluster": 1,
+              "CLORIDRATO DE FLUOXETINA COMPRIMIDO 20 MG x 30Cluster": 1,
+              "BROMAZEPAM COMPRIMIDO 3 MG x 30Cluster": 1,
+              "CIMETIDINA COMPRIMIDO 200 MG x 20Cluster": 1,
+              "CLORIDRATO DE TRAMADOL + PARACETAMOL COMPRIMIDO 37,5 MG + 325 MG x 10Cluster": 1,
+              "CLORIDRATO DE PIOGLITAZONA COMPRIMIDO 30 MG x 15Cluster": 1,
+              "DIAZEPAM COMPRIMIDO 5 MG x 30Cluster": 1,
+              "BETAMETASONA + MALEATO DE DEXCLORFENIRAMINA XAROPE 0,25 MG/5 ML + 2 MG/5 ML x 120 MLCluster": 1,
+              "CLORIDRATO DE TRAMADOL SOLUCAO ORAL 100 MG/ML x 10 MLCluster": 1,
+              "CLORIDRATO DE PROPRANOLOL COMPRIMIDO 40 MG x 30Cluster": 1,
+              "CLORIDRATO DE SOTALOL COMPRIMIDO 160 MG x 20Cluster": 1,
+              "DICLOFENACO POTASSICO COMPRIMIDO 50 MG x 20Cluster": 1,
+              "SUCCINATO DE DESVENLAFAXINA COMPRIMIDO 100 MG x 28Cluster": 1,
+              "ALBENDAZOL COMPRIMIDO 400 MG x 5Cluster": 1,
+              "ACICLOVIR CREME 50 MG/G x 10 GCluster": 1,
+              "CLORIDRATO DE TRAZODONA COMPRIMIDO 100 MG x 30Cluster": 1,
+              "CLORIDRATO DE TANSULOSINA COMPRIMIDO 0,4 MG x 60Cluster": 1,
+              "RISEDRONATO SODICO COMPRIMIDO 35 MG x 4Cluster": 1
+            }
+          }
+        ]
+      },
+      {
+        "aba": "Análise",
+        "linhas": 1363,
+        "colunas": 84,
+        "cabecalho": [
+          {
+            "linha": 1,
+            "celulas": {
+              "2": "ANÁLISE DE PREÇOS SUGERIDOS RX - GENÉRICO",
+              "54": "FINAL"
+            }
+          },
+          {
+            "linha": 5,
+            "celulas": {
+              "1": "x",
+              "2": "x",
+              "4": "x",
+              "5": "x",
+              "6": "x",
+              "7": "x",
+              "8": "x",
+              "9": "x",
+              "10": "x",
+              "11": "x",
+              "12": "x",
+              "13": "x",
+              "14": "x",
+              "15": "x",
+              "16": "x",
+              "17": "x",
+              "18": "x",
+              "19": "x",
+              "20": "x",
+              "21": "x",
+              "22": "x",
+              "23": "x",
+              "24": "x",
+              "25": "x",
+              "26": "x",
+              "27": "x"
+            }
+          },
+          {
+            "linha": 6,
+            "celulas": {
+              "0": "CHAVE",
+              "1": "UF",
+              "2": "Cluster",
+              "3": "OK",
+              "4": "Chave",
+              "5": "ProdutoID",
+              "6": "DescReduzida",
+              "7": "DIVISÃO",
+              "8": "DEPARTAMENTO",
+              "9": "CATEGORIA",
+              "10": "FAIXA DE PREÇO",
+              "11": "CRONICIDADE",
+              "12": "LABORATÓRIO",
+              "13": "QTD VENDIDA 1M",
+              "14": "RECEITA VENDA 1M",
+              "15": "CUSTO VENDA 1M",
+              "16": "Comissão",
+              "17": "Tributos S/ Vd",
+              "18": "PreçoTabelado",
+              "19": "MarcaPropria",
+              "20": "PBM",
+              "21": "Farmácia Popular",
+              "22": "SENSIBILIDADE",
+              "23": "Custo",
+              "24": "Custo + Comissão",
+              "25": "PMC",
+              "26": "PREÇO ATUAL",
+              "27": "ORDEM PREÇO",
+              "28": "TIPO PRECIFICAÇÃO",
+              "29": "PREÇO P1 SIMULADO",
+              "30": "PREÇO P1 MANUAL",
+              "31": "PREÇO P1",
+              "32": "PESO PMC*QTD",
+              "33": "QTD AJUSTADO",
+              "34": "PMC PONDERADO",
+              "35": "DISTÂNCIA % PMC x P1",
+              "36": "DISTÂNCIA% CHAVE",
+              "37": "DISTÂNCIA% CHAVE Ajustada",
+              "38": "PREÇOS P's",
+              "39": "PREÇO PARTIDA",
+              "40": "CONFERE % VARIAÇÃO DE PREÇO",
+              "41": "Farol variação preço",
+              "42": "PREÇO PARTIDA AJUSTADO",
+              "43": "MRG PREÇO ATUAL",
+              "44": "MRG PARTIDA (-Parâmetro)",
+              "45": "MARGEM CRÍTICA",
+              "46": "Farol 1 PARTIDA",
+              "47": "PREÇO PARTIDA SIMULADO",
+              "48": "PREÇO SKU SIMULADO FINAL",
+              "49": "MOTIVO",
+              "50": "SEGUIR PREÇO P1",
+              "51": "AJUSTE MANUAL",
+              "52": "PREÇO CALCULADO FINAL",
+              "53": "SEGUIR?",
+              "54": "PREÇO FINAL",
+              "55": "MRG FINAL",
+              "56": "ALTERAÇÃO PREÇO",
+              "57": "VAR PREÇO ATUAL VS PREÇO FINAL",
+              "58": "RECEITA PREÇO ATUAL",
+              "59": "RECEITA SIMULADA",
+              "60": "R$ VARIAÇÃO RECEITA",
+              "61": "% VARIAÇÃO RECEITA",
+              "62": "LB PREÇO ATUAL",
+              "63": "LB SIMULADO",
+              "64": "R$ VARIAÇÃO LB SEM PBM, FP, MEX",
+              "65": "% VARIAÇÃO LB",
+              "66": "MARGEM ATUAL",
+              "67": "MARGEM SIMULADA",
+              "68": "% VARIAÇÃO MG",
+              "69": "Redução de preço - Cluster",
+              "70": "Redução de preço - Cluster Baixa",
+              "71": "Aumento de preço - Cluster",
+              "72": "Aumento de preço - Cluster Baixa",
+              "73": "Manter o preço - Cluster",
+              "74": "Manter o preço - Cluster Baixa",
+              "75": "Peso Preço Atual",
+              "76": "Peso Novo Preço",
+              "77": "DESCONTO ATUAL",
+              "78": "DESCONTO SIMULADO",
+              "79": "MRG POND RECEITA - MRG ATUAL",
+              "80": "MRG POND RECEITA - MRG SIMULADA",
+              "81": "IC ATUAL PONDERADO",
+              "82": "IC SIMULADO PONDERADO",
+              "83": "RECEITA PESO"
+            }
+          },
+          {
+            "linha": 7,
+            "celulas": {
+              "0": "TADALAFILA COMPRIMIDO 20 MG x 4Cluster",
+              "1": "RJ",
+              "2": "Cluster",
+              "4": "TADALAFILA COMPRIMIDO 20 MG x 4",
+              "6": "TADALAFILA 20MG 4CP(MED)",
+              "7": "RX",
+              "8": "GENERICO",
+              "9": "DISFUNCAO ERETIL",
+              "10": "FAIXA 2",
+              "11": "EVENTUAL",
+              "12": "MEDLEY GENÉRICOS",
+              "22": "Pouco Sensível",
+              "27": "P3",
+              "28": "PESQ MANUAL",
+              "41": "OK",
+              "46": "Alerta MRG Crítica",
+              "49": "Preço Calculado",
+              "53": "SIM",
+              "56": "Redução de preço"
+            }
+          }
+        ],
+        "colunasLojaClusterUf": [
+          {
+            "linhaCabecalho": 6,
+            "coluna": 1,
+            "rotulo": "UF",
+            "qtdDistintos": 1,
+            "valores": {
+              "RJ": 1343
+            }
+          },
+          {
+            "linhaCabecalho": 6,
+            "coluna": 2,
+            "rotulo": "Cluster",
+            "qtdDistintos": 1,
+            "valores": {
+              "Cluster": 1343
+            }
+          },
+          {
+            "linhaCabecalho": 6,
+            "coluna": 69,
+            "rotulo": "Redução de preço - Cluster",
+            "qtdDistintos": 2,
+            "valores": {
+              "0": 883,
+              "1": 460
+            }
+          },
+          {
+            "linhaCabecalho": 6,
+            "coluna": 70,
+            "rotulo": "Redução de preço - Cluster Baixa",
+            "qtdDistintos": 1,
+            "valores": {
+              "0": 1343
+            }
+          },
+          {
+            "linhaCabecalho": 6,
+            "coluna": 71,
+            "rotulo": "Aumento de preço - Cluster",
+            "qtdDistintos": 2,
+            "valores": {
+              "1": 871,
+              "0": 472
+            }
+          },
+          {
+            "linhaCabecalho": 6,
+            "coluna": 72,
+            "rotulo": "Aumento de preço - Cluster Baixa",
+            "qtdDistintos": 1,
+            "valores": {
+              "0": 1343
+            }
+          },
+          {
+            "linhaCabecalho": 6,
+            "coluna": 73,
+            "rotulo": "Manter o preço - Cluster",
+            "qtdDistintos": 2,
+            "valores": {
+              "0": 1331,
+              "1": 12
+            }
+          },
+          {
+            "linhaCabecalho": 6,
+            "coluna": 74,
+            "rotulo": "Manter o preço - Cluster Baixa",
+            "qtdDistintos": 1,
+            "valores": {
+              "0": 1343
+            }
+          },
+          {
+            "linhaCabecalho": 7,
+            "coluna": 0,
+            "rotulo": "TADALAFILA COMPRIMIDO 20 MG x 4Cluster",
+            "qtdDistintos": 677,
+            "valores": {
+              "ROSUVASTATINA CALCICA COMPRIMIDO 10 MG x 30Cluster": 8,
+              "CLORIDRATO DE SERTRALINA COMPRIMIDO 50 MG x 30Cluster": 7,
+              "ROSUVASTATINA CALCICA COMPRIMIDO 20 MG x 30Cluster": 7,
+              "OXALATO DE ESCITALOPRAM COMPRIMIDO 10 MG x 30Cluster": 7,
+              "BESILATO DE ANLODIPINO COMPRIMIDO 5 MG x 30Cluster": 6,
+              "HEMIFUMARATO DE QUETIAPINA COMPRIMIDO 25 MG x 30Cluster": 6,
+              "PREGABALINA CAPSULA 75 MG x 30Cluster": 6,
+              "LOSARTANA POTASSICA COMPRIMIDO 50 MG x 30Cluster": 6,
+              "OXALATO DE ESCITALOPRAM COMPRIMIDO 20 MG x 30Cluster": 6,
+              "MALEATO DE ENALAPRIL COMPRIMIDO 10 MG x 30Cluster": 6,
+              "VALSARTANA COMPRIMIDO 80 MG x 30Cluster": 6,
+              "VALSARTANA COMPRIMIDO 320 MG x 30Cluster": 6,
+              "TADALAFILA COMPRIMIDO 20 MG x 4Cluster": 6,
+              "OLMESARTANA MEDOXOMILA COMPRIMIDO 20 MG x 30Cluster": 6,
+              "CETOCONAZOL + DIPROPIONATO DE BETAMETASONA + SULFATO DE NEOMICINA CREME DERMATOLOGICO 20 MG + 0,64 MG + 2,5 MG x 30 GCluster": 6,
+              "AZITROMICINA COMPRIMIDO 500 MG x 5Cluster": 6,
+              "VALSARTANA COMPRIMIDO 160 MG x 30Cluster": 6,
+              "CLONAZEPAM COMPRIMIDO 2 MG x 30Cluster": 5,
+              "CLORIDRATO DE VENLAFAXINA CAPSULA 150 MG x 30Cluster": 5,
+              "HEMIFUMARATO DE BISOPROLOL COMPRIMIDO 5 MG x 30Cluster": 5,
+              "PREDNISOLONA COMPRIMIDO 20 MG x 10Cluster": 5,
+              "SUCCINATO DE DESVENLAFAXINA COMPRIMIDO 50 MG x 30Cluster": 5,
+              "HEMITARTARATO DE ZOLPIDEM COMPRIMIDO 10 MG x 30Cluster": 5,
+              "MIRTAZAPINA COMPRIMIDO 30 MG x 30Cluster": 5,
+              "NIMESULIDA COMPRIMIDO 100 MG x 12Cluster": 5,
+              "CLORIDRATO DE VENLAFAXINA CAPSULA 75 MG x 30Cluster": 5,
+              "ALPRAZOLAM COMPRIMIDO 1 MG x 30Cluster": 5,
+              "MESILATO DE DOXAZOSINA COMPRIMIDO 2 MG x 30Cluster": 5,
+              "MONTELUCASTE DE SODIO COMPRIMIDO 4 MG x 30Cluster": 5,
+              "HEMIFUMARATO DE QUETIAPINA COMPRIMIDO 100 MG x 30Cluster": 5,
+              "VALERATO DE BETAMETASONA + SULFATO DE GENTAMICINA + TOLNAFTATO + CLIOQUINOL CREME 0,5 MG/G + 1 MG/G + 10 MG/G + 10 MG/G x 20 GCluster": 5,
+              "OLMESARTANA MEDOXOMILA COMPRIMIDO 40 MG x 30Cluster": 5,
+              "ACICLOVIR CREME DERMATOLOGICO 50 MG/G x 10 GCluster": 5,
+              "CLORIDRATO DE ONDANSETRONA COMPRIMIDO 4 MG x 10Cluster": 5,
+              "BROMAZEPAM COMPRIMIDO 6 MG x 30Cluster": 5,
+              "ALPRAZOLAM COMPRIMIDO 2 MG x 30Cluster": 5,
+              "HEMIFUMARATO DE BISOPROLOL COMPRIMIDO 2,5 MG x 30Cluster": 5,
+              "PANTOPRAZOL COMPRIMIDO 20 MG x 28Cluster": 5,
+              "ACEBROFILINA XAROPE 50 MG/5 ML x 120 MLCluster": 5,
+              "SUCCINATO DE DESVENLAFAXINA COMPRIMIDO 100 MG x 30Cluster": 5,
+              "RIVAROXABANA COMPRIMIDO 20 MG x 30Cluster": 5,
+              "RIVAROXABANA COMPRIMIDO 10 MG x 30Cluster": 5,
+              "BESILATO DE ANLODIPINO COMPRIMIDO 10 MG x 30Cluster": 4,
+              "CLORIDRATO DE BUPROPIONA COMPRIMIDO 150 MG x 30Cluster": 4,
+              "GLIMEPIRIDA COMPRIMIDO 4 MG x 30Cluster": 4,
+              "RISPERIDONA COMPRIMIDO 1 MG x 30Cluster": 4,
+              "HEMITARTARATO DE ZOLPIDEM COMPRIMIDO 5 MG x 30Cluster": 4,
+              "PANTOPRAZOL COMPRIMIDO 40 MG x 42Cluster": 4,
+              "RISPERIDONA COMPRIMIDO 2 MG x 30Cluster": 4,
+              "FINASTERIDA COMPRIMIDO 1 MG x 30Cluster": 4
+            }
+          },
+          {
+            "linhaCabecalho": 7,
+            "coluna": 2,
+            "rotulo": "Cluster",
+            "qtdDistintos": 1,
+            "valores": {
+              "Cluster": 1342
+            }
+          }
+        ]
+      },
+      {
+        "aba": "Pesquisa",
+        "linhas": 1192,
+        "colunas": 42,
+        "cabecalho": [
+          {
+            "linha": 1,
+            "celulas": {
+              "0": "Produto",
+              "1": "Medida",
+              "2": "TODOS",
+              "3": "INDEP",
+              "4": "ABRAF",
+              "5": "Chave",
+              "6": "Receita",
+              "7": "PreçoP1",
+              "8": "PreçoPondTodos",
+              "9": "PreçoPondIndep",
+              "10": "PreçoPondAbraf",
+              "11": "PreçoFinalP1",
+              "12": "PreçoPondTodosFim",
+              "13": "PreçoPondIndepFim",
+              "14": "PreçoPondAbrafFim",
+              "15": "Faixa",
+              "16": "Cronici",
+              "17": "id",
+              "19": "Column1",
+              "20": "AVERAGE",
+              "21": "MIN",
+              "22": "MAX",
+              "23": "Receita",
+              "24": "PreçoP1",
+              "25": "PreçoPondMed",
+              "26": "PreçoPondMin",
+              "27": "PreçoPondMax",
+              "28": "PreçoFinalP1",
+              "29": "PreçoPondTodosFim",
+              "30": "PreçoPondIndepFim",
+              "31": "PreçoPondAbrafFim",
+              "32": "Faixa",
+              "33": "Cronici",
+              "34": "selecao",
+              "35": "id",
+              "37": "TADALAFILA COMPRIMIDO 20 MG x 2"
+            }
+          },
+          {
+            "linha": 2,
+            "celulas": {
+              "0": "AMOXICILINA + CLAVULANATO DE POTASSIO COMPRIMIDO 500 MG + 125 MG x 21",
+              "1": "MAX",
+              "5": "AMOXICILINA + CLAVULANATO DE POTASSIO COMPRIMIDO 500 MG + 125 MG x 21MAX",
+              "15": "FAIXA 5",
+              "16": "EVENTUAL",
+              "19": "ACEBROFILINA XAROPE 25 MG/5 ML x 120 ML",
+              "32": "FAIXA 2",
+              "33": "EVENTUAL",
+              "37": "GLIMEPIRIDA COMPRIMIDO 2 MG x 30"
+            }
+          },
+          {
+            "linha": 3,
+            "celulas": {
+              "0": "AMOXICILINA + CLAVULANATO DE POTASSIO COMPRIMIDO 500 MG + 125 MG x 21",
+              "1": "MED",
+              "5": "AMOXICILINA + CLAVULANATO DE POTASSIO COMPRIMIDO 500 MG + 125 MG x 21MED",
+              "15": "FAIXA 5",
+              "16": "EVENTUAL",
+              "19": "ACEBROFILINA XAROPE 50 MG/5 ML x 120 ML",
+              "32": "FAIXA 2",
+              "33": "EVENTUAL",
+              "37": "ACETATO DE CIPROTERONA + ETINILESTRADIOL COMPRIMIDO 2 MG + 0,035 MG x 21"
+            }
+          },
+          {
+            "linha": 4,
+            "celulas": {
+              "0": "AMOXICILINA + CLAVULANATO DE POTASSIO COMPRIMIDO 500 MG + 125 MG x 21",
+              "1": "MIN",
+              "5": "AMOXICILINA + CLAVULANATO DE POTASSIO COMPRIMIDO 500 MG + 125 MG x 21MIN",
+              "15": "FAIXA 5",
+              "16": "EVENTUAL",
+              "19": "ACETATO DE CIPROTERONA + ETINILESTRADIOL COMPRIMIDO 2 MG + 0,035 MG x 21",
+              "32": "FAIXA 1",
+              "33": "CRONICO",
+              "37": "NIMESULIDA SOLUCAO ORAL 50 MG/ML x 15 ML"
+            }
+          },
+          {
+            "linha": 5,
+            "celulas": {
+              "0": "AMOXICILINA + CLAVULANATO DE POTASSIO COMPRIMIDO 875 MG + 125 MG x 14",
+              "1": "MAX",
+              "5": "AMOXICILINA + CLAVULANATO DE POTASSIO COMPRIMIDO 875 MG + 125 MG x 14MAX",
+              "15": "FAIXA 4",
+              "16": "EVENTUAL",
+              "19": "ACETATO DE CLORMADINONA + ETINILESTRADIOL COMPRIMIDO 2 MG + 0,03 MG x 21",
+              "32": "FAIXA 3",
+              "33": "CRONICO",
+              "37": "CLORIDRATO DE HIDROXIZINA SOLUCAO ORAL 2 MG/ML x 100 ML"
+            }
+          },
+          {
+            "linha": 6,
+            "celulas": {
+              "0": "AMOXICILINA + CLAVULANATO DE POTASSIO COMPRIMIDO 875 MG + 125 MG x 14",
+              "1": "MED",
+              "5": "AMOXICILINA + CLAVULANATO DE POTASSIO COMPRIMIDO 875 MG + 125 MG x 14MED",
+              "15": "FAIXA 4",
+              "16": "EVENTUAL",
+              "19": "ACETATO DE DEXAMETASONA CREME DERMATOLOGICO 1 MG/G x 10 G",
+              "32": "FAIXA 1",
+              "33": "FREQUENTE",
+              "37": "CLORIDRATO DE PAROXETINA COMPRIMIDO 20 MG x 30"
+            }
+          },
+          {
+            "linha": 7,
+            "celulas": {
+              "0": "AMOXICILINA + CLAVULANATO DE POTASSIO COMPRIMIDO 875 MG + 125 MG x 14",
+              "1": "MIN",
+              "5": "AMOXICILINA + CLAVULANATO DE POTASSIO COMPRIMIDO 875 MG + 125 MG x 14MIN",
+              "15": "FAIXA 4",
+              "16": "EVENTUAL",
+              "19": "ACETATO DE HIDROCORTISONA CREME DERMATOLOGICO 10 MG/G x 15 G",
+              "32": "FAIXA 1",
+              "33": "FREQUENTE",
+              "37": "HEMITARTARATO DE ZOLPIDEM COMPRIMIDO 5 MG x 30"
+            }
+          }
+        ],
+        "colunasLojaClusterUf": []
+      }
+    ]
+  },
+  {
+    "arquivo": "RX_Lista de Pesquisa.xlsx",
+    "bytes": 3475535,
+    "abas": [
+      {
+        "aba": "Parâmetros",
+        "linhas": 16,
+        "colunas": 10,
+        "cabecalho": [
+          {
+            "linha": 1,
+            "celulas": {
+              "2": "BALIZADOR RANK",
+              "9": "Qtd Produtos"
+            }
+          },
+          {
+            "linha": 2,
+            "celulas": {
+              "2": "GENÉRICO",
+              "3": "MARCA",
+              "4": "PROPAGADO",
+              "5": "SIMILAR",
+              "8": "GENÉRICO"
+            }
+          },
+          {
+            "linha": 3,
+            "celulas": {
+              "1": "Peso Receita",
+              "8": "MARCA"
+            }
+          },
+          {
+            "linha": 4,
+            "celulas": {
+              "1": "Peso Quantidade",
+              "8": "PROPAGADO"
+            }
+          },
+          {
+            "linha": 5,
+            "celulas": {
+              "8": "SIMILAR"
+            }
+          },
+          {
+            "linha": 6,
+            "celulas": {
+              "1": "*Pesos para gerar o Rank Final a partir da média do Rank Receita e  Rank Quantidade"
+            }
+          },
+          {
+            "linha": 7,
+            "celulas": {
+              "1": "**Necessário somar 100%"
+            }
+          }
+        ],
+        "colunasLojaClusterUf": []
+      },
+      {
+        "aba": "GENÉRICO",
+        "linhas": 765,
+        "colunas": 97,
+        "cabecalho": [
+          {
+            "linha": 1,
+            "celulas": {
+              "0": "chave_generico",
+              "1": "divisao",
+              "2": "departamento",
+              "3": "categoria",
+              "4": "FAIXA DE PREÇO",
+              "5": "CRONICIDADE",
+              "6": "SENSIBILIDADE",
+              "7": "preco_tabelado",
+              "8": "farmacia_popular",
+              "9": "marca_propria",
+              "10": "pbm",
+              "11": "receita",
+              "12": "quantidade",
+              "13": "preco_medio_venda",
+              "14": "elegivel",
+              "15": "motivo_inelegibilidade",
+              "16": "ordem",
+              "17": "rank_receita_",
+              "18": "rank_qtd_",
+              "19": "selecao_receita",
+              "20": "rank_qtd_complementar",
+              "21": "selecao_quantidade",
+              "22": "selecao_inicial",
+              "23": "qtd_manual_quadrante",
+              "24": "quadrante_manual",
+              "25": "atual_receita_quadrante",
+              "26": "atual_qtd_quadrante",
+              "27": "cota_receita_quadrante",
+              "28": "cota_qtd_quadrante",
+              "29": "alvo_final_quadrante",
+              "30": "qtd_elegivel_quadrante",
+              "31": "alvo_viavel_quadrante",
+              "32": "prioridade_receita_alvo",
+              "33": "ordem_receita_alvo_quadrante",
+              "34": "selecao_receita_alvo",
+              "35": "prioridade_quantidade_alvo",
+              "36": "ordem_qtd_alvo_quadrante",
+              "37": "selecao_quantidade_alvo",
+              "38": "selecao_alvo",
+              "39": "candidato_complemento_receita",
+              "40": "ordem_complemento_receita",
+              "41": "complemento_receita",
+              "42": "candidato_complemento_quantidade",
+              "43": "ordem_complemento_quantidade",
+              "44": "complemento_quantidade",
+              "45": "selecao_ajustes",
+              "46": "origem_selecao_final",
+              "47": "selecao_manual",
+              "48": "selecao_final",
+              "50": "INICIAL",
+              "51": "EVENTUAL",
+              "52": "FREQUENTE",
+              "53": "CRONICO",
+              "55": "AJUSTE MANUAL",
+              "56": "EVENTUAL",
+              "57": "FREQUENTE",
+              "58": "CRONICO",
+              "60": "ALVO FINAL",
+              "61": "EVENTUAL",
+              "62": "FREQUENTE",
+              "63": "CRONICO",
+              "65": "Departamento",
+              "66": "GENÉRICO",
+              "68": "faixa",
+              "69": "perfil",
+              "70": "chave",
+              "71": "automatico_receita",
+              "72": "automatico_quantidade",
+              "73": "automatico_total",
+              "74": "ajuste_manual",
+              "75": "quadrante_manual",
+              "76": "alvo_final",
+              "77": "elegiveis",
+              "78": "alvo_viavel",
+              "79": "cota_receita",
+              "80": "cota_quantidade",
+              "81": "selecionado_receita_alvo",
+              "82": "selecionado_quantidade_alvo",
+              "83": "selecionado_alvo",
+              "84": "complemento_receita",
+              "85": "complemento_quantidade",
+              "86": "selecionado_ajustes",
+              "87": "validacao",
+              "88": "selecionado_final",
+              "89": "inclusao_manual",
+              "90": "exclusao_manual",
+              "91": "saldo_manual",
+              "93": "FINAL",
+              "94": "EVENTUAL",
+              "95": "FREQUENTE",
+              "96": "CRONICO"
+            }
+          },
+          {
+            "linha": 2,
+            "celulas": {
+              "0": "ROSUVASTATINA CALCICA COMPRIMIDO 20 MG x 30",
+              "1": "RX",
+              "2": "GENÉRICO",
+              "3": "CARDIOVASCULAR",
+              "4": "FAIXA 4",
+              "5": "CRONICO",
+              "6": "Super Sensível",
+              "46": "MANUAL - INCLUIR",
+              "50": "FAIXA 5",
+              "55": "FAIXA 5",
+              "60": "FAIXA 5",
+              "65": "Qtd Produtos",
+              "68": "FAIXA 5",
+              "69": "EVENTUAL",
+              "70": "FAIXA 5|EVENTUAL",
+              "87": "OK",
+              "93": "FAIXA 5"
+            }
+          },
+          {
+            "linha": 3,
+            "celulas": {
+              "0": "DAPAGLIFLOZINA COMPRIMIDO 10 MG x 30",
+              "1": "RX",
+              "2": "GENÉRICO",
+              "3": "DIABETES",
+              "4": "FAIXA 5",
+              "5": "CRONICO",
+              "6": "Super Sensível",
+              "8": "S",
+              "46": "MANUAL - EXCLUIR",
+              "50": "FAIXA 4",
+              "55": "FAIXA 4",
+              "60": "FAIXA 4",
+              "65": "Qtd Após Ajustes",
+              "68": "FAIXA 5",
+              "69": "FREQUENTE",
+              "70": "FAIXA 5|FREQUENTE",
+              "87": "OK",
+              "93": "FAIXA 4"
+            }
+          },
+          {
+            "linha": 4,
+            "celulas": {
+              "0": "LOSARTANA POTASSICA COMPRIMIDO 50 MG x 30",
+              "1": "RX",
+              "2": "GENÉRICO",
+              "3": "HIPERTENSÃO",
+              "4": "FAIXA 1",
+              "5": "CRONICO",
+              "6": "Sensível",
+              "8": "S",
+              "46": "MANUAL - EXCLUIR",
+              "50": "FAIXA 3",
+              "55": "FAIXA 3",
+              "60": "FAIXA 3",
+              "65": "Qtd Final Considerada",
+              "68": "FAIXA 5",
+              "69": "CRONICO",
+              "70": "FAIXA 5|CRONICO",
+              "87": "OK",
+              "93": "FAIXA 3"
+            }
+          },
+          {
+            "linha": 5,
+            "celulas": {
+              "0": "HEMIFUMARATO DE QUETIAPINA COMPRIMIDO 25 MG x 30",
+              "1": "RX",
+              "2": "GENÉRICO",
+              "3": "NEUROLÓGICOS",
+              "4": "FAIXA 3",
+              "5": "CRONICO",
+              "6": "Super Sensível",
+              "46": "MANUAL - INCLUIR",
+              "50": "FAIXA 2",
+              "55": "FAIXA 2",
+              "60": "FAIXA 2",
+              "65": "Vagas Complementares",
+              "68": "FAIXA 4",
+              "69": "EVENTUAL",
+              "70": "FAIXA 4|EVENTUAL",
+              "87": "OK",
+              "93": "FAIXA 2"
+            }
+          },
+          {
+            "linha": 6,
+            "celulas": {
+              "0": "PREGABALINA CAPSULA 75 MG x 30",
+              "1": "RX",
+              "2": "GENÉRICO",
+              "3": "NEUROLÓGICOS",
+              "4": "FAIXA 4",
+              "5": "CRONICO",
+              "6": "Super Sensível",
+              "46": "MANUAL - INCLUIR",
+              "50": "FAIXA 1",
+              "55": "FAIXA 1",
+              "60": "FAIXA 1",
+              "65": "Meta Receita Final",
+              "68": "FAIXA 4",
+              "69": "FREQUENTE",
+              "70": "FAIXA 4|FREQUENTE",
+              "87": "OK",
+              "93": "FAIXA 1"
+            }
+          },
+          {
+            "linha": 7,
+            "celulas": {
+              "0": "NIMESULIDA COMPRIMIDO 100 MG x 12",
+              "1": "RX",
+              "2": "GENÉRICO",
+              "3": "ANTI-INFLAMATÓRIO",
+              "4": "FAIXA 1",
+              "5": "EVENTUAL",
+              "6": "Pouco Sensível",
+              "46": "MANUAL - INCLUIR",
+              "65": "Meta Quantidade Final",
+              "68": "FAIXA 4",
+              "69": "CRONICO",
+              "70": "FAIXA 4|CRONICO",
+              "87": "OK"
+            }
+          }
+        ],
+        "colunasLojaClusterUf": []
+      },
+      {
+        "aba": "MARCA",
+        "linhas": 1233,
+        "colunas": 101,
+        "cabecalho": [
+          {
+            "linha": 1,
+            "celulas": {
+              "0": "produtoid",
+              "1": "produto",
+              "2": "departamento",
+              "3": "categoria",
+              "4": "FAIXA DE PREÇO",
+              "5": "CRONICIDADE",
+              "6": "SENSIBILIDADE",
+              "7": "fabricante",
+              "8": "receita",
+              "9": "quantidade",
+              "10": "pmc",
+              "11": "pbm",
+              "12": "marca_propria",
+              "13": "farmacia_popular",
+              "14": "preco_tabelado",
+              "15": "preco_medio_venda",
+              "16": "elegivel",
+              "17": "motivo_inelegibilidade",
+              "18": "ordem",
+              "19": "rank_receita_",
+              "20": "rank_qtd_",
+              "21": "selecao_receita",
+              "22": "rank_qtd_complementar",
+              "23": "selecao_quantidade",
+              "24": "selecao_inicial",
+              "25": "qtd_manual_quadrante",
+              "26": "quadrante_manual",
+              "27": "atual_receita_quadrante",
+              "28": "atual_qtd_quadrante",
+              "29": "cota_receita_quadrante",
+              "30": "cota_qtd_quadrante",
+              "31": "alvo_final_quadrante",
+              "32": "qtd_elegivel_quadrante",
+              "33": "alvo_viavel_quadrante",
+              "34": "prioridade_receita_alvo",
+              "35": "ordem_receita_alvo_quadrante",
+              "36": "selecao_receita_alvo",
+              "37": "prioridade_quantidade_alvo",
+              "38": "ordem_qtd_alvo_quadrante",
+              "39": "selecao_quantidade_alvo",
+              "40": "selecao_alvo",
+              "41": "candidato_complemento_receita",
+              "42": "ordem_complemento_receita",
+              "43": "complemento_receita",
+              "44": "candidato_complemento_quantidade",
+              "45": "ordem_complemento_quantidade",
+              "46": "complemento_quantidade",
+              "47": "selecao_ajustes",
+              "48": "origem_selecao_final",
+              "49": "selecao_manual",
+              "50": "selecao_final",
+              "52": "INICIAL",
+              "53": "EVENTUAL",
+              "54": "FREQUENTE",
+              "55": "CRONICO",
+              "57": "AJUSTE MANUAL",
+              "58": "EVENTUAL",
+              "59": "FREQUENTE",
+              "60": "CRONICO",
+              "62": "ALVO FINAL",
+              "63": "EVENTUAL",
+              "64": "FREQUENTE",
+              "65": "CRONICO",
+              "67": "Departamento",
+              "68": "MARCA",
+              "70": "faixa",
+              "71": "perfil",
+              "72": "chave",
+              "73": "automatico_receita",
+              "74": "automatico_quantidade",
+              "75": "automatico_total",
+              "76": "ajuste_manual",
+              "77": "quadrante_manual",
+              "78": "alvo_final",
+              "79": "elegiveis",
+              "80": "alvo_viavel",
+              "81": "cota_receita",
+              "82": "cota_quantidade",
+              "83": "selecionado_receita_alvo",
+              "84": "selecionado_quantidade_alvo",
+              "85": "selecionado_alvo",
+              "86": "complemento_receita",
+              "87": "complemento_quantidade",
+              "88": "selecionado_ajustes",
+              "89": "validacao",
+              "90": "selecionado_final",
+              "91": "inclusao_manual",
+              "92": "exclusao_manual",
+              "93": "saldo_manual",
+              "95": "FINAL",
+              "96": "EVENTUAL",
+              "97": "FREQUENTE",
+              "98": "CRONICO"
+            }
+          },
+          {
+            "linha": 2,
+            "celulas": {
+              "1": "MOUNJARO 5MG 4CANETAS 0,5ML#PBM#",
+              "2": "MARCA",
+              "3": "DIABETES",
+              "4": "FAIXA 5",
+              "5": "CRONICO",
+              "6": "Super Sensível",
+              "7": "ELI LILLY",
+              "11": "S",
+              "17": "PREÇO ACIMA DO LIMITE",
+              "48": "MANUAL - EXCLUIR",
+              "52": "FAIXA 5",
+              "57": "FAIXA 5",
+              "62": "FAIXA 5",
+              "67": "Qtd Produtos",
+              "70": "FAIXA 5",
+              "71": "EVENTUAL",
+              "72": "FAIXA 5|EVENTUAL",
+              "89": "OK",
+              "95": "FAIXA 5"
+            }
+          },
+          {
+            "linha": 3,
+            "celulas": {
+              "1": "(FP)GLIFAGE XR 500MG 30CP",
+              "2": "MARCA",
+              "3": "DIABETES",
+              "4": "FAIXA 1",
+              "5": "CRONICO",
+              "6": "Sensível",
+              "7": "MERCK",
+              "13": "S",
+              "48": "MANUAL - EXCLUIR",
+              "52": "FAIXA 4",
+              "57": "FAIXA 4",
+              "62": "FAIXA 4",
+              "67": "Qtd Após Ajustes",
+              "70": "FAIXA 5",
+              "71": "FREQUENTE",
+              "72": "FAIXA 5|FREQUENTE",
+              "89": "OK",
+              "95": "FAIXA 4"
+            }
+          },
+          {
+            "linha": 4,
+            "celulas": {
+              "1": "MOUNJARO 2,5MG 4CANETAS 0,5ML#PBM#",
+              "2": "MARCA",
+              "3": "DIABETES",
+              "4": "FAIXA 5",
+              "5": "CRONICO",
+              "6": "Super Sensível",
+              "7": "ELI LILLY",
+              "11": "S",
+              "17": "PREÇO ACIMA DO LIMITE",
+              "48": "MANUAL - EXCLUIR",
+              "52": "FAIXA 3",
+              "57": "FAIXA 3",
+              "62": "FAIXA 3",
+              "67": "Qtd Final Considerada",
+              "70": "FAIXA 5",
+              "71": "CRONICO",
+              "72": "FAIXA 5|CRONICO",
+              "89": "OK",
+              "95": "FAIXA 3"
+            }
+          },
+          {
+            "linha": 5,
+            "celulas": {
+              "1": "(PBM)ALENIA 12+400MCG 60CAP REFIL",
+              "2": "MARCA",
+              "3": "RESPIRATÓRIO",
+              "4": "FAIXA 4",
+              "5": "EVENTUAL",
+              "6": "Sensível",
+              "7": "ACHE",
+              "11": "S",
+              "48": "MANUAL - EXCLUIR",
+              "52": "FAIXA 2",
+              "57": "FAIXA 2",
+              "62": "FAIXA 2",
+              "67": "Vagas Complementares",
+              "70": "FAIXA 4",
+              "71": "EVENTUAL",
+              "72": "FAIXA 4|EVENTUAL",
+              "89": "OK",
+              "95": "FAIXA 2"
+            }
+          },
+          {
+            "linha": 6,
+            "celulas": {
+              "1": "(PBM)ENTRESTO 100MG 60CP",
+              "2": "MARCA",
+              "3": "CARDIOVASCULAR",
+              "4": "FAIXA 5",
+              "5": "CRONICO",
+              "6": "Super Sensível",
+              "7": "NOVARTIS",
+              "11": "S",
+              "48": "MANUAL - EXCLUIR",
+              "52": "FAIXA 1",
+              "57": "FAIXA 1",
+              "62": "FAIXA 1",
+              "67": "Meta Receita Final",
+              "70": "FAIXA 4",
+              "71": "FREQUENTE",
+              "72": "FAIXA 4|FREQUENTE",
+              "89": "OK",
+              "95": "FAIXA 1"
+            }
+          },
+          {
+            "linha": 7,
+            "celulas": {
+              "1": "DURATESTON 1AP 1 ML",
+              "2": "MARCA",
+              "3": "CONTROLE HORMONAL",
+              "4": "FAIXA 2",
+              "5": "CRONICO",
+              "6": "Sensível",
+              "7": "ASPEN PHARMA",
+              "48": "MANUAL - EXCLUIR",
+              "67": "Meta Quantidade Final",
+              "70": "FAIXA 4",
+              "71": "CRONICO",
+              "72": "FAIXA 4|CRONICO",
+              "89": "OK"
+            }
+          }
+        ],
+        "colunasLojaClusterUf": []
+      },
+      {
+        "aba": "PROPAGADO",
+        "linhas": 2025,
+        "colunas": 101,
+        "cabecalho": [
+          {
+            "linha": 1,
+            "celulas": {
+              "0": "produtoid",
+              "1": "produto",
+              "2": "departamento",
+              "3": "categoria",
+              "4": "FAIXA DE PREÇO",
+              "5": "CRONICIDADE",
+              "6": "SENSIBILIDADE",
+              "7": "fabricante",
+              "8": "receita",
+              "9": "quantidade",
+              "10": "pmc",
+              "11": "pbm",
+              "12": "marca_propria",
+              "13": "farmacia_popular",
+              "14": "preco_tabelado",
+              "15": "preco_medio_venda",
+              "16": "elegivel",
+              "17": "motivo_inelegibilidade",
+              "18": "ordem",
+              "19": "rank_receita_",
+              "20": "rank_qtd_",
+              "21": "selecao_receita",
+              "22": "rank_qtd_complementar",
+              "23": "selecao_quantidade",
+              "24": "selecao_inicial",
+              "25": "qtd_manual_quadrante",
+              "26": "quadrante_manual",
+              "27": "atual_receita_quadrante",
+              "28": "atual_qtd_quadrante",
+              "29": "cota_receita_quadrante",
+              "30": "cota_qtd_quadrante",
+              "31": "alvo_final_quadrante",
+              "32": "qtd_elegivel_quadrante",
+              "33": "alvo_viavel_quadrante",
+              "34": "prioridade_receita_alvo",
+              "35": "ordem_receita_alvo_quadrante",
+              "36": "selecao_receita_alvo",
+              "37": "prioridade_quantidade_alvo",
+              "38": "ordem_qtd_alvo_quadrante",
+              "39": "selecao_quantidade_alvo",
+              "40": "selecao_alvo",
+              "41": "candidato_complemento_receita",
+              "42": "ordem_complemento_receita",
+              "43": "complemento_receita",
+              "44": "candidato_complemento_quantidade",
+              "45": "ordem_complemento_quantidade",
+              "46": "complemento_quantidade",
+              "47": "selecao_ajustes",
+              "48": "origem_selecao_final",
+              "49": "selecao_manual",
+              "50": "selecao_final",
+              "52": "INICIAL",
+              "53": "EVENTUAL",
+              "54": "FREQUENTE",
+              "55": "CRONICO",
+              "57": "AJUSTE MANUAL",
+              "58": "EVENTUAL",
+              "59": "FREQUENTE",
+              "60": "CRONICO",
+              "62": "ALVO FINAL",
+              "63": "EVENTUAL",
+              "64": "FREQUENTE",
+              "65": "CRONICO",
+              "67": "Departamento",
+              "68": "PROPAGADO",
+              "70": "faixa",
+              "71": "perfil",
+              "72": "chave",
+              "73": "automatico_receita",
+              "74": "automatico_quantidade",
+              "75": "automatico_total",
+              "76": "ajuste_manual",
+              "77": "quadrante_manual",
+              "78": "alvo_final",
+              "79": "elegiveis",
+              "80": "alvo_viavel",
+              "81": "cota_receita",
+              "82": "cota_quantidade",
+              "83": "selecionado_receita_alvo",
+              "84": "selecionado_quantidade_alvo",
+              "85": "selecionado_alvo",
+              "86": "complemento_receita",
+              "87": "complemento_quantidade",
+              "88": "selecionado_ajustes",
+              "89": "validacao",
+              "90": "selecionado_final",
+              "91": "inclusao_manual",
+              "92": "exclusao_manual",
+              "93": "saldo_manual",
+              "95": "FINAL",
+              "96": "EVENTUAL",
+              "97": "FREQUENTE",
+              "98": "CRONICO"
+            }
+          },
+          {
+            "linha": 2,
+            "celulas": {
+              "1": "WEGOVY 1MG 1SIST 4AG#PBM#",
+              "2": "PROPAGADO",
+              "3": "DIABETES",
+              "4": "FAIXA 5",
+              "5": "CRONICO",
+              "6": "Super Sensível",
+              "7": "NOVO NORDISK",
+              "11": "S",
+              "17": "PREÇO ACIMA DO LIMITE",
+              "48": "MANUAL - EXCLUIR",
+              "52": "FAIXA 5",
+              "57": "FAIXA 5",
+              "62": "FAIXA 5",
+              "67": "Qtd Produtos",
+              "70": "FAIXA 5",
+              "71": "EVENTUAL",
+              "72": "FAIXA 5|EVENTUAL",
+              "89": "OK",
+              "95": "FAIXA 5"
+            }
+          },
+          {
+            "linha": 3,
+            "celulas": {
+              "1": "WEGOVY 2,4MG 1SIST 4AG#PBM#",
+              "2": "PROPAGADO",
+              "3": "DIABETES",
+              "4": "FAIXA 5",
+              "5": "CRONICO",
+              "6": "Super Sensível",
+              "7": "NOVO NORDISK",
+              "11": "S",
+              "17": "PREÇO ACIMA DO LIMITE",
+              "48": "MANUAL - EXCLUIR",
+              "52": "FAIXA 4",
+              "57": "FAIXA 4",
+              "62": "FAIXA 4",
+              "67": "Qtd Após Ajustes",
+              "70": "FAIXA 5",
+              "71": "FREQUENTE",
+              "72": "FAIXA 5|FREQUENTE",
+              "89": "OK",
+              "95": "FAIXA 4"
+            }
+          },
+          {
+            "linha": 4,
+            "celulas": {
+              "1": "OZEMPIC 1MG 1SIST 3ML+4AG #PBM#",
+              "2": "PROPAGADO",
+              "3": "DIABETES",
+              "4": "FAIXA 5",
+              "5": "CRONICO",
+              "6": "Super Sensível",
+              "7": "NOVO NORDISK",
+              "11": "S",
+              "17": "PREÇO ACIMA DO LIMITE",
+              "48": "MANUAL - EXCLUIR",
+              "52": "FAIXA 3",
+              "57": "FAIXA 3",
+              "62": "FAIXA 3",
+              "67": "Qtd Final Considerada",
+              "70": "FAIXA 5",
+              "71": "CRONICO",
+              "72": "FAIXA 5|CRONICO",
+              "89": "OK",
+              "95": "FAIXA 3"
+            }
+          },
+          {
+            "linha": 5,
+            "celulas": {
+              "1": "VARYLIFT 500MG 60CP",
+              "2": "PROPAGADO",
+              "3": "CARDIOVASCULAR",
+              "4": "FAIXA 4",
+              "5": "CRONICO",
+              "6": "Super Sensível",
+              "7": "UNIAO QUIMICA",
+              "48": "MANUAL - INCLUIR",
+              "52": "FAIXA 2",
+              "57": "FAIXA 2",
+              "62": "FAIXA 2",
+              "67": "Vagas Complementares",
+              "70": "FAIXA 4",
+              "71": "EVENTUAL",
+              "72": "FAIXA 4|EVENTUAL",
+              "89": "OK",
+              "95": "FAIXA 2"
+            }
+          },
+          {
+            "linha": 6,
+            "celulas": {
+              "1": "DOZEMAST SL 30CP",
+              "2": "PROPAGADO",
+              "3": "VITAMINAS E SUPLEMENTOS",
+              "4": "FAIXA 3",
+              "5": "FREQUENTE",
+              "6": "Sensível",
+              "7": "MARJAN",
+              "48": "MANUAL - INCLUIR",
+              "52": "FAIXA 1",
+              "57": "FAIXA 1",
+              "62": "FAIXA 1",
+              "67": "Meta Receita Final",
+              "70": "FAIXA 4",
+              "71": "FREQUENTE",
+              "72": "FAIXA 4|FREQUENTE",
+              "89": "OK",
+              "95": "FAIXA 1"
+            }
+          },
+          {
+            "linha": 7,
+            "celulas": {
+              "1": "RYBELSUS 14MG 30CP#PBM#",
+              "2": "PROPAGADO",
+              "3": "DIABETES",
+              "4": "FAIXA 5",
+              "5": "CRONICO",
+              "6": "Super Sensível",
+              "7": "NOVO NORDISK",
+              "11": "S",
+              "17": "PREÇO ACIMA DO LIMITE",
+              "48": "MANUAL - EXCLUIR",
+              "67": "Meta Quantidade Final",
+              "70": "FAIXA 4",
+              "71": "CRONICO",
+              "72": "FAIXA 4|CRONICO",
+              "89": "OK"
+            }
+          }
+        ],
+        "colunasLojaClusterUf": []
+      },
+      {
+        "aba": "SIMILAR",
+        "linhas": 249,
+        "colunas": 101,
+        "cabecalho": [
+          {
+            "linha": 1,
+            "celulas": {
+              "0": "produtoid",
+              "1": "produto",
+              "2": "departamento",
+              "3": "categoria",
+              "4": "FAIXA DE PREÇO",
+              "5": "CRONICIDADE",
+              "6": "SENSIBILIDADE",
+              "7": "fabricante",
+              "8": "receita",
+              "9": "quantidade",
+              "10": "pmc",
+              "11": "pbm",
+              "12": "marca_propria",
+              "13": "farmacia_popular",
+              "14": "preco_tabelado",
+              "15": "preco_medio_venda",
+              "16": "elegivel",
+              "17": "motivo_inelegibilidade",
+              "18": "ordem",
+              "19": "rank_receita_",
+              "20": "rank_qtd_",
+              "21": "selecao_receita",
+              "22": "rank_qtd_complementar",
+              "23": "selecao_quantidade",
+              "24": "selecao_inicial",
+              "25": "qtd_manual_quadrante",
+              "26": "quadrante_manual",
+              "27": "atual_receita_quadrante",
+              "28": "atual_qtd_quadrante",
+              "29": "cota_receita_quadrante",
+              "30": "cota_qtd_quadrante",
+              "31": "alvo_final_quadrante",
+              "32": "qtd_elegivel_quadrante",
+              "33": "alvo_viavel_quadrante",
+              "34": "prioridade_receita_alvo",
+              "35": "ordem_receita_alvo_quadrante",
+              "36": "selecao_receita_alvo",
+              "37": "prioridade_quantidade_alvo",
+              "38": "ordem_qtd_alvo_quadrante",
+              "39": "selecao_quantidade_alvo",
+              "40": "selecao_alvo",
+              "41": "candidato_complemento_receita",
+              "42": "ordem_complemento_receita",
+              "43": "complemento_receita",
+              "44": "candidato_complemento_quantidade",
+              "45": "ordem_complemento_quantidade",
+              "46": "complemento_quantidade",
+              "47": "selecao_ajustes",
+              "48": "origem_selecao_final",
+              "49": "selecao_manual",
+              "50": "selecao_final",
+              "52": "INICIAL",
+              "53": "EVENTUAL",
+              "54": "FREQUENTE",
+              "55": "CRONICO",
+              "57": "AJUSTE MANUAL",
+              "58": "EVENTUAL",
+              "59": "FREQUENTE",
+              "60": "CRONICO",
+              "62": "ALVO FINAL",
+              "63": "EVENTUAL",
+              "64": "FREQUENTE",
+              "65": "CRONICO",
+              "67": "Departamento",
+              "68": "SIMILAR",
+              "70": "faixa",
+              "71": "perfil",
+              "72": "chave",
+              "73": "automatico_receita",
+              "74": "automatico_quantidade",
+              "75": "automatico_total",
+              "76": "ajuste_manual",
+              "77": "quadrante_manual",
+              "78": "alvo_final",
+              "79": "elegiveis",
+              "80": "alvo_viavel",
+              "81": "cota_receita",
+              "82": "cota_quantidade",
+              "83": "selecionado_receita_alvo",
+              "84": "selecionado_quantidade_alvo",
+              "85": "selecionado_alvo",
+              "86": "complemento_receita",
+              "87": "complemento_quantidade",
+              "88": "selecionado_ajustes",
+              "89": "validacao",
+              "90": "selecionado_final",
+              "91": "inclusao_manual",
+              "92": "exclusao_manual",
+              "93": "saldo_manual",
+              "95": "FINAL",
+              "96": "EVENTUAL",
+              "97": "FREQUENTE",
+              "98": "CRONICO"
+            }
+          },
+          {
+            "linha": 2,
+            "celulas": {
+              "1": "FLAVONID 500MG 60CP",
+              "2": "SIMILAR",
+              "3": "CARDIOVASCULAR",
+              "4": "FAIXA 5",
+              "5": "CRONICO",
+              "6": "Super Sensível",
+              "7": "NEO QUIMICA SMART",
+              "48": "MANUAL - INCLUIR",
+              "52": "FAIXA 5",
+              "57": "FAIXA 5",
+              "62": "FAIXA 5",
+              "67": "Qtd Produtos",
+              "70": "FAIXA 5",
+              "71": "EVENTUAL",
+              "72": "FAIXA 5|EVENTUAL",
+              "89": "OK",
+              "95": "FAIXA 5"
+            }
+          },
+          {
+            "linha": 3,
+            "celulas": {
+              "1": "VITAMINA D3 50.000UI 4CP(UNI)",
+              "2": "SIMILAR",
+              "3": "VITAMINAS E SUPLEMENTOS",
+              "4": "FAIXA 4",
+              "5": "FREQUENTE",
+              "6": "Sensível",
+              "7": "UNIAO QUIMICA",
+              "48": "MANUAL - INCLUIR",
+              "52": "FAIXA 4",
+              "57": "FAIXA 4",
+              "62": "FAIXA 4",
+              "67": "Qtd Após Ajustes",
+              "70": "FAIXA 5",
+              "71": "FREQUENTE",
+              "72": "FAIXA 5|FREQUENTE",
+              "89": "OK",
+              "95": "FAIXA 4"
+            }
+          },
+          {
+            "linha": 4,
+            "celulas": {
+              "1": "NEOSORO AD 30ML",
+              "2": "SIMILAR",
+              "3": "RESPIRATÓRIO",
+              "4": "FAIXA 1",
+              "5": "EVENTUAL",
+              "6": "Pouco Sensível",
+              "7": "NEO QUIMICA SMART",
+              "48": "MANUAL - INCLUIR",
+              "52": "FAIXA 3",
+              "57": "FAIXA 3",
+              "62": "FAIXA 3",
+              "67": "Qtd Final Considerada",
+              "70": "FAIXA 5",
+              "71": "CRONICO",
+              "72": "FAIXA 5|CRONICO",
+              "89": "OK",
+              "95": "FAIXA 3"
+            }
+          },
+          {
+            "linha": 5,
+            "celulas": {
+              "1": "VITAMINA D3 7.000UI 30CP(UNI)",
+              "2": "SIMILAR",
+              "3": "VITAMINAS E SUPLEMENTOS",
+              "4": "FAIXA 4",
+              "5": "FREQUENTE",
+              "6": "Sensível",
+              "7": "UNIAO QUIMICA",
+              "48": "MANUAL - INCLUIR",
+              "52": "FAIXA 2",
+              "57": "FAIXA 2",
+              "62": "FAIXA 2",
+              "67": "Vagas Complementares",
+              "70": "FAIXA 4",
+              "71": "EVENTUAL",
+              "72": "FAIXA 4|EVENTUAL",
+              "89": "OK",
+              "95": "FAIXA 2"
+            }
+          },
+          {
+            "linha": 6,
+            "celulas": {
+              "1": "TORSILAX 30CP",
+              "2": "SIMILAR",
+              "3": "ANTI-INFLAMATÓRIO",
+              "4": "FAIXA 3",
+              "5": "EVENTUAL",
+              "6": "Pouco Sensível",
+              "7": "NEO QUIMICA SMART",
+              "48": "MANUAL - INCLUIR",
+              "52": "FAIXA 1",
+              "57": "FAIXA 1",
+              "62": "FAIXA 1",
+              "67": "Meta Receita Final",
+              "70": "FAIXA 4",
+              "71": "FREQUENTE",
+              "72": "FAIXA 4|FREQUENTE",
+              "89": "OK",
+              "95": "FAIXA 1"
+            }
+          },
+          {
+            "linha": 7,
+            "celulas": {
+              "1": "IBUPRIL 600MG 20CP",
+              "2": "SIMILAR",
+              "3": "ANTI-INFLAMATÓRIO",
+              "4": "FAIXA 2",
+              "5": "EVENTUAL",
+              "6": "Pouco Sensível",
+              "7": "TEUTO",
+              "48": "MANUAL - INCLUIR",
+              "67": "Meta Quantidade Final",
+              "70": "FAIXA 4",
+              "71": "CRONICO",
+              "72": "FAIXA 4|CRONICO",
+              "89": "OK"
+            }
+          }
+        ],
+        "colunasLojaClusterUf": []
+      },
+      {
+        "aba": "Lista de Pesquisa Completa",
+        "linhas": 72,
+        "colunas": 15,
+        "cabecalho": [
+          {
+            "linha": 2,
+            "celulas": {
+              "1": "id",
+              "2": "Descrição Produto",
+              "3": "Departamento",
+              "4": "Categoria",
+              "5": "Faixa de Preço",
+              "6": "Cronicidade",
+              "7": "Sensibilidade",
+              "8": "Fabricante",
+              "9": "Venda R$",
+              "10": "Qtde Venda",
+              "11": "PMC",
+              "12": "Preço Médio Venda",
+              "13": "Rank receita_",
+              "14": "Rank qtd"
+            }
+          },
+          {
+            "linha": 3,
+            "celulas": {
+              "2": "VARYLIFT 500MG 60CP",
+              "3": "MARCA",
+              "4": "CARDIOVASCULAR",
+              "5": "FAIXA 4",
+              "6": "CRONICO",
+              "7": "Super Sensível",
+              "8": "UNIAO QUIMICA"
+            }
+          },
+          {
+            "linha": 4,
+            "celulas": {
+              "2": "DOZEMAST SL 30CP",
+              "3": "MARCA",
+              "4": "VITAMINAS E SUPLEMENTOS",
+              "5": "FAIXA 3",
+              "6": "FREQUENTE",
+              "7": "Sensível",
+              "8": "MARJAN"
+            }
+          },
+          {
+            "linha": 5,
+            "celulas": {
+              "2": "ANORO ELLIPTA 62,5/25MCG 30DS",
+              "3": "MARCA",
+              "4": "RESPIRATÓRIO",
+              "5": "FAIXA 5",
+              "6": "EVENTUAL",
+              "7": "Sensível",
+              "8": "GSK PHARMA"
+            }
+          },
+          {
+            "linha": 6,
+            "celulas": {
+              "2": "NESINA 25MG 30CP",
+              "3": "MARCA",
+              "4": "DIABETES",
+              "5": "FAIXA 4",
+              "6": "CRONICO",
+              "7": "Super Sensível",
+              "8": "HYPERA"
+            }
+          },
+          {
+            "linha": 7,
+            "celulas": {
+              "2": "DEFB 1000MCG 30CP SL",
+              "3": "MARCA",
+              "4": "VITAMINAS E SUPLEMENTOS",
+              "5": "FAIXA 2",
+              "6": "FREQUENTE",
+              "7": "Pouco Sensível",
+              "8": "BIOLAB GENÉRICOS"
+            }
+          }
+        ],
+        "colunasLojaClusterUf": []
+      },
+      {
+        "aba": "Dinâmica Marca",
+        "linhas": 17,
+        "colunas": 11,
+        "cabecalho": [
+          {
+            "linha": 1,
+            "celulas": {
+              "0": "selecao_final"
+            }
+          },
+          {
+            "linha": 3,
+            "celulas": {
+              "0": "CRONICIDADE",
+              "1": "categoria",
+              "2": "Contagem de produtoid",
+              "4": "Row Labels",
+              "5": "Contagem de produtoid",
+              "6": "Contagem de produtoid2",
+              "7": "Soma de receita",
+              "8": "Soma de receita2",
+              "9": "Soma de quantidade",
+              "10": "Soma de quantidade2"
+            }
+          },
+          {
+            "linha": 4,
+            "celulas": {
+              "0": "CRONICO",
+              "1": "CARDIOVASCULAR",
+              "4": "Pesquisa Manual"
+            }
+          },
+          {
+            "linha": 5,
+            "celulas": {
+              "1": "CONTROLE HORMONAL",
+              "4": "Demais SKUs"
+            }
+          },
+          {
+            "linha": 6,
+            "celulas": {
+              "1": "DIABETES",
+              "4": "Grand Total"
+            }
+          },
+          {
+            "linha": 7,
+            "celulas": {
+              "1": "NEUROLÓGICOS"
+            }
+          }
+        ],
+        "colunasLojaClusterUf": []
+      },
+      {
+        "aba": "Dinâmica GX",
+        "linhas": 11,
+        "colunas": 6,
+        "cabecalho": [
+          {
+            "linha": 3,
+            "celulas": {
+              "0": "Row Labels",
+              "1": "Qtde Chaves",
+              "2": "Soma de receita2",
+              "3": "Soma de receita",
+              "4": "Soma de quantidade",
+              "5": "Soma de quantidade2"
+            }
+          },
+          {
+            "linha": 4,
+            "celulas": {
+              "0": "Top Produtos - Manual"
+            }
+          },
+          {
+            "linha": 5,
+            "celulas": {
+              "0": "Demais SKUs"
+            }
+          },
+          {
+            "linha": 6,
+            "celulas": {
+              "0": "Via Pesquisa Infoprice"
+            }
+          },
+          {
+            "linha": 7,
+            "celulas": {
+              "0": "Via Margem Objetivo"
+            }
+          }
+        ],
+        "colunasLojaClusterUf": []
+      },
+      {
+        "aba": "Dinâmica Similar",
+        "linhas": 22,
+        "colunas": 11,
+        "cabecalho": [
+          {
+            "linha": 1,
+            "celulas": {
+              "0": "selecao_final",
+              "1": "#VALUE!"
+            }
+          },
+          {
+            "linha": 3,
+            "celulas": {
+              "0": "CRONICIDADE",
+              "1": "categoria",
+              "2": "Contagem de produtoid",
+              "4": "Row Labels",
+              "5": "Contagem de produtoid",
+              "6": "Contagem de produtoid2",
+              "7": "Soma de receita",
+              "8": "Soma de receita2",
+              "9": "Soma de quantidade",
+              "10": "Soma de quantidade2"
+            }
+          },
+          {
+            "linha": 4,
+            "celulas": {
+              "0": "CRONICO",
+              "1": "ANTICONCEPCIONAIS",
+              "4": "#VALUE!"
+            }
+          },
+          {
+            "linha": 5,
+            "celulas": {
+              "1": "CARDIOVASCULAR",
+              "4": "Grand Total"
+            }
+          },
+          {
+            "linha": 6,
+            "celulas": {
+              "1": "DIABETES"
+            }
+          },
+          {
+            "linha": 7,
+            "celulas": {
+              "1": "HIPERTENSÃO"
+            }
+          }
+        ],
+        "colunasLojaClusterUf": []
+      },
+      {
+        "aba": "Dinâmica GX (1)",
+        "linhas": 15,
+        "colunas": 9,
+        "cabecalho": [
+          {
+            "linha": 1,
+            "celulas": {
+              "0": "selecao_final"
+            }
+          },
+          {
+            "linha": 3,
+            "celulas": {
+              "0": "CRONICIDADE",
+              "1": "categoria",
+              "2": "Contagem de chave_generico",
+              "4": "Row Labels",
+              "5": "Soma de receita",
+              "6": "Soma de receita2",
+              "7": "Soma de quantidade",
+              "8": "Soma de quantidade2"
+            }
+          },
+          {
+            "linha": 4,
+            "celulas": {
+              "0": "CRONICO",
+              "1": "CARDIOVASCULAR",
+              "4": "Pesquisa Manual"
+            }
+          },
+          {
+            "linha": 5,
+            "celulas": {
+              "1": "HIPERTENSÃO",
+              "4": "Demais SKUs"
+            }
+          },
+          {
+            "linha": 6,
+            "celulas": {
+              "1": "NEUROLÓGICOS",
+              "4": "Grand Total"
+            }
+          },
+          {
+            "linha": 7,
+            "celulas": {
+              "0": "FREQUENTE",
+              "1": "SISTEMA DIGESTIVO"
+            }
+          }
+        ],
+        "colunasLojaClusterUf": []
+      }
+    ]
+  },
+  {
+    "arquivo": "RX_Pesquisa.xlsx",
+    "bytes": 116725,
+    "abas": [
+      {
+        "aba": "Marca_e_Similar",
+        "linhas": 302,
+        "colunas": 33,
+        "cabecalho": [
+          {
+            "linha": 1,
+            "celulas": {
+              "0": "ID",
+              "1": "ean_principal",
+              "2": "produto",
+              "3": "fabricante",
+              "4": "fabricante_plug",
+              "5": "divisao",
+              "6": "departamento",
+              "7": "categoria",
+              "8": "FAIXA DE PREÇO",
+              "9": "CRONICIDADE",
+              "10": "SENSIBILIDADE",
+              "11": "pbm",
+              "12": "marca_propria",
+              "13": "farmacia_popular",
+              "14": "receita",
+              "15": "quantidade",
+              "16": "pmc",
+              "17": "preco_rede_min",
+              "18": "preco_rede_max",
+              "19": "LOJA",
+              "20": "CONCORRENTE",
+              "21": "PREÇO",
+              "22": "desc_conc",
+              "23": "desc_rede_min",
+              "24": "desc_rede_max",
+              "25": "preco_rede_med",
+              "26": "desc_rede_med",
+              "27": "Desc Pond",
+              "28": "Desc Pond Super",
+              "29": "Tipo Conc",
+              "30": "Flag Manual",
+              "31": "Quantidade por Tipo Conc"
+            }
+          },
+          {
+            "linha": 2,
+            "celulas": {
+              "0": "175542",
+              "1": "7896714221847",
+              "2": "FLAVONID 500MG 60CP",
+              "3": "NEO QUIMICA SMART",
+              "4": "NEO QUIMICA",
+              "5": "RX",
+              "6": "SIMILAR",
+              "7": "CARDIOVASCULAR",
+              "8": "FAIXA 5",
+              "9": "CRONICO",
+              "10": "Super Sensível",
+              "19": "MANEJO",
+              "20": "MODERNA",
+              "29": "INDEP"
+            }
+          },
+          {
+            "linha": 3,
+            "celulas": {
+              "0": "175542",
+              "1": "7896714221847",
+              "2": "FLAVONID 500MG 60CP",
+              "3": "NEO QUIMICA SMART",
+              "4": "NEO QUIMICA",
+              "5": "RX",
+              "6": "SIMILAR",
+              "7": "CARDIOVASCULAR",
+              "8": "FAIXA 5",
+              "9": "CRONICO",
+              "10": "Super Sensível",
+              "19": "MANEJO",
+              "20": "RAIA",
+              "29": "ABRAF"
+            }
+          },
+          {
+            "linha": 4,
+            "celulas": {
+              "0": "175542",
+              "1": "7896714221847",
+              "2": "FLAVONID 500MG 60CP",
+              "3": "NEO QUIMICA SMART",
+              "4": "NEO QUIMICA",
+              "5": "RX",
+              "6": "SIMILAR",
+              "7": "CARDIOVASCULAR",
+              "8": "FAIXA 5",
+              "9": "CRONICO",
+              "10": "Super Sensível",
+              "19": "MANEJO",
+              "20": "PACHECO",
+              "29": "ABRAF"
+            }
+          },
+          {
+            "linha": 5,
+            "celulas": {
+              "0": "175542",
+              "1": "7896714221847",
+              "2": "FLAVONID 500MG 60CP",
+              "3": "NEO QUIMICA SMART",
+              "4": "NEO QUIMICA",
+              "5": "RX",
+              "6": "SIMILAR",
+              "7": "CARDIOVASCULAR",
+              "8": "FAIXA 5",
+              "9": "CRONICO",
+              "10": "Super Sensível",
+              "19": "MANEJO",
+              "20": "RETIRO",
+              "29": "INDEP"
+            }
+          },
+          {
+            "linha": 6,
+            "celulas": {
+              "0": "175542",
+              "1": "7896714221847",
+              "2": "FLAVONID 500MG 60CP",
+              "3": "NEO QUIMICA SMART",
+              "4": "NEO QUIMICA",
+              "5": "RX",
+              "6": "SIMILAR",
+              "7": "CARDIOVASCULAR",
+              "8": "FAIXA 5",
+              "9": "CRONICO",
+              "10": "Super Sensível",
+              "19": "MANEJO",
+              "20": "POVÃO",
+              "29": "INDEP"
+            }
+          },
+          {
+            "linha": 7,
+            "celulas": {
+              "0": "26753439",
+              "1": "7896006201076",
+              "2": "VITAMINA D3 50.000UI 4CP(UNI)",
+              "3": "UNIAO QUIMICA",
+              "4": "UNIAO QUIMICA",
+              "5": "RX",
+              "6": "SIMILAR",
+              "7": "VITAMINAS E SUPLEMENTOS",
+              "8": "FAIXA 4",
+              "9": "FREQUENTE",
+              "10": "Sensível",
+              "19": "MANEJO",
+              "20": "MODERNA",
+              "29": "INDEP"
+            }
+          }
+        ],
+        "colunasLojaClusterUf": [
+          {
+            "linhaCabecalho": 1,
+            "coluna": 17,
+            "rotulo": "preco_rede_min",
+            "qtdDistintos": 39,
+            "valores": {
+              "29.99": 10,
+              "54.99": 5,
+              "49.99": 5,
+              "4.99": 5,
+              "85.49": 5,
+              "15.99": 5,
+              "399.51": 5,
+              "172.99": 5,
+              "45.99": 5,
+              "36.57": 5,
+              "204.92": 5,
+              "25.32": 5,
+              "76.55": 5,
+              "137.99": 5,
+              "83.08": 5,
+              "50.09": 5,
+              "109.49": 5,
+              "14.99": 5,
+              "63.76": 5,
+              "95.11": 5,
+              "134.99": 5,
+              "23.9": 5,
+              "119.86": 5,
+              "82": 5,
+              "36.49": 5,
+              "228.99": 5,
+              "20.21": 5,
+              "26.49": 5,
+              "28.9": 5,
+              "10.49": 5,
+              "23.09": 5,
+              "18.53": 5,
+              "71.45": 5,
+              "96.66": 5,
+              "61.99": 5,
+              "46.99": 4,
+              "44.93": 4,
+              "11.52": 4,
+              "34.49": 2
+            }
+          },
+          {
+            "linhaCabecalho": 1,
+            "coluna": 18,
+            "rotulo": "preco_rede_max",
+            "qtdDistintos": 39,
+            "valores": {
+              "29.99": 10,
+              "54.99": 5,
+              "49.99": 5,
+              "4.99": 5,
+              "85.49": 5,
+              "15.99": 5,
+              "399.51": 5,
+              "172.99": 5,
+              "45.99": 5,
+              "36.57": 5,
+              "204.92": 5,
+              "25.32": 5,
+              "76.55": 5,
+              "137.99": 5,
+              "83.08": 5,
+              "50.09": 5,
+              "109.49": 5,
+              "14.99": 5,
+              "63.76": 5,
+              "95.11": 5,
+              "134.99": 5,
+              "23.9": 5,
+              "119.86": 5,
+              "82": 5,
+              "36.49": 5,
+              "228.99": 5,
+              "20.21": 5,
+              "26.49": 5,
+              "28.9": 5,
+              "10.49": 5,
+              "23.09": 5,
+              "18.53": 5,
+              "71.45": 5,
+              "96.66": 5,
+              "61.99": 5,
+              "46.99": 4,
+              "44.93": 4,
+              "11.52": 4,
+              "34.49": 2
+            }
+          },
+          {
+            "linhaCabecalho": 1,
+            "coluna": 19,
+            "rotulo": "LOJA",
+            "qtdDistintos": 1,
+            "valores": {
+              "MANEJO": 194
+            }
+          },
+          {
+            "linhaCabecalho": 1,
+            "coluna": 20,
+            "rotulo": "CONCORRENTE",
+            "qtdDistintos": 5,
+            "valores": {
+              "RETIRO": 40,
+              "RAIA": 39,
+              "POVÃO": 39,
+              "MODERNA": 38,
+              "PACHECO": 38
+            }
+          },
+          {
+            "linhaCabecalho": 1,
+            "coluna": 23,
+            "rotulo": "desc_rede_min",
+            "qtdDistintos": 40,
+            "valores": {
+              "0.7343478260869565": 5,
+              "0.5676805535534093": 5,
+              "0.7172191424369272": 5,
+              "0.6131782945736435": 5,
+              "0.230166591625394": 5,
+              "0.6615124153498871": 5,
+              "0.5884169884169884": 5,
+              "0.11350019970709636": 5,
+              "0.1395672718229296": 5,
+              "0.8356149694391821": 5,
+              "0.15347222222222223": 5,
+              "0.1135144488665859": 5,
+              "0.11344537815126043": 5,
+              "0.15348888643149405": 5,
+              "0.37831140746080366": 5,
+              "0.11352966282543751": 5,
+              "0.11345132743362828": 5,
+              "0.1805254097747175": 5,
+              "0.4557007988380537": 5,
+              "0.11345939933259186": 5,
+              "0.11352409357815274": 5,
+              "0.13239925445080014": 5,
+              "0.4813368055555556": 5,
+              "0.15353107344632766": 5,
+              "0.15350469701662028": 5,
+              "0.6898691143974163": 5,
+              "0.19253147149053196": 5,
+              "0.15333054042731464": 5,
+              "0.3531135531135532": 5,
+              "0.3815536058206718": 5,
+              "0.5716619028174765": 5,
+              "0.11362763915547024": 5,
+              "0.1534947464595705": 5,
+              "0.11352357320099248": 5,
+              "0.15351606970838083": 5,
+              "0.2508761329305136": 5,
+              "0.15773436099659432": 4,
+              "0.15354182366239633": 4,
+              "0.11384615384615392": 4,
+              "0.6276182250053983": 2
+            }
+          },
+          {
+            "linhaCabecalho": 1,
+            "coluna": 24,
+            "rotulo": "desc_rede_max",
+            "qtdDistintos": 40,
+            "valores": {
+              "0.7343478260869565": 5,
+              "0.5676805535534093": 5,
+              "0.7172191424369272": 5,
+              "0.6131782945736435": 5,
+              "0.230166591625394": 5,
+              "0.6615124153498871": 5,
+              "0.5884169884169884": 5,
+              "0.11350019970709636": 5,
+              "0.1395672718229296": 5,
+              "0.8356149694391821": 5,
+              "0.15347222222222223": 5,
+              "0.1135144488665859": 5,
+              "0.11344537815126043": 5,
+              "0.15348888643149405": 5,
+              "0.37831140746080366": 5,
+              "0.11352966282543751": 5,
+              "0.11345132743362828": 5,
+              "0.1805254097747175": 5,
+              "0.4557007988380537": 5,
+              "0.11345939933259186": 5,
+              "0.11352409357815274": 5,
+              "0.13239925445080014": 5,
+              "0.4813368055555556": 5,
+              "0.15353107344632766": 5,
+              "0.15350469701662028": 5,
+              "0.6898691143974163": 5,
+              "0.19253147149053196": 5,
+              "0.15333054042731464": 5,
+              "0.3531135531135532": 5,
+              "0.3815536058206718": 5,
+              "0.5716619028174765": 5,
+              "0.11362763915547024": 5,
+              "0.1534947464595705": 5,
+              "0.11352357320099248": 5,
+              "0.15351606970838083": 5,
+              "0.2508761329305136": 5,
+              "0.15773436099659432": 4,
+              "0.15354182366239633": 4,
+              "0.11384615384615392": 4,
+              "0.6276182250053983": 2
+            }
+          },
+          {
+            "linhaCabecalho": 1,
+            "coluna": 25,
+            "rotulo": "preco_rede_med",
+            "qtdDistintos": 39,
+            "valores": {
+              "29.99": 10,
+              "54.99": 5,
+              "49.99": 5,
+              "4.99": 5,
+              "85.49": 5,
+              "15.99": 5,
+              "399.51": 5,
+              "172.99": 5,
+              "45.99": 5,
+              "36.57": 5,
+              "204.92": 5,
+              "25.32": 5,
+              "76.55": 5,
+              "137.99": 5,
+              "83.08": 5,
+              "50.09": 5,
+              "109.49": 5,
+              "14.99": 5,
+              "63.76": 5,
+              "95.11": 5,
+              "134.99": 5,
+              "23.9": 5,
+              "119.86": 5,
+              "82": 5,
+              "36.49": 5,
+              "228.99": 5,
+              "20.21": 5,
+              "26.49": 5,
+              "28.9": 5,
+              "10.49": 5,
+              "23.09": 5,
+              "18.53": 5,
+              "71.45": 5,
+              "96.66": 5,
+              "61.99": 5,
+              "46.99": 4,
+              "44.93": 4,
+              "11.52": 4,
+              "34.49": 2
+            }
+          },
+          {
+            "linhaCabecalho": 1,
+            "coluna": 26,
+            "rotulo": "desc_rede_med",
+            "qtdDistintos": 40,
+            "valores": {
+              "0.7343478260869565": 5,
+              "0.5676805535534093": 5,
+              "0.7172191424369272": 5,
+              "0.6131782945736435": 5,
+              "0.230166591625394": 5,
+              "0.6615124153498871": 5,
+              "0.5884169884169884": 5,
+              "0.11350019970709636": 5,
+              "0.1395672718229296": 5,
+              "0.8356149694391821": 5,
+              "0.15347222222222223": 5,
+              "0.1135144488665859": 5,
+              "0.11344537815126043": 5,
+              "0.15348888643149405": 5,
+              "0.37831140746080366": 5,
+              "0.11352966282543751": 5,
+              "0.11345132743362828": 5,
+              "0.1805254097747175": 5,
+              "0.4557007988380537": 5,
+              "0.11345939933259186": 5,
+              "0.11352409357815274": 5,
+              "0.13239925445080014": 5,
+              "0.4813368055555556": 5,
+              "0.15353107344632766": 5,
+              "0.15350469701662028": 5,
+              "0.6898691143974163": 5,
+              "0.19253147149053196": 5,
+              "0.15333054042731464": 5,
+              "0.3531135531135532": 5,
+              "0.3815536058206718": 5,
+              "0.5716619028174765": 5,
+              "0.11362763915547024": 5,
+              "0.1534947464595705": 5,
+              "0.11352357320099248": 5,
+              "0.15351606970838083": 5,
+              "0.2508761329305136": 5,
+              "0.15773436099659432": 4,
+              "0.15354182366239633": 4,
+              "0.11384615384615392": 4,
+              "0.6276182250053983": 2
+            }
+          }
+        ]
+      },
+      {
+        "aba": "Resultado_Top",
+        "linhas": 331,
+        "colunas": 4,
+        "cabecalho": [
+          {
+            "linha": 1,
+            "celulas": {
+              "0": "Produto",
+              "1": "ProdutoID",
+              "2": "TIpoConc",
+              "3": "Desconto%"
+            }
+          },
+          {
+            "linha": 2,
+            "celulas": {
+              "0": "ANORO ELLIPTA 62,5/25MCG 30DS",
+              "1": "99762",
+              "2": "TODOS"
+            }
+          },
+          {
+            "linha": 3,
+            "celulas": {
+              "0": "ANORO ELLIPTA 62,5/25MCG 30DS",
+              "1": "99762",
+              "2": "INDEP"
+            }
+          },
+          {
+            "linha": 4,
+            "celulas": {
+              "0": "ANORO ELLIPTA 62,5/25MCG 30DS",
+              "1": "99762",
+              "2": "ABRAF"
+            }
+          },
+          {
+            "linha": 5,
+            "celulas": {
+              "0": "ARFLEX RETARD 200MG 6CP",
+              "1": "158708",
+              "2": "TODOS"
+            }
+          },
+          {
+            "linha": 6,
+            "celulas": {
+              "0": "ARFLEX RETARD 200MG 6CP",
+              "1": "158708",
+              "2": "INDEP"
+            }
+          },
+          {
+            "linha": 7,
+            "celulas": {
+              "0": "ARFLEX RETARD 200MG 6CP",
+              "1": "158708",
+              "2": "ABRAF"
+            }
+          }
+        ],
+        "colunasLojaClusterUf": []
+      },
+      {
+        "aba": "Resultado_Matriz_Internet",
+        "linhas": 136,
+        "colunas": 5,
+        "cabecalho": [
+          {
+            "linha": 1,
+            "celulas": {
+              "0": "Tipo",
+              "1": "Conc",
+              "2": "Faixa",
+              "3": "Cronicidade",
+              "4": "Desconto"
+            }
+          },
+          {
+            "linha": 2,
+            "celulas": {
+              "0": "MARCA",
+              "1": "TODOS",
+              "2": "FAIXA 5",
+              "3": "EVENTUAL"
+            }
+          },
+          {
+            "linha": 3,
+            "celulas": {
+              "0": "MARCA",
+              "1": "TODOS",
+              "2": "FAIXA 4",
+              "3": "EVENTUAL"
+            }
+          },
+          {
+            "linha": 4,
+            "celulas": {
+              "0": "MARCA",
+              "1": "TODOS",
+              "2": "FAIXA 3",
+              "3": "EVENTUAL"
+            }
+          },
+          {
+            "linha": 5,
+            "celulas": {
+              "0": "MARCA",
+              "1": "TODOS",
+              "2": "FAIXA 2",
+              "3": "EVENTUAL"
+            }
+          },
+          {
+            "linha": 6,
+            "celulas": {
+              "0": "MARCA",
+              "1": "TODOS",
+              "2": "FAIXA 1",
+              "3": "EVENTUAL"
+            }
+          },
+          {
+            "linha": 7,
+            "celulas": {
+              "0": "MARCA",
+              "1": "TODOS",
+              "2": "FAIXA 5",
+              "3": "FREQUENTE"
+            }
+          }
+        ],
+        "colunasLojaClusterUf": []
+      },
+      {
+        "aba": "Visão_Conc",
+        "linhas": 44,
+        "colunas": 7,
+        "cabecalho": [
+          {
+            "linha": 1,
+            "celulas": {
+              "0": "Flag Manual",
+              "1": "(All)"
+            }
+          },
+          {
+            "linha": 3,
+            "celulas": {
+              "0": "Average of desc_conc",
+              "2": "CONCORRENTE"
+            }
+          },
+          {
+            "linha": 4,
+            "celulas": {
+              "0": "ID",
+              "1": "SENSIBILIDADE",
+              "2": "MODERNA",
+              "3": "RAIA",
+              "4": "PACHECO",
+              "5": "RETIRO",
+              "6": "POVÃO"
+            }
+          },
+          {
+            "linha": 5,
+            "celulas": {
+              "0": "102499",
+              "1": "Super Sensível"
+            }
+          },
+          {
+            "linha": 6,
+            "celulas": {
+              "0": "104555",
+              "1": "Sensível"
+            }
+          },
+          {
+            "linha": 7,
+            "celulas": {
+              "0": "109347",
+              "1": "Sensível"
+            }
+          }
+        ],
+        "colunasLojaClusterUf": [
+          {
+            "linhaCabecalho": 3,
+            "coluna": 2,
+            "rotulo": "CONCORRENTE",
+            "qtdDistintos": 39,
+            "valores": {
+              "MODERNA": 1,
+              "0.4143989908091549": 1,
+              "0.1286016949152542": 1,
+              "0.2487089289723824": 1,
+              "0.2830024813895782": 1,
+              "0.2445745159837911": 1,
+              "0.7533687219273173": 1,
+              "0.8617078314329629": 1,
+              "0.21399814183957888": 1,
+              "0.21893805309734504": 1,
+              "0.6827838827838828": 1,
+              "0.2513904338153503": 1,
+              "0.7884582695903449": 1,
+              "0.18538461538461537": 1,
+              "0.2145873320537428": 1,
+              "0.1925770308123249": 1,
+              "0.7440096618357488": 1,
+              "0.6141570141570142": 1,
+              "0.2384650525354043": 1,
+              "0.13196480938416433": 1,
+              "0.659041394335512": 1,
+              "0.5356589147286821": 1,
+              "0.6570563644226611": 1,
+              "0.7563205417607224": 1,
+              "0.5748697916666666": 1,
+              "0.2114120089980965": 1,
+              "0.1970400210176022": 1,
+              "0.23631538206347455": 1,
+              "0.6363842063581853": 1,
+              "0.27424269582362426": 1,
+              "0.35715814252086453": 1,
+              "0.1505740181268881": 1,
+              "0.22977802859292695": 1,
+              "0.2782407407407408": 1,
+              "0.1897104975492788": 1,
+              "0.17637644046094747": 1,
+              "0.13432739893309342": 1,
+              "0.20621735886595385": 1,
+              "0.1644033195757334": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "arquivo": "RX_Sensibilidade.xlsx",
+    "bytes": 1326718,
+    "abas": [
+      {
+        "aba": "Planilha1",
+        "linhas": 30,
+        "colunas": 1,
+        "cabecalho": [
+          {
+            "linha": 3,
+            "celulas": {
+              "0": "Rótulos de Linha"
+            }
+          },
+          {
+            "linha": 4,
+            "celulas": {
+              "0": "RX"
+            }
+          },
+          {
+            "linha": 5,
+            "celulas": {
+              "0": "GENERICO"
+            }
+          },
+          {
+            "linha": 6,
+            "celulas": {
+              "0": "MARCA"
+            }
+          },
+          {
+            "linha": 7,
+            "celulas": {
+              "0": "ANALGESICOS"
+            }
+          }
+        ],
+        "colunasLojaClusterUf": []
+      },
+      {
+        "aba": "Produtos",
+        "linhas": 4313,
+        "colunas": 26,
+        "cabecalho": [
+          {
+            "linha": 1,
+            "celulas": {
+              "0": "produtoid",
+              "1": "ean_principal",
+              "2": "produto",
+              "3": "chave_generico",
+              "4": "divisao",
+              "5": "departamento",
+              "6": "categoria",
+              "7": "fabricante",
+              "8": "fabricante_plug",
+              "9": "pbm",
+              "10": "marca_propria",
+              "11": "farmacia_popular",
+              "12": "preco_tabelado",
+              "13": "pmc",
+              "14": "preco_atual",
+              "15": "custo_atual",
+              "16": "estoque_atual",
+              "17": "receita_3m",
+              "18": "custo_3m",
+              "19": "quantidade_3m",
+              "20": "receita_12m",
+              "21": "custo_12m",
+              "22": "quantidade_12m",
+              "23": "FAIXA DE PREÇO",
+              "24": "CRONICIDADE",
+              "25": "SENSIBILIDADE"
+            }
+          },
+          {
+            "linha": 2,
+            "celulas": {
+              "0": "52363",
+              "1": "7896658014215",
+              "2": "MONTELAIR 10MG 30CP",
+              "4": "RX",
+              "5": "PROPAGADO",
+              "6": "RESPIRATORIO",
+              "7": "ACHE",
+              "8": "ACHE",
+              "23": "FAIXA 3",
+              "24": "EVENTUAL",
+              "25": "Pouco Sensível"
+            }
+          },
+          {
+            "linha": 3,
+            "celulas": {
+              "0": "52372",
+              "1": "7896181901143",
+              "2": "ACICLOVIR CR 10G(BIO)",
+              "3": "ACICLOVIR CREME DERMATOLOGICO 50 MG/G x 10 G",
+              "4": "RX",
+              "5": "GENERICO",
+              "6": "DERMATOLOGICOS",
+              "7": "BIOSINTETICA",
+              "8": "ACHE",
+              "23": "FAIXA 2",
+              "24": "FREQUENTE",
+              "25": "Pouco Sensível"
+            }
+          },
+          {
+            "linha": 4,
+            "celulas": {
+              "0": "52382",
+              "1": "7897316800256",
+              "2": "OFLOX 3 MG/ML SOL OFT 5 ML",
+              "4": "RX",
+              "5": "MARCA",
+              "6": "OFTALMOLOGICOS",
+              "7": "ALLERGAN",
+              "8": "ALLERGAN",
+              "23": "FAIXA 2",
+              "24": "FREQUENTE",
+              "25": "Pouco Sensível"
+            }
+          },
+          {
+            "linha": 5,
+            "celulas": {
+              "0": "52406",
+              "1": "7896112424444",
+              "2": "CRONOBE 5000 MCG INJ 2AP 2,5ML",
+              "4": "RX",
+              "5": "PROPAGADO",
+              "6": "NEUROLOGICOS",
+              "7": "BIOLAB",
+              "8": "BIOLAB",
+              "23": "FAIXA 1",
+              "24": "CRONICO",
+              "25": "Sensível"
+            }
+          },
+          {
+            "linha": 6,
+            "celulas": {
+              "0": "52431",
+              "1": "7896004724843",
+              "2": "(PBM)DRENATAN 50 MCG/ML SOL OFT 2,5 ML",
+              "4": "RX",
+              "5": "PROPAGADO",
+              "6": "OFTALMOLOGICOS",
+              "7": "EMS SIGMA PHARMA",
+              "8": "OFTA VISION HEALTH",
+              "23": "FAIXA 5",
+              "24": "FREQUENTE",
+              "25": "Super Sensível"
+            }
+          },
+          {
+            "linha": 7,
+            "celulas": {
+              "0": "52435",
+              "1": "7896004725536",
+              "2": "TRAVAMED SOL OFT 2,5ML",
+              "4": "RX",
+              "5": "PROPAGADO",
+              "6": "OFTALMOLOGICOS",
+              "7": "OFTA",
+              "8": "OFTA VISION HEALTH",
+              "23": "FAIXA 4",
+              "24": "FREQUENTE",
+              "25": "Sensível"
+            }
+          }
+        ],
+        "colunasLojaClusterUf": []
+      },
+      {
+        "aba": "Bases",
+        "linhas": 23,
+        "colunas": 22,
+        "cabecalho": [
+          {
+            "linha": 1,
+            "celulas": {
+              "10": "CLASSE TERAPÊUTICA",
+              "11": "CRONICIDADE"
+            }
+          },
+          {
+            "linha": 2,
+            "celulas": {
+              "3": "Faixa",
+              "10": "NEUROLOGICOS",
+              "11": "CRONICO"
+            }
+          },
+          {
+            "linha": 3,
+            "celulas": {
+              "1": "Quintil",
+              "2": "Faixa",
+              "3": "Inicio",
+              "4": "Fim",
+              "5": "Qtd",
+              "6": "Tipo",
+              "10": "CARDIOVASCULAR",
+              "11": "CRONICO"
+            }
+          },
+          {
+            "linha": 4,
+            "celulas": {
+              "2": "FAIXA 1",
+              "6": "MARCA",
+              "10": "HIPERTENSAO",
+              "11": "CRONICO",
+              "14": "Faixa",
+              "15": "Inicio",
+              "16": "Fim",
+              "17": "Qtd",
+              "18": "Tipo"
+            }
+          },
+          {
+            "linha": 5,
+            "celulas": {
+              "2": "FAIXA 2",
+              "6": "MARCA",
+              "10": "RESPIRATORIO",
+              "11": "EVENTUAL",
+              "14": "FAIXA 5",
+              "18": "MARCA"
+            }
+          },
+          {
+            "linha": 6,
+            "celulas": {
+              "2": "FAIXA 3",
+              "6": "MARCA",
+              "10": "DERMATOLOGICOS",
+              "11": "FREQUENTE",
+              "14": "FAIXA 4",
+              "18": "MARCA"
+            }
+          },
+          {
+            "linha": 7,
+            "celulas": {
+              "2": "FAIXA 4",
+              "6": "MARCA",
+              "10": "ANTI-INFLAMATORIO",
+              "11": "EVENTUAL",
+              "14": "FAIXA 3",
+              "18": "MARCA"
+            }
+          }
+        ],
+        "colunasLojaClusterUf": []
+      },
+      {
+        "aba": "Resumo",
+        "linhas": 63,
+        "colunas": 46,
+        "cabecalho": [
+          {
+            "linha": 2,
+            "celulas": {
+              "1": "EVENTUAL",
+              "2": "FREQUENTE",
+              "3": "CRONICO"
+            }
+          },
+          {
+            "linha": 3,
+            "celulas": {
+              "0": "FAIXA 5",
+              "1": "Sensível",
+              "2": "Super Sensível",
+              "3": "Super Sensível"
+            }
+          },
+          {
+            "linha": 4,
+            "celulas": {
+              "0": "FAIXA 4",
+              "1": "Sensível",
+              "2": "Sensível",
+              "3": "Super Sensível"
+            }
+          },
+          {
+            "linha": 5,
+            "celulas": {
+              "0": "FAIXA 3",
+              "1": "Pouco Sensível",
+              "2": "Sensível",
+              "3": "Super Sensível"
+            }
+          },
+          {
+            "linha": 6,
+            "celulas": {
+              "0": "FAIXA 2",
+              "1": "Pouco Sensível",
+              "2": "Pouco Sensível",
+              "3": "Sensível"
+            }
+          },
+          {
+            "linha": 7,
+            "celulas": {
+              "0": "FAIXA 1",
+              "1": "Pouco Sensível",
+              "2": "Pouco Sensível",
+              "3": "Sensível",
+              "15": "Utilizado para SKUs sem pesquisa - 'mg objetivo'"
+            }
+          }
+        ],
+        "colunasLojaClusterUf": []
+      }
+    ]
+  },
+  {
+    "arquivo": "RX_Simulador 260804 Final.xlsx",
+    "bytes": 5423948,
+    "abas": [
+      {
+        "aba": "COCKPIT",
+        "linhas": 89,
+        "colunas": 24,
+        "cabecalho": [
+          {
+            "linha": 1,
+            "celulas": {
+              "1": "PARÂMETROS MEDIC RX",
+              "8": "RESULTADOS SIMULAÇÃO"
+            }
+          },
+          {
+            "linha": 3,
+            "celulas": {
+              "8": "TODOS OS PRODUTOS"
+            }
+          },
+          {
+            "linha": 4,
+            "celulas": {
+              "2": "POLÍTICA DE PREÇO PESQUISA (TODOS, ABRAF ou INDEP)",
+              "8": "TIPO PRECIFICAÇÃO",
+              "9": "(All)",
+              "17": "QTD PRODUTOS POR VARIAÇÃO DE PREÇO"
+            }
+          },
+          {
+            "linha": 5,
+            "celulas": {
+              "2": "MARCA",
+              "3": "PROPAGADO",
+              "4": "SIMILAR",
+              "9": "RECEITA",
+              "11": "LUCRO",
+              "13": "MARGEM",
+              "15": "DESCONTO",
+              "17": "CLUSTER ALTA",
+              "20": "ALTERAÇÕES"
+            }
+          },
+          {
+            "linha": 6,
+            "celulas": {
+              "1": "Cluster Alta",
+              "2": "TODOS",
+              "3": "TODOS",
+              "4": "TODOS",
+              "9": "ATUAL",
+              "10": "SIMULADO",
+              "11": "ATUAL",
+              "12": "SIMULADO",
+              "13": "ATUAL",
+              "14": "SIMULADO",
+              "15": "ATUAL",
+              "16": "SIMULADO",
+              "17": "AUMENTO",
+              "18": "REDUÇÃO",
+              "19": "MANTER",
+              "20": "AUMENTO",
+              "21": "REDUÇÃO",
+              "22": "MANTER"
+            }
+          },
+          {
+            "linha": 7,
+            "celulas": {
+              "1": "Cluster",
+              "2": "ABRAF",
+              "3": "TODOS",
+              "4": "INDEP",
+              "8": "Pouco Sensível"
+            }
+          }
+        ],
+        "colunasLojaClusterUf": [
+          {
+            "linhaCabecalho": 5,
+            "coluna": 17,
+            "rotulo": "CLUSTER ALTA",
+            "qtdDistintos": 2,
+            "valores": {
+              "0": 14,
+              "AUMENTO": 1
+            }
+          },
+          {
+            "linhaCabecalho": 6,
+            "coluna": 1,
+            "rotulo": "Cluster Alta",
+            "qtdDistintos": 9,
+            "valores": {
+              "Cluster": 5,
+              "Cluster Alta": 4,
+              "SUPER SENSÍVEL": 2,
+              "SENSÍVEL": 2,
+              "POUCO SENSÍVEL": 2,
+              "TOP PRODUTOS": 1,
+              "PESQUISA": 1,
+              "MATRIZ": 1,
+              "DESC MÍNIMO": 1
+            }
+          },
+          {
+            "linhaCabecalho": 7,
+            "coluna": 1,
+            "rotulo": "Cluster",
+            "qtdDistintos": 9,
+            "valores": {
+              "Cluster Alta": 4,
+              "Cluster": 4,
+              "SUPER SENSÍVEL": 2,
+              "SENSÍVEL": 2,
+              "POUCO SENSÍVEL": 2,
+              "TOP PRODUTOS": 1,
+              "PESQUISA": 1,
+              "MATRIZ": 1,
+              "DESC MÍNIMO": 1
+            }
+          }
+        ]
+      },
+      {
+        "aba": "Análise",
+        "linhas": 2987,
+        "colunas": 71,
+        "cabecalho": [
+          {
+            "linha": 1,
+            "celulas": {
+              "1": "ANÁLISE DE PREÇOS SUGERIDOS RX - MARCA E SIMILAR",
+              "44": "FINAL"
+            }
+          },
+          {
+            "linha": 5,
+            "celulas": {
+              "1": "x",
+              "3": "x",
+              "4": "x",
+              "5": "x",
+              "6": "x",
+              "7": "x",
+              "8": "x",
+              "9": "x",
+              "10": "x",
+              "11": "x",
+              "12": "x",
+              "13": "x",
+              "14": "x",
+              "15": "x",
+              "16": "x",
+              "17": "x",
+              "18": "x",
+              "19": "x",
+              "20": "x",
+              "21": "x",
+              "22": "x",
+              "23": "x",
+              "24": "x"
+            }
+          },
+          {
+            "linha": 6,
+            "celulas": {
+              "0": "CHAVE",
+              "1": "Cluster",
+              "2": "OK",
+              "3": "ProdutoID",
+              "4": "DescReduzida",
+              "5": "DIVISÃO",
+              "6": "DEPARTAMENTO",
+              "7": "CATEGORIA",
+              "8": "CRONICIDADE",
+              "9": "FAIXA DE PREÇO",
+              "10": "LABORATÓRIO",
+              "11": "QTD VENDIDA 1M",
+              "12": "RECEITA VENDA 1M",
+              "13": "CUSTO VENDA 1M",
+              "14": "Comissão",
+              "15": "Tributos S/ Vd",
+              "16": "PreçoTabelado",
+              "17": "MarcaPropria",
+              "18": "PBM",
+              "19": "Farmácia Popular",
+              "20": "SENSIBILIDADE",
+              "21": "Custo",
+              "22": "Custo + Comissão",
+              "23": "PMC",
+              "24": "PREÇO ATUAL",
+              "25": "TIPO PRECIFICAÇÃO",
+              "26": "TODOS",
+              "27": "ABRAF",
+              "28": "INDEP",
+              "29": "POLÍTICA DE PREÇO",
+              "30": "AJUSTE DESCONTO%",
+              "31": "PREÇO PARTIDA",
+              "32": "CONFERE % VARIAÇÃO DE PREÇO",
+              "33": "Farol variação preço",
+              "34": "PREÇO PARTIDA AJUSTADO",
+              "35": "MRG PREÇO ATUAL",
+              "36": "MRG PARTIDA (-Parâmetro)",
+              "37": "Farol 1 PARTIDA",
+              "38": "PREÇO PARTIDA SIMULADO",
+              "39": "PREÇO SKU SIMULADO FINAL",
+              "40": "MOTIVO",
+              "41": "AJUSTE MANUAL",
+              "42": "PREÇO CALCULADO FINAL",
+              "43": "SEGUIR?",
+              "44": "PREÇO FINAL",
+              "45": "MRG FINAL",
+              "46": "ALTERAÇÃO PREÇO",
+              "47": "VAR PREÇO ATUAL VS PREÇO FINAL",
+              "48": "RECEITA PREÇO ATUAL",
+              "49": "RECEITA SIMULADA",
+              "50": "R$ VARIAÇÃO RECEITA",
+              "51": "% VARIAÇÃO RECEITA",
+              "52": "LB PREÇO ATUAL",
+              "53": "LB SIMULADO",
+              "54": "R$ VARIAÇÃO LB SEM PBM, FP, MEX",
+              "55": "% VARIAÇÃO LB",
+              "56": "MARGEM ATUAL",
+              "57": "MARGEM SIMULADA",
+              "58": "% VARIAÇÃO MG",
+              "59": "Redução de preço - Cluster Alta",
+              "60": "Redução de preço - Cluster Baixa",
+              "61": "Aumento de preço - Cluster Alta",
+              "62": "Aumento de preço - Cluster Baixa",
+              "63": "Manter o preço - Cluster Alta",
+              "64": "Manter o preço - Cluster Baixa",
+              "65": "Peso Preço Atual",
+              "66": "Peso Novo Preço",
+              "67": "DESCONTO ATUAL",
+              "68": "DESCONTO SIMULADO",
+              "69": "MRG POND RECEITA - MRG ATUAL",
+              "70": "DESC POND RECEITA - DESC ATUAL"
+            }
+          },
+          {
+            "linha": 7,
+            "celulas": {
+              "0": "27470850Cluster",
+              "1": "Cluster",
+              "4": "(PBM)FOSTAIR 200+6MCG 120DOSES+INAL",
+              "5": "RX",
+              "6": "MARCA",
+              "7": "RESPIRATÓRIO",
+              "8": "FAIXA 5",
+              "9": "EVENTUAL",
+              "10": "CHIESI FARMACEUTICA LTDA",
+              "18": "S",
+              "20": "Sensível",
+              "25": "MATRIZ",
+              "29": "ABRAF",
+              "33": ">30%",
+              "37": "Alerta MRG Crítica",
+              "40": "É MP, FP ou PBM /// Manter Preço Atual",
+              "43": "SIM",
+              "46": "Manter o preço"
+            }
+          }
+        ],
+        "colunasLojaClusterUf": [
+          {
+            "linhaCabecalho": 6,
+            "coluna": 1,
+            "rotulo": "Cluster",
+            "qtdDistintos": 1,
+            "valores": {
+              "Cluster": 2980
+            }
+          },
+          {
+            "linhaCabecalho": 6,
+            "coluna": 59,
+            "rotulo": "Redução de preço - Cluster Alta",
+            "qtdDistintos": 1,
+            "valores": {
+              "0": 2980
+            }
+          },
+          {
+            "linhaCabecalho": 6,
+            "coluna": 60,
+            "rotulo": "Redução de preço - Cluster Baixa",
+            "qtdDistintos": 1,
+            "valores": {
+              "0": 2980
+            }
+          },
+          {
+            "linhaCabecalho": 6,
+            "coluna": 61,
+            "rotulo": "Aumento de preço - Cluster Alta",
+            "qtdDistintos": 1,
+            "valores": {
+              "0": 2980
+            }
+          },
+          {
+            "linhaCabecalho": 6,
+            "coluna": 62,
+            "rotulo": "Aumento de preço - Cluster Baixa",
+            "qtdDistintos": 1,
+            "valores": {
+              "0": 2980
+            }
+          },
+          {
+            "linhaCabecalho": 6,
+            "coluna": 63,
+            "rotulo": "Manter o preço - Cluster Alta",
+            "qtdDistintos": 1,
+            "valores": {
+              "0": 2980
+            }
+          },
+          {
+            "linhaCabecalho": 6,
+            "coluna": 64,
+            "rotulo": "Manter o preço - Cluster Baixa",
+            "qtdDistintos": 1,
+            "valores": {
+              "0": 2980
+            }
+          },
+          {
+            "linhaCabecalho": 7,
+            "coluna": 0,
+            "rotulo": "27470850Cluster",
+            "qtdDistintos": 2978,
+            "valores": {
+              "51277942Cluster": 1,
+              "134137Cluster": 1,
+              "102495Cluster": 1,
+              "170632Cluster": 1,
+              "5677547Cluster": 1,
+              "148589Cluster": 1,
+              "81991Cluster": 1,
+              "116689Cluster": 1,
+              "5122242Cluster": 1,
+              "54168Cluster": 1,
+              "145324Cluster": 1,
+              "121222Cluster": 1,
+              "109933Cluster": 1,
+              "173950Cluster": 1,
+              "131384Cluster": 1,
+              "22208987Cluster": 1,
+              "117529Cluster": 1,
+              "96066Cluster": 1,
+              "57492545Cluster": 1,
+              "137200Cluster": 1,
+              "600013944970Cluster": 1,
+              "6571732Cluster": 1,
+              "145970Cluster": 1,
+              "148243Cluster": 1,
+              "146354Cluster": 1,
+              "124277Cluster": 1,
+              "67882194Cluster": 1,
+              "100398Cluster": 1,
+              "168134Cluster": 1,
+              "63444524Cluster": 1,
+              "5696222Cluster": 1,
+              "155257Cluster": 1,
+              "104555Cluster": 1,
+              "7769409Cluster": 1,
+              "61841254Cluster": 1,
+              "118735Cluster": 1,
+              "55729Cluster": 1,
+              "70066835Cluster": 1,
+              "66161601Cluster": 1,
+              "50455901Cluster": 1,
+              "63845562Cluster": 1,
+              "104758Cluster": 1,
+              "96453Cluster": 1,
+              "29682376Cluster": 1,
+              "80952Cluster": 1,
+              "127310Cluster": 1,
+              "181587Cluster": 1,
+              "7727984Cluster": 1,
+              "55948Cluster": 1,
+              "92735Cluster": 1
+            }
+          },
+          {
+            "linhaCabecalho": 7,
+            "coluna": 1,
+            "rotulo": "Cluster",
+            "qtdDistintos": 1,
+            "valores": {
+              "Cluster": 2979
+            }
+          }
+        ]
+      },
+      {
+        "aba": "Pesquisa",
+        "linhas": 3063,
+        "colunas": 25,
+        "cabecalho": [
+          {
+            "linha": 1,
+            "celulas": {
+              "0": "Produto",
+              "1": "ProdutoID",
+              "2": "TODOS",
+              "3": "INDEP",
+              "4": "ABRAF",
+              "6": "Tipo",
+              "7": "Conc",
+              "8": "Faixa",
+              "9": "Cronicidade",
+              "10": "Desconto",
+              "11": "Sensibilidade",
+              "12": "Chave",
+              "15": "EVENTUAL",
+              "16": "FREQUENTE",
+              "17": "CRONICO"
+            }
+          },
+          {
+            "linha": 2,
+            "celulas": {
+              "0": "ANORO ELLIPTA 62,5/25MCG 30DS",
+              "6": "MARCA",
+              "7": "TODOS",
+              "8": "FAIXA 5",
+              "9": "EVENTUAL",
+              "11": "Sensível",
+              "12": "MARCAEVENTUALFAIXA 5TODOS",
+              "14": "FAIXA 5",
+              "15": "Sensível",
+              "16": "Super Sensível",
+              "17": "Super Sensível"
+            }
+          },
+          {
+            "linha": 3,
+            "celulas": {
+              "0": "ARFLEX RETARD 200MG 6CP",
+              "6": "MARCA",
+              "7": "TODOS",
+              "8": "FAIXA 4",
+              "9": "EVENTUAL",
+              "11": "Sensível",
+              "12": "MARCAEVENTUALFAIXA 4TODOS",
+              "14": "FAIXA 4",
+              "15": "Sensível",
+              "16": "Sensível",
+              "17": "Super Sensível"
+            }
+          },
+          {
+            "linha": 4,
+            "celulas": {
+              "0": "ARTROLIVE 1500+1200MG 30SA",
+              "6": "MARCA",
+              "7": "TODOS",
+              "8": "FAIXA 3",
+              "9": "EVENTUAL",
+              "11": "Pouco Sensível",
+              "12": "MARCAEVENTUALFAIXA 3TODOS",
+              "14": "FAIXA 3",
+              "15": "Pouco Sensível",
+              "16": "Sensível",
+              "17": "Super Sensível"
+            }
+          },
+          {
+            "linha": 5,
+            "celulas": {
+              "0": "ATAK CLAV 875MG+125MG 14CP",
+              "6": "MARCA",
+              "7": "TODOS",
+              "8": "FAIXA 2",
+              "9": "EVENTUAL",
+              "11": "Pouco Sensível",
+              "12": "MARCAEVENTUALFAIXA 2TODOS",
+              "14": "FAIXA 2",
+              "15": "Pouco Sensível",
+              "16": "Pouco Sensível",
+              "17": "Sensível"
+            }
+          },
+          {
+            "linha": 6,
+            "celulas": {
+              "0": "ATENTAH 25MG 30CP",
+              "6": "MARCA",
+              "7": "TODOS",
+              "8": "FAIXA 1",
+              "9": "EVENTUAL",
+              "11": "Pouco Sensível",
+              "12": "MARCAEVENTUALFAIXA 1TODOS",
+              "14": "FAIXA 1",
+              "15": "Pouco Sensível",
+              "16": "Pouco Sensível",
+              "17": "Sensível"
+            }
+          },
+          {
+            "linha": 7,
+            "celulas": {
+              "0": "CITONEURIN 5000 30DR",
+              "6": "MARCA",
+              "7": "TODOS",
+              "8": "FAIXA 5",
+              "9": "FREQUENTE",
+              "11": "Super Sensível",
+              "12": "MARCAFREQUENTEFAIXA 5TODOS"
+            }
+          }
+        ],
+        "colunasLojaClusterUf": []
+      },
+      {
+        "aba": "Matriz Desc",
+        "linhas": 136,
+        "colunas": 51,
+        "cabecalho": [
+          {
+            "linha": 1,
+            "celulas": {
+              "0": "Desconto Calculado",
+              "15": "Desconto Manual",
+              "30": "Desconto Final",
+              "45": "Tipo",
+              "46": "Conc",
+              "47": "Faixa",
+              "48": "Cronicidade",
+              "49": "Desconto",
+              "50": "Chave"
+            }
+          },
+          {
+            "linha": 2,
+            "celulas": {
+              "0": "TODOS",
+              "5": "ABRAF",
+              "10": "INDEP",
+              "15": "TODOS",
+              "20": "ABRAF",
+              "25": "INDEP",
+              "30": "TODOS",
+              "35": "ABRAF",
+              "40": "INDEP",
+              "45": "SIMILAR",
+              "46": "INDEP",
+              "47": "FAIXA 5",
+              "48": "EVENTUAL",
+              "50": "SIMILAREVENTUALFAIXA 5INDEP"
+            }
+          },
+          {
+            "linha": 3,
+            "celulas": {
+              "0": "MARCA",
+              "5": "MARCA",
+              "10": "MARCA",
+              "15": "MARCA",
+              "20": "MARCA",
+              "25": "MARCA",
+              "30": "MARCA",
+              "35": "MARCA",
+              "40": "MARCA",
+              "45": "SIMILAR",
+              "46": "INDEP",
+              "47": "FAIXA 4",
+              "48": "EVENTUAL",
+              "50": "SIMILAREVENTUALFAIXA 4INDEP"
+            }
+          },
+          {
+            "linha": 4,
+            "celulas": {
+              "1": "EVENTUAL",
+              "2": "FREQUENTE",
+              "3": "CRONICO",
+              "6": "EVENTUAL",
+              "7": "FREQUENTE",
+              "8": "CRONICO",
+              "11": "EVENTUAL",
+              "12": "FREQUENTE",
+              "13": "CRONICO",
+              "16": "EVENTUAL",
+              "17": "FREQUENTE",
+              "18": "CRONICO",
+              "21": "EVENTUAL",
+              "22": "FREQUENTE",
+              "23": "CRONICO",
+              "26": "EVENTUAL",
+              "27": "FREQUENTE",
+              "28": "CRONICO",
+              "31": "EVENTUAL",
+              "32": "FREQUENTE",
+              "33": "CRONICO",
+              "36": "EVENTUAL",
+              "37": "FREQUENTE",
+              "38": "CRONICO",
+              "41": "EVENTUAL",
+              "42": "FREQUENTE",
+              "43": "CRONICO",
+              "45": "SIMILAR",
+              "46": "INDEP",
+              "47": "FAIXA 3",
+              "48": "EVENTUAL",
+              "50": "SIMILAREVENTUALFAIXA 3INDEP"
+            }
+          },
+          {
+            "linha": 5,
+            "celulas": {
+              "0": "FAIXA 5",
+              "5": "FAIXA 5",
+              "10": "FAIXA 5",
+              "15": "FAIXA 5",
+              "20": "FAIXA 5",
+              "25": "FAIXA 5",
+              "30": "FAIXA 5",
+              "35": "FAIXA 5",
+              "40": "FAIXA 5",
+              "45": "SIMILAR",
+              "46": "INDEP",
+              "47": "FAIXA 2",
+              "48": "EVENTUAL",
+              "50": "SIMILAREVENTUALFAIXA 2INDEP"
+            }
+          },
+          {
+            "linha": 6,
+            "celulas": {
+              "0": "FAIXA 4",
+              "5": "FAIXA 4",
+              "10": "FAIXA 4",
+              "15": "FAIXA 4",
+              "20": "FAIXA 4",
+              "25": "FAIXA 4",
+              "30": "FAIXA 4",
+              "35": "FAIXA 4",
+              "40": "FAIXA 4",
+              "45": "SIMILAR",
+              "46": "INDEP",
+              "47": "FAIXA 1",
+              "48": "EVENTUAL",
+              "50": "SIMILAREVENTUALFAIXA 1INDEP"
+            }
+          },
+          {
+            "linha": 7,
+            "celulas": {
+              "0": "FAIXA 3",
+              "5": "FAIXA 3",
+              "10": "FAIXA 3",
+              "15": "FAIXA 3",
+              "20": "FAIXA 3",
+              "25": "FAIXA 3",
+              "30": "FAIXA 3",
+              "35": "FAIXA 3",
+              "40": "FAIXA 3",
+              "45": "SIMILAR",
+              "46": "INDEP",
+              "47": "FAIXA 5",
+              "48": "FREQUENTE",
+              "50": "SIMILARFREQUENTEFAIXA 5INDEP"
+            }
+          }
+        ],
+        "colunasLojaClusterUf": []
+      },
+      {
+        "aba": "Meu Desc",
+        "linhas": 25,
+        "colunas": 14,
+        "cabecalho": [
+          {
+            "linha": 1,
+            "celulas": {
+              "0": "Desconto Calculado"
+            }
+          },
+          {
+            "linha": 2,
+            "celulas": {
+              "0": "PESQUISA",
+              "5": "MATRIZ",
+              "10": "DESC MÍNIMO"
+            }
+          },
+          {
+            "linha": 3,
+            "celulas": {
+              "0": "MARCA",
+              "5": "MARCA",
+              "10": "MARCA"
+            }
+          },
+          {
+            "linha": 4,
+            "celulas": {
+              "1": "EVENTUAL",
+              "2": "FREQUENTE",
+              "3": "CRONICO",
+              "6": "EVENTUAL",
+              "7": "FREQUENTE",
+              "8": "CRONICO",
+              "11": "EVENTUAL",
+              "12": "FREQUENTE",
+              "13": "CRONICO"
+            }
+          },
+          {
+            "linha": 5,
+            "celulas": {
+              "0": "FAIXA 5",
+              "5": "FAIXA 5",
+              "10": "FAIXA 5"
+            }
+          },
+          {
+            "linha": 6,
+            "celulas": {
+              "0": "FAIXA 4",
+              "5": "FAIXA 4",
+              "10": "FAIXA 4"
+            }
+          },
+          {
+            "linha": 7,
+            "celulas": {
+              "0": "FAIXA 3",
+              "5": "FAIXA 3",
+              "10": "FAIXA 3"
+            }
+          }
+        ],
+        "colunasLojaClusterUf": []
+      }
+    ]
+  }
+]

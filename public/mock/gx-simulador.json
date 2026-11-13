@@ -1,0 +1,592 @@
+{
+  "cockpitDefault": {
+    "farolVariacao": {
+      "PESQ MANUAL": {
+        "limiar": 0.0,
+        "indiferenca": 0.0
+      },
+      "PESQ INTERNET": {
+        "limiar": 0.5,
+        "indiferenca": 0.0
+      },
+      "MARGEM OBJETIVO": {
+        "limiar": 0.5,
+        "indiferenca": 0.0
+      }
+    },
+    "aumentoMinimo": 0.05,
+    "aumentoMaximoP1": 0.5,
+    "regrasPesquisa": {
+      "PBM": {
+        "PESQ MANUAL": true,
+        "PESQ INTERNET": true,
+        "MARGEM OBJETIVO": true
+      },
+      "Farmácia Popular": {
+        "PESQ MANUAL": true,
+        "PESQ INTERNET": true,
+        "MARGEM OBJETIVO": true
+      },
+      "Marca Própria": {
+        "PESQ MANUAL": true,
+        "PESQ INTERNET": true,
+        "MARGEM OBJETIVO": true
+      },
+      "Preço Tabelado": {
+        "PESQ MANUAL": true,
+        "PESQ INTERNET": true,
+        "MARGEM OBJETIVO": true
+      }
+    },
+    "fatorPmc": 0.0,
+    "aliquotaImpostos": 0,
+    "margemMinimaLiquida": 0,
+    "icManual": {
+      "concorrencia": {
+        "FAIXA 1": {
+          "EVENTUAL": "INDEP",
+          "FREQUENTE": "INDEP",
+          "CRONICO": "INDEP"
+        },
+        "FAIXA 2": {
+          "EVENTUAL": "INDEP",
+          "FREQUENTE": "INDEP",
+          "CRONICO": "INDEP"
+        },
+        "FAIXA 3": {
+          "EVENTUAL": "INDEP",
+          "FREQUENTE": "INDEP",
+          "CRONICO": "INDEP"
+        },
+        "FAIXA 4": {
+          "EVENTUAL": "INDEP",
+          "FREQUENTE": "INDEP",
+          "CRONICO": "INDEP"
+        },
+        "FAIXA 5": {
+          "EVENTUAL": "INDEP",
+          "FREQUENTE": "INDEP",
+          "CRONICO": "INDEP"
+        }
+      },
+      "balizador": {
+        "FAIXA 1": {
+          "EVENTUAL": "MED",
+          "FREQUENTE": "MED",
+          "CRONICO": "MED"
+        },
+        "FAIXA 2": {
+          "EVENTUAL": "MED",
+          "FREQUENTE": "MED",
+          "CRONICO": "MED"
+        },
+        "FAIXA 3": {
+          "EVENTUAL": "MED",
+          "FREQUENTE": "MED",
+          "CRONICO": "MED"
+        },
+        "FAIXA 4": {
+          "EVENTUAL": "MED",
+          "FREQUENTE": "MED",
+          "CRONICO": "MED"
+        },
+        "FAIXA 5": {
+          "EVENTUAL": "MED",
+          "FREQUENTE": "MED",
+          "CRONICO": "MED"
+        }
+      },
+      "politicaIc": {
+        "FAIXA 1": {
+          "EVENTUAL": 0.97,
+          "FREQUENTE": 0.96,
+          "CRONICO": 0.96
+        },
+        "FAIXA 2": {
+          "EVENTUAL": 0.98,
+          "FREQUENTE": 0.97,
+          "CRONICO": 0.97
+        },
+        "FAIXA 3": {
+          "EVENTUAL": 0.99,
+          "FREQUENTE": 0.98,
+          "CRONICO": 0.98
+        },
+        "FAIXA 4": {
+          "EVENTUAL": 1.0,
+          "FREQUENTE": 0.99,
+          "CRONICO": 0.99
+        },
+        "FAIXA 5": {
+          "EVENTUAL": 1.01,
+          "FREQUENTE": 1.0,
+          "CRONICO": 1.0
+        }
+      }
+    },
+    "icInternet": {
+      "balizador": {
+        "FAIXA 1": {
+          "EVENTUAL": "MED",
+          "FREQUENTE": "MED",
+          "CRONICO": "MED"
+        },
+        "FAIXA 2": {
+          "EVENTUAL": "MED",
+          "FREQUENTE": "MED",
+          "CRONICO": "MED"
+        },
+        "FAIXA 3": {
+          "EVENTUAL": "MED",
+          "FREQUENTE": "MED",
+          "CRONICO": "MED"
+        },
+        "FAIXA 4": {
+          "EVENTUAL": "MED",
+          "FREQUENTE": "MED",
+          "CRONICO": "MED"
+        },
+        "FAIXA 5": {
+          "EVENTUAL": "MED",
+          "FREQUENTE": "MED",
+          "CRONICO": "MED"
+        }
+      },
+      "politicaIc": {
+        "FAIXA 1": {
+          "EVENTUAL": 0.98,
+          "FREQUENTE": 0.97,
+          "CRONICO": 0.97
+        },
+        "FAIXA 2": {
+          "EVENTUAL": 0.99,
+          "FREQUENTE": 0.98,
+          "CRONICO": 0.98
+        },
+        "FAIXA 3": {
+          "EVENTUAL": 1.0,
+          "FREQUENTE": 0.99,
+          "CRONICO": 0.99
+        },
+        "FAIXA 4": {
+          "EVENTUAL": 1.01,
+          "FREQUENTE": 1.0,
+          "CRONICO": 1.0
+        },
+        "FAIXA 5": {
+          "EVENTUAL": 1.02,
+          "FREQUENTE": 1.01,
+          "CRONICO": 1.01
+        }
+      }
+    },
+    "margemObjetivo": {
+      "FAIXA 1": {
+        "EVENTUAL": 0.45,
+        "FREQUENTE": 0.45,
+        "CRONICO": 0.45
+      },
+      "FAIXA 2": {
+        "EVENTUAL": 0.45,
+        "FREQUENTE": 0.45,
+        "CRONICO": 0.45
+      },
+      "FAIXA 3": {
+        "EVENTUAL": 0.45,
+        "FREQUENTE": 0.45,
+        "CRONICO": 0.45
+      },
+      "FAIXA 4": {
+        "EVENTUAL": 0.45,
+        "FREQUENTE": 0.45,
+        "CRONICO": 0.45
+      },
+      "FAIXA 5": {
+        "EVENTUAL": 0.45,
+        "FREQUENTE": 0.45,
+        "CRONICO": 0.45
+      }
+    },
+    "margemSemPmc": {
+      "EVENTUAL": 0.68,
+      "FREQUENTE": 0.56,
+      "CRONICO": 0.5
+    },
+    "margemCritica": {
+      "PESQ MANUAL": {
+        "FAIXA 1": {
+          "EVENTUAL": 0.35,
+          "FREQUENTE": 0.35,
+          "CRONICO": 0.35
+        },
+        "FAIXA 2": {
+          "EVENTUAL": 0.35,
+          "FREQUENTE": 0.35,
+          "CRONICO": 0.35
+        },
+        "FAIXA 3": {
+          "EVENTUAL": 0.35,
+          "FREQUENTE": 0.35,
+          "CRONICO": 0.35
+        },
+        "FAIXA 4": {
+          "EVENTUAL": 0.35,
+          "FREQUENTE": 0.35,
+          "CRONICO": 0.35
+        },
+        "FAIXA 5": {
+          "EVENTUAL": 0.35,
+          "FREQUENTE": 0.35,
+          "CRONICO": 0.35
+        }
+      },
+      "PESQ INTERNET": {
+        "FAIXA 1": {
+          "EVENTUAL": 0.35,
+          "FREQUENTE": 0.35,
+          "CRONICO": 0.35
+        },
+        "FAIXA 2": {
+          "EVENTUAL": 0.35,
+          "FREQUENTE": 0.35,
+          "CRONICO": 0.35
+        },
+        "FAIXA 3": {
+          "EVENTUAL": 0.35,
+          "FREQUENTE": 0.35,
+          "CRONICO": 0.35
+        },
+        "FAIXA 4": {
+          "EVENTUAL": 0.35,
+          "FREQUENTE": 0.35,
+          "CRONICO": 0.35
+        },
+        "FAIXA 5": {
+          "EVENTUAL": 0.35,
+          "FREQUENTE": 0.35,
+          "CRONICO": 0.35
+        }
+      },
+      "MARGEM OBJETIVO": {
+        "FAIXA 1": {
+          "EVENTUAL": 0.35,
+          "FREQUENTE": 0.35,
+          "CRONICO": 0.35
+        },
+        "FAIXA 2": {
+          "EVENTUAL": 0.35,
+          "FREQUENTE": 0.35,
+          "CRONICO": 0.35
+        },
+        "FAIXA 3": {
+          "EVENTUAL": 0.35,
+          "FREQUENTE": 0.35,
+          "CRONICO": 0.35
+        },
+        "FAIXA 4": {
+          "EVENTUAL": 0.35,
+          "FREQUENTE": 0.35,
+          "CRONICO": 0.35
+        },
+        "FAIXA 5": {
+          "EVENTUAL": 0.35,
+          "FREQUENTE": 0.35,
+          "CRONICO": 0.35
+        }
+      }
+    }
+  },
+  "pesqManual": {
+    "OMEPRAZOL CAPSULA 20 MG x 28": {
+      "MIN": {
+        "TODOS": 14.9,
+        "INDEP": 13.4,
+        "ABRAF": 15.8
+      },
+      "MED": {
+        "TODOS": 14.9,
+        "INDEP": 13.4,
+        "ABRAF": 15.8
+      },
+      "MAX": {
+        "TODOS": 14.9,
+        "INDEP": 13.4,
+        "ABRAF": 15.8
+      }
+    },
+    "LOSARTANA POTASSICA COMPRIMIDO 50 MG x 30": {
+      "MIN": {
+        "TODOS": 14.9,
+        "INDEP": 13.4,
+        "ABRAF": 15.8
+      },
+      "MED": {
+        "TODOS": 14.9,
+        "INDEP": 13.4,
+        "ABRAF": 15.8
+      },
+      "MAX": {
+        "TODOS": 14.9,
+        "INDEP": 13.4,
+        "ABRAF": 15.8
+      }
+    }
+  },
+  "pesqInternet": {
+    "OMEPRAZOL CAPSULA 20 MG x 28": {
+      "MIN": 13.2,
+      "MED": 15.1,
+      "MAX": 17.4
+    },
+    "LOSARTANA POTASSICA COMPRIMIDO 50 MG x 30": {
+      "MIN": 13.2,
+      "MED": 15.1,
+      "MAX": 17.4
+    }
+  },
+  "chaveP1Manual": {},
+  "p1Rows": [
+    {
+      "uf": "RJ",
+      "cluster": "Cluster",
+      "chave": "OMEPRAZOL CAPSULA 20 MG x 28",
+      "produtoId": "200100",
+      "descricao": "OMEPRAZOL CAPSULA 20 MG x 28 (EMS)",
+      "categoria": "GASTRO",
+      "faixa": "FAIXA 2",
+      "cronicidade": "FREQUENTE",
+      "laboratorio": "EMS",
+      "qtd1m": 400,
+      "receita1m": 6100,
+      "custo1m": 2560.0,
+      "tributos": 0,
+      "precoTabelado": null,
+      "marcaPropria": false,
+      "pbm": false,
+      "farmaciaPopular": false,
+      "sensibilidade": "Pouco Sensível",
+      "custo": 6.4,
+      "custoComComissao": 6.4,
+      "pmc": 19.9,
+      "precoAtual": 12.5,
+      "tipoPrecificacao": "PESQ MANUAL",
+      "ajusteManualP1": null,
+      "precoFimP1Excel": 12.5
+    },
+    {
+      "uf": "RJ",
+      "cluster": "Cluster",
+      "chave": "LOSARTANA POTASSICA COMPRIMIDO 50 MG x 30",
+      "produtoId": "200400",
+      "descricao": "LOSARTANA POTASSICA COMPRIMIDO 50 MG x 30 (GEOLAB)",
+      "categoria": "CARDIOVASCULAR",
+      "faixa": "FAIXA 3",
+      "cronicidade": "CRONICO",
+      "laboratorio": "GEOLAB",
+      "qtd1m": 220,
+      "receita1m": 4800,
+      "custo1m": 2090.0,
+      "tributos": 0,
+      "precoTabelado": null,
+      "marcaPropria": false,
+      "pbm": false,
+      "farmaciaPopular": false,
+      "sensibilidade": "Sensível",
+      "custo": 9.5,
+      "custoComComissao": 9.5,
+      "pmc": 27.8,
+      "precoAtual": 18.9,
+      "tipoPrecificacao": "PESQ INTERNET",
+      "ajusteManualP1": null,
+      "precoFimP1Excel": 18.9
+    }
+  ],
+  "skus": [
+    {
+      "uf": "RJ",
+      "cluster": "Cluster",
+      "chave": "OMEPRAZOL CAPSULA 20 MG x 28",
+      "produtoId": "200100",
+      "descricao": "OMEPRAZOL CAPSULA 20 MG x 28 (EMS)",
+      "categoria": "GASTRO",
+      "faixa": "FAIXA 2",
+      "cronicidade": "FREQUENTE",
+      "laboratorio": "EMS",
+      "qtd1m": 400,
+      "receita1m": 6100,
+      "custo1m": 2560.0,
+      "tributos": 0,
+      "precoTabelado": null,
+      "marcaPropria": false,
+      "farmaciaPopular": false,
+      "pbm": false,
+      "sensibilidade": "Pouco Sensível",
+      "custo": 6.4,
+      "custoComComissao": 6.4,
+      "pmc": 19.9,
+      "precoAtual": 12.5,
+      "ordemPreco": "P1",
+      "tipoPrecificacao": "PESQ MANUAL",
+      "precoP1ManualLinha": null,
+      "seguirPrecoP1": true,
+      "ajusteManual": null,
+      "seguir": true,
+      "precoFinalExcel": 12.5
+    },
+    {
+      "uf": "RJ",
+      "cluster": "Cluster",
+      "chave": "OMEPRAZOL CAPSULA 20 MG x 28",
+      "produtoId": "200200",
+      "descricao": "OMEPRAZOL CAPSULA 20 MG x 28 (MEDLEY)",
+      "categoria": "GASTRO",
+      "faixa": "FAIXA 2",
+      "cronicidade": "FREQUENTE",
+      "laboratorio": "MEDLEY",
+      "qtd1m": 150,
+      "receita1m": 2400,
+      "custo1m": 1065.0,
+      "tributos": 0,
+      "precoTabelado": null,
+      "marcaPropria": false,
+      "farmaciaPopular": false,
+      "pbm": false,
+      "sensibilidade": "Pouco Sensível",
+      "custo": 7.1,
+      "custoComComissao": 7.1,
+      "pmc": 21.4,
+      "precoAtual": 15.9,
+      "ordemPreco": "P2",
+      "tipoPrecificacao": "PESQ MANUAL",
+      "precoP1ManualLinha": null,
+      "seguirPrecoP1": true,
+      "ajusteManual": null,
+      "seguir": true,
+      "precoFinalExcel": 15.9
+    },
+    {
+      "uf": "RJ",
+      "cluster": "Cluster",
+      "chave": "OMEPRAZOL CAPSULA 20 MG x 28",
+      "produtoId": "200300",
+      "descricao": "OMEPRAZOL CAPSULA 20 MG x 28 (EUROFARMA)",
+      "categoria": "GASTRO",
+      "faixa": "FAIXA 2",
+      "cronicidade": "FREQUENTE",
+      "laboratorio": "EUROFARMA",
+      "qtd1m": 50,
+      "receita1m": 900,
+      "custo1m": 410.0,
+      "tributos": 0,
+      "precoTabelado": null,
+      "marcaPropria": false,
+      "farmaciaPopular": false,
+      "pbm": false,
+      "sensibilidade": "Pouco Sensível",
+      "custo": 8.2,
+      "custoComComissao": 8.2,
+      "pmc": 24.0,
+      "precoAtual": 18.4,
+      "ordemPreco": "P3",
+      "tipoPrecificacao": "MARGEM OBJETIVO",
+      "precoP1ManualLinha": null,
+      "seguirPrecoP1": true,
+      "ajusteManual": null,
+      "seguir": true,
+      "precoFinalExcel": 18.4
+    },
+    {
+      "uf": "RJ",
+      "cluster": "Cluster",
+      "chave": "LOSARTANA POTASSICA COMPRIMIDO 50 MG x 30",
+      "produtoId": "200400",
+      "descricao": "LOSARTANA POTASSICA COMPRIMIDO 50 MG x 30 (GEOLAB)",
+      "categoria": "CARDIOVASCULAR",
+      "faixa": "FAIXA 3",
+      "cronicidade": "CRONICO",
+      "laboratorio": "GEOLAB",
+      "qtd1m": 220,
+      "receita1m": 4800,
+      "custo1m": 2090.0,
+      "tributos": 0,
+      "precoTabelado": null,
+      "marcaPropria": false,
+      "farmaciaPopular": false,
+      "pbm": false,
+      "sensibilidade": "Sensível",
+      "custo": 9.5,
+      "custoComComissao": 9.5,
+      "pmc": 27.8,
+      "precoAtual": 18.9,
+      "ordemPreco": "P1",
+      "tipoPrecificacao": "PESQ INTERNET",
+      "precoP1ManualLinha": null,
+      "seguirPrecoP1": true,
+      "ajusteManual": null,
+      "seguir": true,
+      "precoFinalExcel": 18.9
+    },
+    {
+      "uf": "RJ",
+      "cluster": "Cluster",
+      "chave": "LOSARTANA POTASSICA COMPRIMIDO 50 MG x 30",
+      "produtoId": "200500",
+      "descricao": "LOSARTANA POTASSICA COMPRIMIDO 50 MG x 30 (PRATI)",
+      "categoria": "CARDIOVASCULAR",
+      "faixa": "FAIXA 3",
+      "cronicidade": "CRONICO",
+      "laboratorio": "PRATI",
+      "qtd1m": 70,
+      "receita1m": 1600,
+      "custo1m": 770.0,
+      "tributos": 0,
+      "precoTabelado": null,
+      "marcaPropria": false,
+      "farmaciaPopular": false,
+      "pbm": false,
+      "sensibilidade": "Sensível",
+      "custo": 11.0,
+      "custoComComissao": 11.0,
+      "pmc": 31.2,
+      "precoAtual": 22.4,
+      "ordemPreco": "P2",
+      "tipoPrecificacao": "PESQ INTERNET",
+      "precoP1ManualLinha": null,
+      "seguirPrecoP1": true,
+      "ajusteManual": null,
+      "seguir": true,
+      "precoFinalExcel": 22.4
+    },
+    {
+      "uf": "RJ",
+      "cluster": "Cluster",
+      "chave": "LOSARTANA POTASSICA COMPRIMIDO 50 MG x 30",
+      "produtoId": "200600",
+      "descricao": "LOSARTANA POTASSICA COMPRIMIDO 50 MG x 30 (ACHE)",
+      "categoria": "CARDIOVASCULAR",
+      "faixa": "FAIXA 3",
+      "cronicidade": "CRONICO",
+      "laboratorio": "ACHE",
+      "qtd1m": 28,
+      "receita1m": 700,
+      "custo1m": 375.2,
+      "tributos": 0,
+      "precoTabelado": null,
+      "marcaPropria": false,
+      "farmaciaPopular": false,
+      "pbm": false,
+      "sensibilidade": "Sensível",
+      "custo": 13.4,
+      "custoComComissao": 13.4,
+      "pmc": 36.5,
+      "precoAtual": 27.9,
+      "ordemPreco": "P3",
+      "tipoPrecificacao": "MARGEM OBJETIVO",
+      "precoP1ManualLinha": null,
+      "seguirPrecoP1": true,
+      "ajusteManual": null,
+      "seguir": true,
+      "precoFinalExcel": 27.9
+    }
+  ]
+}

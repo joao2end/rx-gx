@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "skills": {
+    "ads-nuxt": {
+      "source": "jbfarmarcas/alquimia-design-system",
+      "sourceType": "github",
+      "skillPath": "skills/ads-nuxt/SKILL.md",
+      "computedHash": "69cfde4de4184078e5392b1b6aab116c0b3c2c7d5f6ea3106affbe9ed107e2f1"
+    }
+  }
+}

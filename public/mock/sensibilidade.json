@@ -1,0 +1,144 @@
+{
+  "totalSkus": 12,
+  "classesCronicidade": [
+    {
+      "categoria": "CARDIOVASCULAR",
+      "cronicidade": "CRONICO"
+    },
+    {
+      "categoria": "NEUROLOGICOS",
+      "cronicidade": "CRONICO"
+    },
+    {
+      "categoria": "GASTRO",
+      "cronicidade": "FREQUENTE"
+    },
+    {
+      "categoria": "RESPIRATORIO",
+      "cronicidade": "EVENTUAL"
+    },
+    {
+      "categoria": "DOR",
+      "cronicidade": "EVENTUAL"
+    }
+  ],
+  "faixasQuintis": [
+    {
+      "quintil": 1,
+      "faixa": "FAIXA 1",
+      "inicio": 10,
+      "fim": 50,
+      "qtd": 2,
+      "departamento": "MARCA"
+    },
+    {
+      "quintil": 2,
+      "faixa": "FAIXA 2",
+      "inicio": 20,
+      "fim": 60,
+      "qtd": 2,
+      "departamento": "MARCA"
+    },
+    {
+      "quintil": 3,
+      "faixa": "FAIXA 3",
+      "inicio": 30,
+      "fim": 70,
+      "qtd": 2,
+      "departamento": "MARCA"
+    },
+    {
+      "quintil": 4,
+      "faixa": "FAIXA 4",
+      "inicio": 40,
+      "fim": 80,
+      "qtd": 2,
+      "departamento": "MARCA"
+    },
+    {
+      "quintil": 5,
+      "faixa": "FAIXA 5",
+      "inicio": 50,
+      "fim": 90,
+      "qtd": 2,
+      "departamento": "MARCA"
+    }
+  ],
+  "matrizSensibilidade": {
+    "FAIXA 5": {
+      "EVENTUAL": "Sensível",
+      "FREQUENTE": "Super Sensível",
+      "CRONICO": "Super Sensível"
+    },
+    "FAIXA 4": {
+      "EVENTUAL": "Sensível",
+      "FREQUENTE": "Sensível",
+      "CRONICO": "Super Sensível"
+    },
+    "FAIXA 3": {
+      "EVENTUAL": "Pouco Sensível",
+      "FREQUENTE": "Sensível",
+      "CRONICO": "Super Sensível"
+    },
+    "FAIXA 2": {
+      "EVENTUAL": "Pouco Sensível",
+      "FREQUENTE": "Pouco Sensível",
+      "CRONICO": "Sensível"
+    },
+    "FAIXA 1": {
+      "EVENTUAL": "Pouco Sensível",
+      "FREQUENTE": "Pouco Sensível",
+      "CRONICO": "Sensível"
+    }
+  },
+  "distribuicao": [
+    {
+      "departamento": "MARCA",
+      "faixa": "FAIXA 2",
+      "cronicidade": "CRONICO",
+      "sensibilidade": "Sensível",
+      "skus": 1,
+      "receita12m": 98400
+    },
+    {
+      "departamento": "PROPAGADO",
+      "faixa": "FAIXA 1",
+      "cronicidade": "FREQUENTE",
+      "sensibilidade": "Pouco Sensível",
+      "skus": 1,
+      "receita12m": 64800
+    },
+    {
+      "departamento": "MARCA",
+      "faixa": "FAIXA 5",
+      "cronicidade": "EVENTUAL",
+      "sensibilidade": "Super Sensível",
+      "skus": 1,
+      "receita12m": 151200
+    },
+    {
+      "departamento": "SIMILAR",
+      "faixa": "FAIXA 3",
+      "cronicidade": "CRONICO",
+      "sensibilidade": "Sensível",
+      "skus": 1,
+      "receita12m": 49200
+    },
+    {
+      "departamento": "PROPAGADO",
+      "faixa": "FAIXA 1",
+      "cronicidade": "EVENTUAL",
+      "sensibilidade": "Pouco Sensível",
+      "skus": 1,
+      "receita12m": 33600
+    },
+    {
+      "departamento": "MARCA",
+      "faixa": "FAIXA 3",
+      "cronicidade": "CRONICO",
+      "sensibilidade": "Super Sensível",
+      "skus": 1,
+      "receita12m": 116400
+    }
+  ]
+}
